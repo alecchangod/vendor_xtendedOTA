@@ -1,4 +1,97 @@
 ====================
+     2019-01-18    
+====================
+
+====================
+     2019-01-17    
+====================
+
+====================
+     2019-01-16    
+====================
+
+ * vendor/xtended
+45ce97c  omni: PoorManThemes: fix call log text colors for light primary  [maxwen]
+
+====================
+     2019-01-15    
+====================
+
+====================
+     2019-01-14    
+====================
+
+====================
+     2019-01-13    
+====================
+
+====================
+     2019-01-12    
+====================
+
+====================
+     2019-01-11    
+====================
+
+====================
+     2019-01-10    
+====================
+
+ * hardware/qcom/audio
+844eb7c  audio: select camcorder snd device according to camera orientation  [Eric Laurent]
+e631c14  audio: enable 24bits camcorder  [juyuchen]
+
+ * vendor/xtended
+9ff4bb8  Call it XP4-v9  [SuperDroidBond]
+
+====================
+     2019-01-09    
+====================
+
+====================
+     2019-01-08    
+====================
+
+ * build/make
+7200131  Merge tag 'android-9.0.0_r30'  [SuperDroidBond]
+
+ * frameworks/av
+326b52c  Merge tag 'android-9.0.0_r30'  [SuperDroidBond]
+
+ * frameworks/base
+a668db4  Merge tag 'android-9.0.0_r30'  [SuperDroidBond]
+
+ * manifest
+4edffaa  Merge tag 'android-9.0.0_r30'  [SuperDroidBond]
+
+ * packages/apps/PackageInstaller
+4a83277  Merge tag 'android-9.0.0_r30'  [SuperDroidBond]
+
+ * packages/apps/Xtensions
+c26782f  Fix swap navigation keys (#3)  [Murat Kozan]
+
+ * system/bt
+0dab7f1  Merge tag 'android-9.0.0_r30'  [SuperDroidBond]
+
+====================
+     2019-01-07    
+====================
+
+====================
+     2019-01-06    
+====================
+
+====================
+     2019-01-05    
+====================
+
+ * frameworks/base
+5d65c7c  core: only allow system-apps to fake signatures  [calebcabob]
+
+ * vendor/xtended
+a442247  Correct Property Overrides.  [SuperDroidBond]
+
+====================
      2018-10-29    
 ====================
 

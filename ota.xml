@@ -120,17 +120,17 @@
      </manufacturer>
 <!-- MOTOROLA -->
 	 <manufacturer id="Motorola">
-		<potter>
-			<maintainer>iCodeLife</maintainer>
+	 <potter>
+			<maintainer>Anish Pratheepan</maintainer>
 			<devicename>Moto G5 Plus(potter)</devicename>
-			<filename>Xtended-potter-20181029-XP2-OFFICIAL-Release-v5.zip</filename>
+			<filename>Xtended-potter-20190118-XP4-OFFICIAL-Release-v9.zip</filename>
 			<buildtype>Stable</buildtype>
-            <paypal>https://www.paypal.me/icodelife</paypal>
-			<download>https://netix.dl.sourceforge.net/project/xtended/potter/Xtended-potter-20181029-XP2-OFFICIAL-Release-v5.zip</download>
+                        <paypal>https://www.paypal.me/anishpratheepan</paypal>
+			<download>https://sourceforge.net/projects/xtended/files/potter/Xtended-potter-20190118-XP4-OFFICIAL-Release-v9.zip/download</download>
 			<changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/potter_changelog.txt</changelog>
-            <gapps>https://OpenGapps.org</gapps>
-            <forum>https://forum.xda-developers.com/g5-plus/development/rom-msm-xtended-t3851041</forum>
-            <telegram>https://t.me/XtendedOfficial</telegram>			
+                        <gapps>https://OpenGapps.org</gapps>
+                        <forum>https://forum.xda-developers.com/g5-plus/development/rom-msm-xtended-t3851041</forum>
+                        <telegram>https://t.me/XtendedOfficial</telegram>			
         </potter>
 		<sanders>
 			   <maintainer>SaiKrishna</maintainer>
