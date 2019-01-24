@@ -135,10 +135,10 @@
 		<sanders>
 			   <maintainer>SaiKrishna</maintainer>
                            <devicename>Moto G5s Plus(sanders)</devicename>
-                           <filename>Xtended-sanders-20181225-XP4-OFFICIAL-Release-v8.5.zip</filename>
+                           <filename>Xtended-sanders-20190124-XP4-OFFICIAL-Release-v9.zip</filename>
  	                   <buildtype>Stable</buildtype>
             		   <paypal>https://www.paypal.me/superdroidbond</paypal>
-                           <download>https://netix.dl.sourceforge.net/project/xtended/files/sanders/Xtended-sanders-20181225-XP4-OFFICIAL-Release-v8.5.zip</download>
+                           <download>https://netix.dl.sourceforge.net/project/xtended/files/sanders/Xtended-sanders-20190124-XP4-OFFICIAL-Release-v9.zip</download>
                            <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/sanders_changelog.txt</changelog>
 	                   <recovery>https://drive.google.com/open?id=1Z2WClmjfJ-wep4ds4kdwFUkjQ6Oh-XLx</recovery>
                            <gapps>https://OpenGapps.org</gapps>
