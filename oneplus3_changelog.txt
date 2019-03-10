@@ -1,193 +1,261 @@
 ====================
-     2018-12-21    
+     2019-03-10    
 ====================
 
  * frameworks/base
-73c802b  [SQUASHED] QS: Navigation Bar tile  [Alex Cruz]
-1b1507f  Fix Signature Spoofing  [SuperDroidBond]
-eb84fb8  base: FontService: Add a error for non-supported font packages  [ElDainosor]
-7c6feb4  base: add settings for device features  [maxwen]
-7633513  fwb: Implement alternative device key handler  [maxwen]
-3262484  FontService: Update privapp-permissions-platform.xml  [spezi77]
-853e4a7  Switching audio panel position [1/2]  [a.derendyaev]
-31177d3  Add InkDrop QS Tile Style [1/3]  [El Dainosor]
-8c35d16  telephony: Make IMS method updateToState accessible  [Pranav Vashi]
-21871b3  KeyguardHostView: Auto face unlock v2 for pie  [Henrique Silva]
-6fbe03c  Update the screenState for keyguard while screen turning on  [Joseph Cheng]
-7b06e3c  Delete the check of mService when BluetoothHeadset doUnbind  [wangdawei]
-247551d  DreamBackend: Fix launching settings  [LuK1337]
-5985fdd  Make services with uid 1000 restart if their host process crashes  [Zheng Zhang]
-601d28f  ConnectionRecord: make SystemProcess Watchdog when clean app process  [Ethon_Hu]
-cd0f577  Change the listening logic of MtpStorageManager  [katao]
-0200c40  Fix motion event offset of DecorView is moved in the window  [st.ji]
-54ba79f  base: op navigation gesture tweaks [1/2]  [maxwen]
-2e35430  BoostFramework: Add debug to hide logcat spam on devices without QPerformance  [xyyx]
-
- * packages/apps/Xtensions
-c2051c4  Switching audio panel position [2/2]  [alexxxdev]
-d531a56  Add InkDrop QS Tile Style [2/3]  [ElDainosor]
-25e46c5  op navigation gesture tweaks [2/2]  [maxwen]
-
- * vendor/xtended
-64b157e  We are moving to v8.5  [SuperDroidBond]
-
-====================
-     2018-12-20    
-====================
-
- * vendor/xtended
-389f6ec  Add Ink QS Tile Style [3/3]  [ElDainosor]
-
-====================
-     2018-12-19    
-====================
-
- * frameworks/base
-86b393e  extended audio panel [1/2]  [a.derendyaev]
-da12a0f  Telephony: NPE observed in Settings when click on Search settings  [Ruthwar Ambeer]
-d20be07  Fix showing empty signal strength for TD-SCDMA  [Mengjun Leng]
-c139d7b  Fix property setting with failure  [Mengjun Leng]
-8704eef  frameworks/base: Add HDMI hotplug handling  [Prabhanjan Kandula]
-09de9d5  Check if EIMS when confirming network  [Tyler Wear]
-27e4e86  net: modify connecitvity rematch logic to support MSIM devices  [Pavan Kumar M]
-
- * manifest
-4b3c7bd  Remove Sound Recorder & Add LOS Screen & Sound Recorder  [SuperDroidBond]
-
- * packages/apps/Dialer
-19131e2  InCallUI: SmartMute  [eyosen]
-
- * packages/apps/Xtensions
-779cf0d  extended audio panel [2/2]  [a.derendyaev]
-e89a949  Batterylight: blend colors between full/empty [2/2]  [SpiritCroc]
-8893a6b  Add ColorBlendPreference from AICP  [SpiritCroc]
-b59ed6d  BatteryLight: Fast Charge & Fast Charge Led colors [2/2]  [maxwen]
-
- * system/sepolicy
-56d6b18  sepolicy: Implement rules for font service in p-mr0  [Surge Raval]
-bebf5a9  sepolicy: rules for FontService  [Ivan Iskandar]
-b8aa3c0  sepolicy: exceptions for font engine assets  [Surge Raval]
-
-====================
-     2018-12-18    
-====================
-
- * frameworks/base
-d4f9750  base: move nlp combo config to custom  [maxwen]
-92e1f2f  Default the network location provider to none  [Luca Stefani]
-2f85f99  combo issue when location reported by providers do not come with extras  [Kevin Tang]
-fb8a0b5  NLP Combo feature  [Dante Russo]
-fd25bfd  Battery light: blend colors between full/empty [1/2]  [SpiritCroc]
-627c927  BatteryLight: Full Charge Only, Fast Charge & Fast Charge Led colors [1/2]  [maxwen]
-
- * vendor/xtended
-281d0f3  Add 3 New Fonts from Da Fonts 1) Aovel Sans Rounded 2) Cabo Rounded 3) Valentine Love All these are free for personal use  [SuperDroidBond]
-ec0878c  Build Recorder  [SuperDroidBond]
-
-====================
-     2018-12-17    
-====================
-
- * build/soong
-9410005  Gralloc2: Allow invalid usage bits  [Kshitij Gupta]
-
- * frameworks/base
-9059954  base: fix mediascanner access permissions to external storage  [Ali B]
-
- * frameworks/native
-d5a5385  gralloc2: Extend the list of valid gralloc bits  [Stefan Berger]
+0762b3a  Add Seperator in other style also  [RakeshBatra]
+bd7f468  Let's use bold in accent clocks  [Anushek Prasal]
+9b057af  Add stock clocks with accent color  [pimpmaneaton]
+16ca86f  Add in analog clock with numbers  [ezio84]
+6210ad4  Add sammy accent clock and a variant [1/2]  [ElDainosor]
 
  * packages/apps/Settings
-744313b  Kang Build Date Info from ArrowOS  [ganeshi4u]
+c56c1b2  Add Moto G5 Plus (potter) in Official List  [SuperDroidBond]
+3d76d0b  Add Z2 Plus in Official Device List  [SuperDroidBond]
+
+ * packages/apps/Xtensions
+d3ac22d  Add New Clocks -  [SuperDroidBond]
+ce115cb  Add sammy accent clock and a variant [2/2]  [ElDainosor]
 
 ====================
-     2018-12-14    
+     2019-03-09    
 ====================
 
- * packages/apps/OmniStyle
-3721b73  Update paddings (#1)  [Jan Švanda]
+====================
+     2019-03-08    
+====================
 
 ====================
-     2018-12-13    
+     2019-03-07    
+====================
+
+ * frameworks/base
+59ea36e  BoostFramework: Add debug to hide logcat spam on devices without QPerfomance  [xyyx]
+b81b430  Revert "Change the listening logic of MtpStorageManager"  [SKULSHADY]
+64a3232  AMS: Fix the null pointer exception in MainHandler:handleMessage  [Terigele]
+763155a  AMS: Uncatch the IllegalStateException cause process crash  [Terigele]
+cf5106e  AMS: Fix the Deadlocks exception in UiHandler  [Terigele]
+b28ad68  AMS: Fix the null pointer exception in IntentResolver  [Terigele]
+19ff5de  hiddenapi: add crc32 intrinsic methods to light-greylist  [mydongistiny]
+870b12e  Network traffic: fix indicator not hiding on lost connection  [SpiritCroc]
+3ebce44  Add button to AppErrorDialog to upload crash information to dogbin  [Till Kottmann]
+34132d2  Dash charging: Add the battery percent back  [Alex Cruz]
+5c28407  Add ChargingStarted + InCallNotif to AudioPackage  [Beverly]
+f2d74cd  Fix disappearing home/recents button  [Tetsutoki Shiozawa]
+90021c1  Update boot image profile to include Object.wait()  [Andreas Gampe]
+ff22d2b  AccountManagerService: Fix ConnectionRecord Leak  [Ethan_Hu]
+d80406b  ActivityRecord: .app must not be null when you call .setVisible  [weijuncheng]
+eb0daca  Get new surface if it was released from setWindowStopped  [Riddle Hsu]
+6669316  Pass correct preserve window value to performStop  [Garfield Tan]
+a339205  Fix to hide phone number printed in the log  [Shi Yuanjie]
+f4af0dc  AppOpsManager: Fix bluetooth scan op permission  [mydongistiny]
+c10b7e6  Carrier Label: Bring back the scroll (marquee) effect  [Alex]
+181c0a9  screenrecord: add support for 18:9 resolutions  [Vol Zhdanov]
+6f68656  base: Add support for DiracSound FX  [Kshitij Gupta]
+3c55366  MicroG: Allow location providers also outside of /system  [danielegobbetti]
+0a2254f  Screenrecorder: don't show tmp in some apps and improve code  [ezio84]
+8dd0f58  PrivacyGuard: Pull in more changes from lineage  [Bruno Martins]
+
+ * packages/apps/Dialer
+f951d5a  Dialer: force fast scroller text color to white and move thumb to edge  [maxwen]
+34d2920  Dialer: change contacts index text color from accent to default  [maxwen]
+
+ * packages/apps/Messaging
+5b91dc5  Messaging: use commnon menu style for themed apps  [maxwen]
+3a840c9  UI: allow some theming and update UI a bit  [Marko Man]
+744c06f  Messaging: add missing list view fab bottom margin  [maxwen]
+
+ * vendor/xtended
+c4dd450  Call it XP5 & v12  [SuperDroidBond]
+907ea36  [2/2] omni: PoorMansTheme: Contacts: fix action mode theme coloring  [maxwen]
+ba265ac  omni: PoorMensTheme: Contacts overlay fixes  [maxwen]
+47d229f  [2/2] omni: DocumentsUI: use accent color for action bar  [maxwen]
+77a159d  Poort Man Themes: add messaging theme  [Marko Man]
+5fed4b9  PoorManThemes: fix Pixel theme  [Marko Man]
+132c1f9  Poor Man Themes: add panel (Volume) color  [Marko Man]
+5f08818  Poor Man Themes: actionbar reverts and fixes  [Marko Man]
+6594f18  vendor: Poor man themes: add contacts overlay  [Marko Man]
+3f4d91b  omni: PoorManThemes: fixes for Telecomm styles  [maxwen]
+
+====================
+     2019-03-06    
+====================
+
+ * bionic
+070a4e7  Merge Tag 'android-9.0.0_r34'  [SuperDroidBond]
+
+ * build/make
+b1e1ed0  Merge Tag 'android-9.0.0_r34'  [SuperDroidBond]
+
+ * frameworks/av
+1fc602f  Merge Tag 'android-9.0.0_r34'  [SuperDroidBond]
+
+ * frameworks/base
+39613d6  Merge Tag 'android-9.0.0_r34'  [SuperDroidBond]
+a79d26a  [1/2] base: add option to enable AOD on charging only  [Marko Man]
+a11143b  BT: Send info if call is CS type from telecomm service to BT apps.  [Sumit Bajpai]
+9a62d58  Add config to disable CDMA call forward/waiting  [pengfeix]
+9562389  uce: Updating UCE API to accept ICC-ID.  [Ayishwarya Narasimhan]
+49f4f1b  SystemUI: Poor Man: fix notification disabled text color  [Marko Man]
+5560faa  PoorManThemes: fix global actions and vol dialog theme  [Marko Man]
+ab18c77  {CRAP} fix for OP ims.apk  [Marko Man]
+70bfcb1  base: Add optional OP cam support  [Pranav Vashi]
+b9319db  SystemUI: Fix an issue where unlocking the SIM PIN failed  [Yingren Wang]
+4b4384e  Unbreak ambient display while Heads up is disabled  [ezio84]
+de562d5  SystemUI: grant missing READ_PHONE_STATE permission  [Ali B]
+107a9f4  SystemUI: Make recents grid view accept more than 8 tasks  [Hamster Tian]
+1d346fb  base: featureize ro.recents.grid and Go Layout  [maxwen]
+7e202ca  Network Traffic:Add Option for Users to select size of Single Traffic (Up/Down) Font Size  [SuperDroidBond]
+
+ * frameworks/native
+9fd1353  Merge Tag 'android-9.0.0_r34'  [SuperDroidBond]
+
+ * manifest
+ec7f92b  Track Clang from AOSiP  [SuperDroidBond]
+61c8316  Merge Tag 'android-9.0.0_r34'  [SuperDroidBond]
+
+ * packages/apps/PackageInstaller
+e08a0d9  Merge Tag 'android-9.0.0_r34'  [SuperDroidBond]
+
+ * packages/apps/Settings
+a135f79  [2/2] Settings: show AOD on charge setting  [Marko Man]
+
+ * packages/apps/Xtensions
+984b7c6  featureize ro.recents.grid and Go Layout [2/2]  [maxwen]
+80312b2  Hide lockscreen items [2/2]  [Alex Cruz]
+19f9645  Network Traffic:Add Option for Users to select size of Single Traffic (Up/Down) Font Size [2/2]  [SuperDroidBond]
+
+ * system/bt
+7d23cca  Merge Tag 'android-9.0.0_r34'  [SuperDroidBond]
+
+ * system/core
+63ac4f1  Merge Tag 'android-9.0.0_r34'  [SuperDroidBond]
+
+====================
+     2019-03-05    
 ====================
 
  * frameworks/av
-c0cc490  libmedia: Add 1440p camcorder quality  [Sultanxda]
+1c52072  CameraService: Default to HAL1 for OPCam if not specified  [Pranav Vashi]
+a92d242  CameraService: Allow new msg types for OP cam  [Pranav Vashi]
+01688cd  av: Fix Derp  [Anushek]
 
  * frameworks/base
-bb84a26  CamcorderProfile: Add 1440p camcorder profile  [Sultanxda]
-0c308b0  Camera: Extend face detection  [Shuzhen Wang]
-cbd8586  FingerprintService: add overlay to prevent cleanup of unused fingerprints  [codeworkx]
-4ff30a0  BoostFramework: silence exception about class not found  [DennySPB]
-
- * packages/apps/Xtensions
-e26d1a5  Bring Back our NavBar Settings.  [SuperDroidBond]
-
-====================
-     2018-12-12    
-====================
-
- * frameworks/base
-de54eec  Modify game detection logic  [Gopal Iyer]
-332a4cc  Add perfGetFeedback api support from framework  [Chitti Babu Theegala]
-8e1eac0  Re-Enable Burn-In Controllers for NavBar  [SuperDroidBond]
-2866c81  Clean up back animation view for edge gesture  [Pranav Vashi]
+4c57cdcdc  Lockscreen items/clocks: KeyguardSliceView improvements/cleanup  [ezio84]
+962c476  Hide lockscreen items [1/2]  [Alex Cruz]
+4cec5ac  Display 'Dash charging' for dash charge in battery settings [1/2]  [Nicolas Dhouailly]
+d5ba604  Lockscreen clock styles: Fix bottom margins & ambient display/AOD visibility  [Alex Cruz]
+79b9e00  Lockscreen clock styles: Move everything to the keyguard [1/2]  [Alex Cruz]
+4690b43  Ensure the clockview is aligned correctly each time  [Alex Cruz]
+d526ae8  Remove the 0 from the 12 hour format from the 'Digital (bold)' option  [Alex Cruz]
+b3f79dd  Keyguard items: code improvements  [ezio84]
+a2ae13b  Introduce lockscreen clock/date styles [1/2]  [Alex Cruz]
+ecf4fb4  Use X switch style for Theme.DeviceDefault.Light  [Lucchetto]
+3648415  Apply X style to settings  [Lucchetto]
+36e39a3  Update brightness slider UI  [Lucchetto]
+4c90e0b  Apply X switch to material style  [Lucchetto]
+ab6e195  Tweak some UI values  [Lucchetto]
 
  * packages/apps/Settings
-cebd61a  Battery: show battery temp on power summary  [DennySPB]
-f0c823a  Settings: Use correct icon for ring volume  [Michael Bestas]
-acc7108  Fix FC after link notifiation option merge  [DennySPB]
-
-====================
-     2018-12-11    
-====================
-
- * frameworks/base
-66e7fe8  Fix Pie NavBar Full Gestures.  [SuperDroidBond]
-
- * packages/apps/Settings
-cf006dc  Settings: fix layout of dashboard drawables  [maxwen]
-b445cd2  Settings: DashBoardLayout [1/2]  [maxwen]
-029d691  show4GForLTE Fix  [Alex Cruz]
-3320232  MSIM: Fix user set DDS sub in hotswap cases.  [Umashankar Godachi]
-b0aeffe  Settings: Add switch for linked ring and media notification volumes  [Bruno Martins]
-7618253  PIE [3/3]  [thecrazyskull]
-f1f1ee6  Battery charge warning [2/2]  [Nicolas Dhouailly]
-
- * packages/apps/SmartNav
-6c5a6e4  Navigator: Add Burn-In Controls Shift to public methods  [SuperDroidBond]
-c6aa9e2  Navigator: Add Gesture nav to public methods  [Josh Fox (XlxFoXxlX)]
+53df434  Settings: We use RECENTS_LAYOUT_STYLE for Pie Recents Check  [ElDainosor]
 
  * packages/apps/SmartNavSettings
-fa16432  Add back Our NavBar settings  [Shubham Singh]
-26b304c  Smartbar pixel animation: Ability to customize the dots [3/3]  [varund7726]
-d3b51c6  Settings: Make Smartbar Pixel Animation Durations Customizable [3/3]  [varund7726]
-03f0630  Return Button Opacity for NavBar Pulse  [SuperDroidBond]
-a6d19ea  Add Pulse blacklist option  [ezio84]
-59cce10  Pulse: allow setting fading blocks opacity [3/3]  [varund7726]
-fd8c8d0  Pulse: Add bar animation smoothing [3/3]  [out386]
-4665cef  Add Pulse Lava lamp start and end colors (3/3)  [out386]
-7209833  Pulse: add back color from album art preference  [bigrushdog]
-4225768  Pulse: Allow Pulse for all bar modes  [bigrushdog]
+e927151  We need Recents Layout Style  [SuperDroidBond]
 
 ====================
-     2018-12-10    
+     2019-03-04    
 ====================
+
+ * hardware/qcom/media-caf/msm8998
+056057a  Fix invalid logical constant creation.  [Stephen Hines]
+c4b694e  media: Don't link libgpustats  [Ethan Chen]
+
+====================
+     2019-03-03    
+====================
+
+ * packages/apps/Settings
+70c9152  Display 'Dash charging' for dash charge in battery settings [2/2]  [Nicolas Dhouailly]
 
  * packages/apps/Xtensions
-30d5b7888  Settings: DashBoardLayout [2/2]  [maxwen]
-
- * vendor/xtended
-c9c909e  Add Default ringtone, notification & alarm  [liquid0624]
-6091f69  liquid: Set TARGET_CRYPTFS_HW_PATH if HW crypto is enabled  [Michael Bestas]
+a2a8863  Introduce lockscreen clock/date styles [2/2]  [Alex Cruz]
 
 ====================
-     2018-12-08    
+     2019-03-02    
 ====================
 
  * frameworks/base
-6da710d  base: Keyguard: Hide check button when using PIN quick unlock  [carlosavignano]
-caa585e  PMS: Improve code stability and avoid vm reboot  [Terigele]
-efa76f5  PMS: No need to call permissionsState.getPermissions  [Terigele]
+3397a05  Apply gradient to some device default UI elements  [Lucchetto]
+
+ * packages/apps/Settings
+57d9dc1  Apply gradient to settings icon  [Lucchetto]
+54e0b00  Use revenge seekbar style  [Lucchetto]
+
+ * vendor/xtended
+5f5aa94  Add Gradient Accent From RevengeOS  [Lucchetto]
+
+====================
+     2019-03-01    
+====================
+
+ * hardware/qcom/keymaster
+f461ab8  keymaster: Use generated kernel headers  [Bruno Martins]
+
+====================
+     2019-02-28    
+====================
+
+ * frameworks/base
+5070253  base: Fix signature spoofing  [Anushek Prasal]
+
+====================
+     2019-02-27    
+====================
+
+ * frameworks/base
+33f9f71  QSTiles: Add few more styles [3/3]  [ElDainosor]
+9446353  base: add Cookie QS style [2/3]  [Anay Wadhera]
+79173c5  Remove Proximity check on wake  [SuperDroidBond]
+c62f033  DefaultPermissionGrantPolicy: grant Google sounds picker storage perms  [shagbag913]
+bc7c52c  Merge tag 'android-9.0.0_r33'  [SuperDroidBond]
+
+ * packages/apps/Settings
+4a84ab6  Remove Proximity check on wake  [SuperDroidBond]
+
+ * packages/apps/Xtensions
+a8652a5  QS Style Circle Outline  [Fikri Beol]
+84155df  Settings: add Cookie QS style [3/3]  [anayw2001]
+
+ * vendor/xtended
+6b3cf56  QSTiles: Add few more styles [1/3]  [sayan7848]
+9ca2b4e  vendor: add Cookie QS style [1/3]  [HrX03]
+
+====================
+     2019-02-26    
+====================
+
+ * packages/apps/Launcher3
+eea23d3  Lock desktop: Ensure that widgets can't be resized  [Alex]
+efc3a31  Launcher3: Use generic android icon for IconPack chooser  [Giuseppe Maggio]
+291fd6d  Lock desktop: Notify user when desktop is locked  [Alex]
+bcda5f7  Lock desktop: Disable folder name edit when locked  [hundeva]
+a73cc75  Lock desktop: Remove widget button when locked  [Alex]
+7f4bcd9  Add option to lock desktop  [hundeva]
+
+ * vendor/xtended
+dd1be82  Call it v11 for Feb. Prepare for March  [SuperDroidBond]
+
+====================
+     2019-02-25    
+====================
+
+ * packages/apps/Launcher3
+2ffd564  Merge tag 'android-9.0.0_r33'  [SuperDroidBond]
+
+ * packages/services/Telephony
+d8e10df  Merge tag 'android-9.0.0_r33'  [SuperDroidBond]
+
+ * system/bt
+e34a0c0  Merge tag 'android-9.0.0_r33'  [SuperDroidBond]
 
 
