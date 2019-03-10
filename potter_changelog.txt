@@ -1,4 +1,312 @@
 ====================
+     2019-03-10    
+====================
+
+ * frameworks/base
+0762b3a  Add Seperator in other style also  [RakeshBatra]
+bd7f468  Let's use bold in accent clocks  [Anushek Prasal]
+9b057af  Add stock clocks with accent color  [pimpmaneaton]
+16ca86f  Add in analog clock with numbers  [ezio84]
+6210ad4  Add sammy accent clock and a variant [1/2]  [ElDainosor]
+
+ * hardware/qcom/audio
+e5b60cf  Merge remote-tracking branch 'caf' into HEAD  [martinusbe]
+
+ * hardware/qcom/display
+9ade636  Merge remote-tracking branch 'caf' into HEAD  [martinusbe]
+
+ * hardware/qcom/media
+ba74f9e  Merge remote-tracking branch 'caf' into HEAD  [martinusbe]
+
+ * packages/apps/Settings
+c56c1b2  Add Moto G5 Plus (potter) in Official List  [SuperDroidBond]
+3d76d0b  Add Z2 Plus in Official Device List  [SuperDroidBond]
+
+ * packages/apps/Xtensions
+d3ac22d  Add New Clocks -  [SuperDroidBond]
+ce115cb  Add sammy accent clock and a variant [2/2]  [ElDainosor]
+
+====================
+     2019-03-09    
+====================
+
+====================
+     2019-03-08    
+====================
+
+====================
+     2019-03-07    
+====================
+
+ * frameworks/base
+59ea36e  BoostFramework: Add debug to hide logcat spam on devices without QPerfomance  [xyyx]
+b81b430  Revert "Change the listening logic of MtpStorageManager"  [SKULSHADY]
+64a3232  AMS: Fix the null pointer exception in MainHandler:handleMessage  [Terigele]
+763155a  AMS: Uncatch the IllegalStateException cause process crash  [Terigele]
+cf5106e  AMS: Fix the Deadlocks exception in UiHandler  [Terigele]
+b28ad68  AMS: Fix the null pointer exception in IntentResolver  [Terigele]
+19ff5de  hiddenapi: add crc32 intrinsic methods to light-greylist  [mydongistiny]
+870b12e  Network traffic: fix indicator not hiding on lost connection  [SpiritCroc]
+3ebce44  Add button to AppErrorDialog to upload crash information to dogbin  [Till Kottmann]
+34132d2  Dash charging: Add the battery percent back  [Alex Cruz]
+5c28407  Add ChargingStarted + InCallNotif to AudioPackage  [Beverly]
+f2d74cd  Fix disappearing home/recents button  [Tetsutoki Shiozawa]
+90021c1  Update boot image profile to include Object.wait()  [Andreas Gampe]
+ff22d2b  AccountManagerService: Fix ConnectionRecord Leak  [Ethan_Hu]
+d80406b  ActivityRecord: .app must not be null when you call .setVisible  [weijuncheng]
+eb0daca  Get new surface if it was released from setWindowStopped  [Riddle Hsu]
+6669316  Pass correct preserve window value to performStop  [Garfield Tan]
+a339205  Fix to hide phone number printed in the log  [Shi Yuanjie]
+f4af0dc  AppOpsManager: Fix bluetooth scan op permission  [mydongistiny]
+c10b7e6  Carrier Label: Bring back the scroll (marquee) effect  [Alex]
+181c0a9  screenrecord: add support for 18:9 resolutions  [Vol Zhdanov]
+6f68656  base: Add support for DiracSound FX  [Kshitij Gupta]
+3c55366  MicroG: Allow location providers also outside of /system  [danielegobbetti]
+0a2254f  Screenrecorder: don't show tmp in some apps and improve code  [ezio84]
+8dd0f58  PrivacyGuard: Pull in more changes from lineage  [Bruno Martins]
+
+ * manifest
+63633ad  Track Contacts from ours  [SuperDroidBond]
+3cc7ca5  Track Clang from ours  [SuperDroidBond]
+
+ * packages/apps/Contacts
+09406b8  Contacts: PoorManThemes: fix editor popup items  [maxwen]
+4bfbab7  PoorManThemes: fix selector bg color  [Marko Man]
+08787df  [1/2] Contacts: fix action mode theme coloring  [maxwen]
+d325b80  Contacts: dann halt mit Gewalt  [maxwen]
+94baccc  Contacts: use commnon menu style for themed apps  [maxwen]
+447b2de  Contacts: add missing primary color to launcher theme  [maxwen]
+697b6fb  Contacts: allow some Poor Man Theming  [Marko Man]
+0855b76  Contacts: add missing bottom margin for fab  [maxwen]
+
+ * packages/apps/Dialer
+f951d5a  Dialer: force fast scroller text color to white and move thumb to edge  [maxwen]
+34d2920  Dialer: change contacts index text color from accent to default  [maxwen]
+
+ * packages/apps/Messaging
+5b91dc5  Messaging: use commnon menu style for themed apps  [maxwen]
+3a840c9  UI: allow some theming and update UI a bit  [Marko Man]
+744c06f  Messaging: add missing list view fab bottom margin  [maxwen]
+
+ * vendor/qcom/opensource/dataservices
+acd4ca8  Merge remote-tracking branch caf into HEAD  [martinusbe]
+
+ * vendor/qcom/opensource/interfaces
+1254f91  wifi: Introduce qti.hardware.wifi@1.0 HAL interface  [Hu Wang]
+e943c6d  display: Use display id in place of display type  [Dileep Marchya]
+5a05e59  display: Add APIs to manage power states, hdr, layer mask and debug properties  [Dileep Marchya]
+
+ * vendor/xtended
+c4dd450  Call it XP5 & v12  [SuperDroidBond]
+907ea36  [2/2] omni: PoorMansTheme: Contacts: fix action mode theme coloring  [maxwen]
+ba265ac  omni: PoorMensTheme: Contacts overlay fixes  [maxwen]
+47d229f  [2/2] omni: DocumentsUI: use accent color for action bar  [maxwen]
+77a159d  Poort Man Themes: add messaging theme  [Marko Man]
+5fed4b9  PoorManThemes: fix Pixel theme  [Marko Man]
+132c1f9  Poor Man Themes: add panel (Volume) color  [Marko Man]
+5f08818  Poor Man Themes: actionbar reverts and fixes  [Marko Man]
+6594f18  vendor: Poor man themes: add contacts overlay  [Marko Man]
+3f4d91b  omni: PoorManThemes: fixes for Telecomm styles  [maxwen]
+
+====================
+     2019-03-06    
+====================
+
+ * bionic
+070a4e7  Merge Tag 'android-9.0.0_r34'  [SuperDroidBond]
+
+ * build/make
+b1e1ed0  Merge Tag 'android-9.0.0_r34'  [SuperDroidBond]
+
+ * frameworks/av
+1fc602f  Merge Tag 'android-9.0.0_r34'  [SuperDroidBond]
+
+ * frameworks/base
+39613d6  Merge Tag 'android-9.0.0_r34'  [SuperDroidBond]
+a79d26a  [1/2] base: add option to enable AOD on charging only  [Marko Man]
+a11143b  BT: Send info if call is CS type from telecomm service to BT apps.  [Sumit Bajpai]
+9a62d58  Add config to disable CDMA call forward/waiting  [pengfeix]
+9562389  uce: Updating UCE API to accept ICC-ID.  [Ayishwarya Narasimhan]
+49f4f1b  SystemUI: Poor Man: fix notification disabled text color  [Marko Man]
+5560faa  PoorManThemes: fix global actions and vol dialog theme  [Marko Man]
+ab18c77  {CRAP} fix for OP ims.apk  [Marko Man]
+70bfcb1  base: Add optional OP cam support  [Pranav Vashi]
+b9319db  SystemUI: Fix an issue where unlocking the SIM PIN failed  [Yingren Wang]
+4b4384e  Unbreak ambient display while Heads up is disabled  [ezio84]
+de562d5  SystemUI: grant missing READ_PHONE_STATE permission  [Ali B]
+107a9f4  SystemUI: Make recents grid view accept more than 8 tasks  [Hamster Tian]
+1d346fb  base: featureize ro.recents.grid and Go Layout  [maxwen]
+7e202ca  Network Traffic:Add Option for Users to select size of Single Traffic (Up/Down) Font Size  [SuperDroidBond]
+
+ * frameworks/native
+9fd1353  Merge Tag 'android-9.0.0_r34'  [SuperDroidBond]
+
+ * manifest
+61c8316  Merge Tag 'android-9.0.0_r34'  [SuperDroidBond]
+
+ * packages/apps/PackageInstaller
+e08a0d9  Merge Tag 'android-9.0.0_r34'  [SuperDroidBond]
+
+ * packages/apps/Settings
+a135f79  [2/2] Settings: show AOD on charge setting  [Marko Man]
+
+ * packages/apps/Xtensions
+984b7c6  featureize ro.recents.grid and Go Layout [2/2]  [maxwen]
+80312b2  Hide lockscreen items [2/2]  [Alex Cruz]
+19f9645  Network Traffic:Add Option for Users to select size of Single Traffic (Up/Down) Font Size [2/2]  [SuperDroidBond]
+
+ * system/bt
+7d23cca  Merge Tag 'android-9.0.0_r34'  [SuperDroidBond]
+
+ * system/core
+63ac4f1  Merge Tag 'android-9.0.0_r34'  [SuperDroidBond]
+
+====================
+     2019-03-05    
+====================
+
+ * frameworks/av
+1c52072  CameraService: Default to HAL1 for OPCam if not specified  [Pranav Vashi]
+a92d242  CameraService: Allow new msg types for OP cam  [Pranav Vashi]
+01688cd  av: Fix Derp  [Anushek]
+
+ * frameworks/base
+4c57cdc  Lockscreen items/clocks: KeyguardSliceView improvements/cleanup  [ezio84]
+962c476  Hide lockscreen items [1/2]  [Alex Cruz]
+4cec5ac  Display 'Dash charging' for dash charge in battery settings [1/2]  [Nicolas Dhouailly]
+d5ba604  Lockscreen clock styles: Fix bottom margins & ambient display/AOD visibility  [Alex Cruz]
+79b9e00  Lockscreen clock styles: Move everything to the keyguard [1/2]  [Alex Cruz]
+4690b43  Ensure the clockview is aligned correctly each time  [Alex Cruz]
+d526ae8  Remove the 0 from the 12 hour format from the 'Digital (bold)' option  [Alex Cruz]
+b3f79dd  Keyguard items: code improvements  [ezio84]
+a2ae13b  Introduce lockscreen clock/date styles [1/2]  [Alex Cruz]
+ecf4fb4  Use X switch style for Theme.DeviceDefault.Light  [Lucchetto]
+3648415  Apply X style to settings  [Lucchetto]
+36e39a3  Update brightness slider UI  [Lucchetto]
+4c90e0b  Apply X switch to material style  [Lucchetto]
+ab6e195  Tweak some UI values  [Lucchetto]
+
+ * packages/apps/Settings
+53df434  Settings: We use RECENTS_LAYOUT_STYLE for Pie Recents Check  [ElDainosor]
+
+ * packages/apps/SmartNavSettings
+e927151  We need Recents Layout Style  [SuperDroidBond]
+
+====================
+     2019-03-04    
+====================
+
+ * hardware/qcom/media-caf/msm8998
+056057a  Fix invalid logical constant creation.  [Stephen Hines]
+c4b694e  media: Don't link libgpustats  [Ethan Chen]
+
+====================
+     2019-03-03    
+====================
+
+ * packages/apps/Contacts
+0bdcf0b  Contacts: Remove unused boolean resource  [Michael Bestas]
+
+ * packages/apps/Settings
+70c9152  Display 'Dash charging' for dash charge in battery settings [2/2]  [Nicolas Dhouailly]
+
+ * packages/apps/Xtensions
+a2a8863  Introduce lockscreen clock/date styles [2/2]  [Alex Cruz]
+
+ * prebuilts/clang/host/linux-x86
+36237c3  Update prebuilt Clang to r349610b.  [Stephen Hines]
+
+====================
+     2019-03-02    
+====================
+
+ * frameworks/base
+3397a05  Apply gradient to some device default UI elements  [Lucchetto]
+
+ * packages/apps/Settings
+57d9dc1  Apply gradient to settings icon  [Lucchetto]
+54e0b00  Use revenge seekbar style  [Lucchetto]
+
+ * vendor/xtended
+5f5aa94  Add Gradient Accent From RevengeOS  [Lucchetto]
+
+====================
+     2019-03-01    
+====================
+
+ * hardware/qcom/display
+250c517  hwc: msm8084: Remove _vendor from libbfqio  [dianlujitao]
+
+ * hardware/qcom/keymaster
+f461ab8  keymaster: Use generated kernel headers  [Bruno Martins]
+
+====================
+     2019-02-28    
+====================
+
+ * frameworks/base
+5070253  base: Fix signature spoofing  [Anushek Prasal]
+
+====================
+     2019-02-27    
+====================
+
+ * frameworks/base
+33f9f71  QSTiles: Add few more styles [3/3]  [ElDainosor]
+9446353  base: add Cookie QS style [2/3]  [Anay Wadhera]
+79173c5  Remove Proximity check on wake  [SuperDroidBond]
+c62f033  DefaultPermissionGrantPolicy: grant Google sounds picker storage perms  [shagbag913]
+bc7c52c  Merge tag 'android-9.0.0_r33'  [SuperDroidBond]
+
+ * packages/apps/Contacts
+96310c6  Automatic translation import  [Michael Bestas]
+
+ * packages/apps/Settings
+4a84ab6  Remove Proximity check on wake  [SuperDroidBond]
+
+ * packages/apps/Xtensions
+a8652a5  QS Style Circle Outline  [Fikri Beol]
+84155df  Settings: add Cookie QS style [3/3]  [anayw2001]
+
+ * vendor/qcom/opensource/dataservices
+c2c0364  Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD  [Bruno Martins]
+
+ * vendor/xtended
+6b3cf56  QSTiles: Add few more styles [1/3]  [sayan7848]
+9ca2b4e  vendor: add Cookie QS style [1/3]  [HrX03]
+
+====================
+     2019-02-26    
+====================
+
+ * packages/apps/Contacts
+7adcb84  Fix casting warnings in ContactSaveService  [Aurimas Liutikas]
+
+ * packages/apps/Launcher3
+eea23d3  Lock desktop: Ensure that widgets can't be resized  [Alex]
+efc3a31  Launcher3: Use generic android icon for IconPack chooser  [Giuseppe Maggio]
+291fd6d  Lock desktop: Notify user when desktop is locked  [Alex]
+bcda5f7  Lock desktop: Disable folder name edit when locked  [hundeva]
+a73cc75  Lock desktop: Remove widget button when locked  [Alex]
+7f4bcd9  Add option to lock desktop  [hundeva]
+
+ * vendor/xtended
+dd1be82  Call it v11 for Feb. Prepare for March  [SuperDroidBond]
+
+====================
+     2019-02-25    
+====================
+
+ * packages/apps/Launcher3
+2ffd564  Merge tag 'android-9.0.0_r33'  [SuperDroidBond]
+
+ * packages/services/Telephony
+d8e10df  Merge tag 'android-9.0.0_r33'  [SuperDroidBond]
+
+ * system/bt
+e34a0c0  Merge tag 'android-9.0.0_r33'  [SuperDroidBond]
+
+====================
      2019-01-18    
 ====================
 
