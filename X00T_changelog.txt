@@ -1,0 +1,135 @@
+====================
+     2019-03-11    
+====================
+
+ * build/make
+2e5b7cf  Update ota_from_target_files.py  [Genkzsz11]
+8c65363  Update ota_from_target_files.py  [Genkzsz11]
+7f8c30d  Add 120 For build.prop  [Genkzsz11]
+
+ * frameworks/av
+66aa0f3  Update SoundTriggerHalLegacy.cpp  [Genkzsz11]
+
+ * frameworks/base
+0762b3a  Add Seperator in other style also  [RakeshBatra]
+
+ * frameworks/opt/net/wifi
+3d74dfd  CountryCode: Use hack for all regions.  [xyyx]
+
+c56c1b2  Add Moto G5 Plus (potter) in Official List  [SuperDroidBond]
+
+ * packages/apps/Xtensions
+d3ac22d  Add New Clocks -  [SuperDroidBond]
+
+====================
+     2019-03-10    
+====================
+
+====================
+     2019-03-09    
+====================
+
+====================
+     2019-03-08    
+====================
+
+ * manifest
+63633ad  Track Contacts from ours  [SuperDroidBond]
+
+ * vendor/qcom/opensource/dataservices
+acd4ca8  Merge remote-tracking branch caf into HEAD  [martinusbe]
+
+====================
+     2019-03-07    
+====================
+
+ * bionic
+070a4e7  Merge Tag 'android-9.0.0_r34'  [SuperDroidBond]
+
+ * build/make
+b1e1ed0  Merge Tag 'android-9.0.0_r34'  [SuperDroidBond]
+
+ * frameworks/av
+1fc602f  Merge Tag 'android-9.0.0_r34'  [SuperDroidBond]
+
+ * frameworks/native
+9fd1353  Merge Tag 'android-9.0.0_r34'  [SuperDroidBond]
+
+ * packages/apps/Contacts
+09406b8  Contacts: PoorManThemes: fix editor popup items  [maxwen]
+
+ * packages/apps/Dialer
+f951d5a  Dialer: force fast scroller text color to white and move thumb to edge  [maxwen]
+
+ * packages/apps/Messaging
+5b91dc5  Messaging: use commnon menu style for themed apps  [maxwen]
+
+ * packages/apps/PackageInstaller
+e08a0d9  Merge Tag 'android-9.0.0_r34'  [SuperDroidBond]
+
+ * prebuilts/clang/host/linux-x86
+958dd8d  Update prebuilt Clang to r353983.  [Yi Kong]
+
+ * system/bt
+7d23cca  Merge Tag 'android-9.0.0_r34'  [SuperDroidBond]
+
+ * system/core
+63ac4f1  Merge Tag 'android-9.0.0_r34'  [SuperDroidBond]
+
+ * vendor/xtended
+c4dd450  Call it XP5 & v12  [SuperDroidBond]
+
+====================
+     2019-03-06    
+====================
+
+====================
+     2019-03-05    
+====================
+
+ * packages/apps/SmartNavSettings
+e927151  We need Recents Layout Style  [SuperDroidBond]
+
+====================
+     2019-03-04    
+====================
+
+ * prebuilts/clang/host/linux-x86
+36237c3  Update prebuilt Clang to r349610b.  [Stephen Hines]
+
+====================
+     2019-03-03    
+====================
+
+====================
+     2019-03-02    
+====================
+
+====================
+     2019-03-01    
+====================
+
+ * hardware/qcom/keymaster
+f461ab8  keymaster: Use generated kernel headers  [Bruno Martins]
+
+====================
+     2019-02-28    
+====================
+
+====================
+     2019-02-27    
+====================
+
+====================
+     2019-02-26    
+====================
+
+ * packages/apps/Launcher3
+eea23d3  Lock desktop: Ensure that widgets can't be resized  [Alex]
+
+ * packages/services/Telephony
+d8e10df  Merge tag 'android-9.0.0_r33'  [SuperDroidBond]
+
+ * vendor/qcom/opensource/interfaces
+c3c6df7  generate hostapd android.bp  [DennySPB]
+
