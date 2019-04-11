@@ -96,9 +96,9 @@
     <mido>
       <maintainer>Sagar Rokade</maintainer>
       <devicename>Redmi Note 4 (mido)</devicename>
-      <filename>Xtended-mido-20181108-XP2.5-OFFICIAL-Release-v6</filename>
+      <filename>Xtended-mido-20190411-XP6-OFFICIAL-Release-v13</filename>
       <buildtype>Stable</buildtype>
-      <download>https://androidfilehost.com/?fid=11410963190603842467</download>
+      <download>https://sourceforge.net/projects/xtended/files/mido/Xtended-mido-20190411-XP6-OFFICIAL-Release-v13.zip/download</download>
       <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/mido_changelog.txt</changelog>
       <recovery>Use Any Treble Enabled Recovery</recovery>
       <gapps>https://OpenGapps.org</gapps>
