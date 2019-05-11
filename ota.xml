@@ -166,11 +166,11 @@
     <z2_plus>
       <maintainer>Kanishka Pattanayak (Kanishk)</maintainer>
       <devicename>Z2 Plus (z2_plus)</devicename>
-      <filename>Xtended-z2_plus-20190426-XP6-OFFICIAL-Release-v13.zip</filename>
+      <filename>Xtended-z2_plus-20190511-XP7-OFFICIAL-Release-v14.zip</filename>
       <buildtype>Stable</buildtype>
       <paypal>https://www.paypal.me/superdroidbond</paypal>
-      <download>https://netix.dl.sourceforge.net/project/xtended/zuk2/Xtended-z2_plus-20190426-XP6-OFFICIAL-Release-v13.zip</download>
-      <changelog> </changelog>
+      <download>https://netix.dl.sourceforge.net/project/xtended/zuk2/Xtended-z2_plus-20190511-XP7-OFFICIAL-Release-v14.zip</download>
+      <changelog>>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/z2_plus_changelog.txt</changelog>
       <gapps>https://OpenGapps.org</gapps>
       <forum>https://forum.xda-developers.com/lenovo-zuk-z2/development/stable-msm-xtended-xp4-release-v8-5-t3882775</forum>
       <telegram>https://t.me/XtendedOfficial</telegram>
