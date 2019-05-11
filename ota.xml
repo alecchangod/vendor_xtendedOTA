@@ -19,10 +19,10 @@
     <oneplus3>
       <maintainer>SuperDroidBond</maintainer>
       <devicename>Oneplus 3 (oneplus3)</devicename>
-      <filename>Xtended-oneplus3-20190310-XP5-OFFICIAL-Release-v12.zip</filename>
+      <filename>Xtended-oneplus3-20190511-XP7-OFFICIAL-Release-v14.zip</filename>
       <buildtype>Stable</buildtype>
       <paypal>https://www.paypal.me/superdroidbond</paypal>
-      <download>https://netix.dl.sourceforge.net/project/xtended/oneplus3/Xtended-oneplus3-20190310-XP5-OFFICIAL-Release-v12.zip</download>
+      <download>https://netix.dl.sourceforge.net/project/xtended/oneplus3/Xtended-oneplus3-20190511-XP7-OFFICIAL-Release-v14.zip</download>
       <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/oneplus3_changelog.txt</changelog>
       <recovery>https://drive.google.com/open?id=1sF5RyYECDPg-5hbFjN03OSh50-dh4cMl</recovery>
       <gapps>https://OpenGapps.org</gapps>
@@ -32,10 +32,10 @@
     <dumpling>
       <maintainer>mukesh22584</maintainer>
       <devicename>Dumpling (dumpling)</devicename>
-      <filename>Xtended-dumpling-20181123-XP3-OFFICIAL-Release-v7</filename>
+      <filename>Xtended-dumpling-20190511-XP7-OFFICIAL-Release-v14.zip</filename>
       <buildtype>Stable</buildtype>
       <paypal>https://www.paypal.me/mukesh22584</paypal>
-      <download>https://netix.dl.sourceforge.net/project/xtended/dumpling/Xtended-dumpling-20181123-XP3-OFFICIAL-Release-v7.zip</download>
+      <download>https://netix.dl.sourceforge.net/project/xtended/dumpling/Xtended-dumpling-20190511-XP7-OFFICIAL-Release-v14.zip</download>
       <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/dumpling_changelog.txt</changelog>
       <gapps>https://OpenGapps.org</gapps>
       <forum>https://forum.xda-developers.com/oneplus-5t/development/msm-xtended-oreoandroid-8-1-t3754938</forum>
@@ -44,10 +44,10 @@
     <cheeseburger>
       <maintainer>mukesh22584</maintainer>
       <devicename>Cheeseburger (cheeseburger)</devicename>
-      <filename>Xtended-cheeseburger-20181124-XP3-OFFICIAL-Release-v7</filename>
+      <filename>Xtended-cheeseburger-20190511-XP7-OFFICIAL-Release-v14.zip</filename>
       <buildtype>Stable</buildtype>
       <paypal>https://www.paypal.me/mukesh22584</paypal>
-      <download>https://netix.dl.sourceforge.net/project/xtended/cheeseburger/Xtended-cheeseburger-20181124-XP3-OFFICIAL-Release-v7.zip</download>
+      <download>https://netix.dl.sourceforge.net/project/xtended/cheeseburger/Xtended-cheeseburger-20190511-XP7-OFFICIAL-Release-v14.zip</download>
       <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/cheeseburger_changelog.txt</changelog>
       <gapps>https://OpenGapps.org</gapps>
       <forum>https://forum.xda-developers.com/oneplus-5/development/stable-msm-xtended-t3761012</forum>
