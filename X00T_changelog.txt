@@ -1,175 +1,272 @@
 ====================
-     2019-04-25    
+     2019-05-12    
+====================
+
+ * external/skia
+d887f87  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
+e9d49f4  external/skia: Take Fast Jpeg Decoding Path  [Mort (Tianqi) Guo]
+9d94508  skia: Silence a few warnings for cpp  [mydongistiny]
+b41bb46  skia: Clean up -Wextra-semi-stmt warnings  [mydongistiny]
+bf4663d  libskia: Build using ThinLTO  [mydongistiny]
+6d03a5b  fGpu is null when GrGpuResource::release  [zhang defang]
+74ae89b  ARGB Blitter:  Remove unused variable  [Joe Maples]
+709e4b1  Avoid coverage bleed for AA arcs with tiny sweep angles  [Brian Osman]
+11c42eb  Move fragCoord workaround declaration  [Brian Osman]
+b26bbbb  skia: Use std::move() to prevent unnecessary copying  [mydongistiny]
+23d05b9  Optimize the for loop in onGetYUV8Planes  [nagarajan.n]
+8126cd3  Skia performance optimize for bitmap  [Libo Jin]
+
+ * frameworks/base
+604f314  Revert "Need to check empty not null for String"  [Genkzsz11]
+aade631  overlays: Install overlays to system  [xyyx]
+d3dc626  StatusBar battery: Toggle for left/right percentage position [1/2]  [a.derendyaev]
+
+ * manifest
+f92e138  Track libjeg-turbo from ColtOS  [SuperDroidBond]
+b46318a  NFC: Track all NFC related repos from LOS directly  [SuperDroidBond]
+
+ * packages/apps/Xtensions
+2f487d0  StatusBar battery: Toggle for left/right percentage position [2/2]  [a.derendyaev]
+
+ * packages/services/Telecomm
+b8866d4  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/packages/services/Telecomm into c9  [RakeshBatra]
+
+ * packages/services/Telephony
+9e257fc  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/packages/services/Telephony into c9  [RakeshBatra]
+
+ * vendor/xtended
+e715e99  Merge remote-tracking branch 'xtended/xp' into HEAD  [Genkzsz11]
+542aadc  fix default revision  [Mukesh Singh]
+8c040eb  Upgrade to XP7 v14  [SuperDroidBond]
+
+====================
+     2019-05-08    
+====================
+
+ * frameworks/base
+29cbdea  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
+f9019af  BatteryStats: Correct formatter for pkginst in battery stats.  [Hirono Shiyama]
+0df36bd  Fix data source for HEIF exif extractor  [Chong Zhang]
+c9b8596  Remove the check of mService when BluetoothHidDevice doUnbind  [jiangyou li]
+
+ * hardware/interfaces
+244a913  Merge tag 'android-9.0.0_r37' into pie  [Anushek Prasal]
+
+ * hardware/qcom/audio-caf-msm8998
+3512b18  Merge tag 'LA.UM.7.4.r1-05100-8x98.0' into pie  [Rizky Benggolo]
+
+ * hardware/qcom/display-caf-msm8998
+c8d20ef  Merge tag 'LA.UM.7.4.r1-05100-8x98.0' into pie  [Rizky Benggolo]
+
+ * hardware/qcom/media-caf-msm8998
+c5f2193  Merge tag 'LA.UM.7.4.r1-05100-8x98.0' into pie  [Rizky Benggolo]
+
+ * packages/apps/DocumentsUI
+6087363  Merge tag 'android-9.0.0_r37' into pie  [Anushek Prasal]
+
+ * packages/providers/DownloadProvider
+145807f  Merge tag 'android-9.0.0_r37' into pie  [Anushek Prasal]
+
+ * vendor/qcom/opensource/data-ipa-cfg-mgr
+97fc5f1  Merge tag 'LA.UM.7.4.r1-05100-8x98.0' of vendor/qcom-opensource/data-ipa-cfg-mgr into p  [Volodymyr Zhdanov]
+
+====================
+     2019-05-07    
 ====================
 
  * build/make
-13d2432  Revert "[2/2] build: install overlays in system"  [Genkzsz11]
-3a28be9  Merge remote-tracking branch 'xtended/xp' into HEAD  [Genkzsz11]
+0bd8979  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
+
+ * external/wpa_supplicant_8
+36dfa10  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/external/wpa_supplicant_8 into HEAD  [DennySPB]
 
  * frameworks/av
-d6e593d  Merge remote-tracking branch 'xtended/xp' into HEAD  [Genkzsz11]
+db1704e  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
 
- * packages/services/Telecomm
-53623db  Revert "Telecomm: Update code for in-call vibrations"  [Genkzsz11]
-
- * vendor/xtended
-547cd02  building with RRO packages  [Genkzsz11]
-2aea642  Merge remote-tracking branch 'xtended/xp' into HEAD  [Genkzsz11]
-
-====================
-     2019-04-24    
-====================
-
- * vendor/xtended
-b5af0e4  [2/2] omni: DocumentsUI: use accent color for action bar  [maxwen]
-25a2009  [2/2] omni: PoorMansTheme: DocumentsUI fixes and tweaks  [maxwen]
-
-====================
-     2019-04-23    
-====================
-
-====================
-     2019-04-22    
-====================
-
-====================
-     2019-04-21    
-====================
-
- * packages/services/Telephony
-03342df  fix  [Fikri Tamvan]
-
- * vendor/xtended
-17b26e5  rro  [Fikri Tamvan]
-
-====================
-     2019-04-20    
-====================
-
- * frameworks/base
-b88a66b  Revert "Need to check empty not null for String"  [Fikri Tamvan]
-
- * frameworks/opt/telephony
-32884ba  Merge remote-tracking branch 'hvc/pie' into HEAD  [Fikri Tamvan]
-c676d96  MMS: Update apnProfileID for MMS only apn.  [Patrick Lower]
-279848f  Fix signal icon is not shown  [Mengjun Leng]
-
-====================
-     2019-04-19    
-====================
-
-====================
-     2019-04-18    
-====================
-
-====================
-     2019-04-17    
-====================
-
- * frameworks/base
-3817354  Re-add WPS implementation (2/3)  [Lyudmila17]
-223a79b  AlarmManagerService: Add null check to QCNsrmAlarmExtension call  [Harsh Shandilya]
-c9ea6b7  Fixed NPE in RankingHelper.writeXml. Make sure that mRecords is operated with the object lock.  [Ethan_Hu]
-0475eaf  Clear all lingering notifications when network is disconnected  [lucaslin]
-8e44738  UpdateEngine: Add perf mode binder interface  [Luca Stefani]
-e2a1b37  Q Clock: Make Date View User Selectable  [SuperDroidBond]
-82182db  connectivity: Make http(s) probe connections non-persistent.  [Devi Sandeep Endluri V V]
-1e6d634  FrameworkBase: Fix NullPointerException of AMS  [xiaohuin]
-2afb653  The surface hang up when screen on and screen off  [Guo Li]
-e65af9e  Fixed setting incorrect mode of vibration  [Sun Changqing]
-0bf60c5  backup: right way to check canonical file path  [pip.zhang]
-b90807e  Fixes crash/race condition when destroyActivity  [katao]
-413e4f5  EdgeGestures: fix unregistering input filter  [Jens Lody]
-f1aaca3  CustomTextClock: Set Text color based on wallpaper  [Rahul]
-531c1185  CustomTextClock: Match Android Q  [Anushek Prasal]
-53f066a  CustomTextClock : User Selective Size & Color for Q Clock [1/2]  [SuperDroidBond]
+ * frameworks/native
+4bb6989  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
 
  * frameworks/opt/net/wifi
-ece4e0e  Re-add WPS implementation (3/3)  [Lyudmila17]
-d601786  WiFi: Ignore connectivity scans during WFD session  [Arif Hussain]
+0c59809  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
+
+ * frameworks/opt/telephony
+9c3e168  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
 
  * manifest
-f6fca78  Track Our Update Engine  [SuperDroidBond]
+92cce0b  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
+
+ * packages/apps/Contacts
+f48b0a6  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
+
+ * packages/apps/DeskClock
+f5f6888  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
+
+ * packages/apps/PackageInstaller
+e4e4426  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
 
  * packages/apps/Settings
-7ebf851  Fix a crash when launching app detail for bad package name  [Fan Zhang]
-8b99d43  Re-add WPS implementation (1/3)  [Lyudmila17]
-28935cf  Settings: Add battery saving mode for location  [eray orĂ§unus]
-6a0c782  Settings: Add deep sleep info to uptime  [Stefan Berger]
-921be32  Settings: show battery times in summary  [maxwen]
+7a3ce2f  fix typo (#2)  [Anish Pratheepan]
+
+ * packages/providers/MediaProvider
+64a9c9c  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
+
+ * system/bt
+77f7c7a  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
+
+ * system/core
+deda445  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
+
+ * system/sepolicy
+cfa23c4  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
+
+====================
+     2019-05-06    
+====================
 
  * packages/apps/Xtensions
-55b16d6  CustomTextClock : User Selective Size for Q Clock [2/2]  [SuperDroidBond]
+c3fd0fe  Q-Clock: Transform Q Clock to X Clock [2/2]  [SuperDroidBond]
+b9de604  [2/2] Xtensions: Add Q style to battery icon chooser  [paphonb]
+b67e673  Fix typos (#7)  [governmentissuejoe]
+f688819  Lockscreen Visualizer: Add pulse magic [2/2]  [Pranav Vashi]
 
- * system/update_engine
-b24ec45  Android: Reset update progress when booted into new version.  [Sen Jiang]
-46b8055  update_engine: Fallback to partition without suffix  [Luca Stefani]
-36d7e96  update_engine: Transition to backuptool domain  [Luca Stefani]
-e8e9981  update_engine: run backuptool script before normal postinstall script  [Dan Pasanen]
-30455ee  update_engine: Add performance mode  [Gabriele M]
-
-====================
-     2019-04-16    
-====================
+ * vendor/xtended
+f2e990d  vendor: Switch to Lawnchair  [Kshitij Gupta]
 
 ====================
-     2019-04-15    
+     2019-05-05    
 ====================
 
  * frameworks/base
-7a7d1bb  CustomTextClock: Allow translate clock strings  [ShevT]
-760b3b5  CustomTextClock: Improve UI and optimisations  [Ovenoboyo]
-3192081  Lockscreen Clock Styles: Introduce Q style text clock  [Ovenoboyo]
+5263bc1  SystemUI: Enable/fix QS detail view & adapt to Pie  [eray orçunus]
+0e1b2e1  Fix inaccurate power algorithm of mobile radio  [yuanhuihui]
+47bedb3  Fix mWaitingForDrawnCallback of startImeAdjustAnimation  [cnx421]
+e787f41  Q-Clock: Transform Q Clock to X Clock [1/2]  [SuperDroidBond]
 
  * manifest
-07e5382  HALs: Track HALs from LineageOS from now  [SuperDroidBond]
+2b161e6  track our skia forked from LOS  [SuperDroidBond]
+
+ * system/sepolicy
+59182c4  Introduce sepolicy exceptions for theme assets  [Surge Raval]
+7c4ba33  Initial sepolicy rules for substratum service  [Ivan Iskandar]
+cd79e80  sepolicy: Add policy for external display power saving  [Kevin Zhou]
 
 ====================
-     2019-04-14    
+     2019-05-04    
 ====================
 
- * manifest
-e8d34a9  Track Full Sepolicy (legacy & ROM Specific)  [SuperDroidBond]
-a383262  Update Thread_Template.txt  [Mukesh Singh]
-4c6346c  Track our vendor qcom opensource interfaces  [Mukesh Singh]
-
- * packages/apps/Xtensions
-1893ec4  Lockscreen Clock Styles: Introduce Q style TextClock  [Ovenoboyo]
+ * frameworks/base
+fad720e  Lockscreen Visualizer: Add pulse magic [1/2]  [Pranav Vashi]
 
 ====================
-     2019-04-13    
+     2019-05-03    
 ====================
-
- * device/qcom/sepolicy
-1cb6ccb  Init Xtended  [SuperDroidBond]
-
- * device/qcom/sepolicy-legacy
-81f81cc  Init Xtended  [SuperDroidBond]
 
  * device/xtended/sepolicy
-1243450  Init Xtended  [SuperDroidBond]
+29ebf03  aosip: Add selinux policy for pocket bridge  [Chris Lahaye]
+6941af7  aosip: Add pocket judge selinux policy  [Carlo Savignano]
+
+ * frameworks/base
+0e7baf5  Merge pull request #4 from prometheusXderpgang/xp  [SuperDroidBond]
+31195c2  [1/2] base: Add Q style to battery icon chooser  [paphonb]
+
+ * hardware/qcom/audio-caf-msm8998
+8b37c7a  Merge 8a314f777c2d599988e457512a8bffe530db3a52 on remote branch  [Linux Build Service Account]
+
+ * hardware/qcom/display-caf-msm8998
+b133d80  Merge 21177de14753fe774a58bf5cb085c32bdb5be314 on remote branch  [Linux Build Service Account]
+
+ * hardware/qcom/media-caf-msm8998
+1876ce7  Merge 9e0d0b25225e7a717df78462702a518fdd46f7da on remote branch  [Linux Build Service Account]
+
+ * vendor/qcom/opensource/data-ipa-cfg-mgr
+4d010b0  Merge 11e3a7639c5e38668f744c8713f69c76219b0076 on remote branch  [Linux Build Service Account]
+
+ * vendor/xtended
+b920a82  Merge pull request #5 from prometheusXderpgang/xp  [SuperDroidBond]
+9ce6c17  QSOreo:Fix tinting on expanded status bar  [SKULSHADY]
 
 ====================
-     2019-04-12    
+     2019-05-02    
+====================
+
+====================
+     2019-05-01    
 ====================
 
  * frameworks/base
-41f7b23  Remove ro.build.date to signal mIsUpgrade  [SuperDroidBond]
+0fd91af  SystemUI: fix landscape powermenu layout  [DennySPB]
 
- * hardware/interfaces
-2ee7740  Adapt as per LineageOS  [SuperDroidBond]
+ * hardware/ril
+b4fac39  Merge pull request #1 from xawlw/xp  [SuperDroidBond]
 
  * packages/apps/DevicesOTA
-9575a14  Merge pull request #39 from sagarrokade006/patch-4  [Mukesh Singh]
-28603a6  Merge pull request #38 from sagarrokade006/patch-3  [Mukesh Singh]
-7a2f6c8  Xtended-XP6-V13 Changelog  [Sagar Rokade]
-cf27a83  Update Mido 11/04/19  [Sagar Rokade]
+fdd89c6  Add Zuk in Official devices (#41)  [Kanishk]
 
- * packages/apps/DocumentsUI
-e3048f0  [1/2] DocumentsUI: use accent color for action bar  [maxwen]
-a96665f  DocumentsUI: set fixed status bar and tool bar color  [maxwen]
-a639f5c  DocumentsUI: fix text color in delete alert dialog  [maxwen]
-a072173  [1/2] DocumentsUI: PoorMansTheme: fixes and tweaks  [maxwen]
-7fc0281  DocumentsUI: Set correct text_secondary color value  [Stefan Berger]
+ * system/sepolicy
+302f5f7  Merge pull request #2 from xawlw/xp  [SuperDroidBond]
+c3a5b7d  Fix storaged access to /sys/block/mmcblk0/stat after 48027a00  [Vladimir Oltean]
 
+====================
+     2019-04-30    
+====================
+
+ * frameworks/base
+08c47b3  LTE tile: Remove oreo style slashes  [Pranav Vashi]
+7be7824  GamingModeTile: stop adjusting volume  [HolyAngel]
+00228c8  Add wakelock option for flashlight  [Dominggoes Isakh]
+cebf88a  base: Fix old mobile signal icons  [umikaki]
+88380ce  base: Fix crash when changing default phone app  [Illia Poplawski]
+a4a722c  SystemUI: fix no service and emergency calls only placement  [Nick Filmer]
+0620c5e  base: LS filters: Add 2 more variants  [ElDainosor]
+17ffec2  base: Optimize toGrayscale function  [ElDainosor]
+5a80223  base: Intensify the blur amount on LS cover art  [ElDainosor]
+458b2d6  ImageUtils: Switch blur lib to SimpleImageBlur  [ElDainosor]
+1809840  base: Add Lockscreen cover art filter [1/2]  [ElDainosor]
+3ea303b  ImageHelper: add getBlurredImage  [Dil3mm4]
+e899e3c  core: Implement Aggressive Battery [1/2]  [Joe Maples]
+7efc45f  base: fix power menu position in landscape  [Felipe Leon]
+
+ * hardware/ril
+f0ab90e  libril: Restore support for RIL v6, v8 and v9 stacks  [Adrian DC]
+72716a2  libril: allow board to provide libril  [Tom Giordano]
+11f3fc4  libril: Protect against NULL unsolicited response function  [D. Andrei Măceș]
+
+ * hardware/xtended/interfaces
+221067e  Use -Werror in hardware/interfaces/biometrics/fingerprint (#1)  [abhijiths0098]
+
+ * packages/apps/Dialer
+f131f85  incallui: Add Turkish translation (#3)  [Murat Kozan]
+
+ * packages/apps/MusicFX
+0c20b77  MuicFX: Update Turkish translation (#1)  [Murat Kozan]
+
+ * packages/apps/OmniStyle
+7804fab  OmniStyle: Update Turkish translation (#2)  [Murat Kozan]
+
+ * packages/apps/Settings
+dc2177f  Settings: Add Turkish translation (#1)  [Murat Kozan]
+
+ * packages/apps/SmartNav
+d90f16c  SmartNav: Update Turkish translation (#1)  [Murat Kozan]
+
+ * packages/apps/SmartNavSettings
+b622d43  SmartNav: Add Turkish translation (#1)  [Murat Kozan]
+
+ * packages/apps/ThermalController
+459bfad  Thermal: Add Turkish translation (#1)  [Murat Kozan]
+
+ * packages/apps/XOta
+5347d87  Ota: Add Turkish translation (#1)  [Murat Kozan]
+
+ * packages/apps/Xtensions
+5f7348b  LS filters: Add 2 more variants  [ElDainosor]
+e3d5658  Add Lockscreen cover art filter [2/2]  [ElDainosor]
+a8c87fa  Implement Aggressive Battery [2/2]  [Joe Maples]
+
+ * packages/services/OmniJaws
+eea13bf  OmniJaws: Update Turkish translation (#1)  [Murat Kozan]
+
+====================
+     2019-04-29    
+====================
 
