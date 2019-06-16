@@ -32,10 +32,10 @@
     <dumpling>
       <maintainer>mukesh22584</maintainer>
       <devicename>Dumpling (dumpling)</devicename>
-      <filename>Xtended-dumpling-20190511-XP7-OFFICIAL-Release-v14.zip</filename>
+      <filename>Xtended-dumpling-20190616-XP7-OFFICIAL-Release-v15.2.zip</filename>
       <buildtype>Stable</buildtype>
       <paypal>https://www.paypal.me/mukesh22584</paypal>
-      <download>https://netix.dl.sourceforge.net/project/xtended/dumpling/Xtended-dumpling-20190511-XP7-OFFICIAL-Release-v14.zip</download>
+      <download>https://netix.dl.sourceforge.net/project/xtended/dumpling/Xtended-dumpling-20190616-XP7-OFFICIAL-Release-v15.2.zip</download>
       <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/dumpling_changelog.txt</changelog>
       <gapps>https://OpenGapps.org</gapps>
       <forum>https://forum.xda-developers.com/oneplus-5t/development/msm-xtended-oreoandroid-8-1-t3754938</forum>
@@ -44,10 +44,10 @@
     <cheeseburger>
       <maintainer>mukesh22584</maintainer>
       <devicename>Cheeseburger (cheeseburger)</devicename>
-      <filename>Xtended-cheeseburger-20190511-XP7-OFFICIAL-Release-v14.zip</filename>
+      <filename>Xtended-cheeseburger-20190616-XP7-OFFICIAL-Release-v15.2.zip</filename>
       <buildtype>Stable</buildtype>
       <paypal>https://www.paypal.me/mukesh22584</paypal>
-      <download>https://netix.dl.sourceforge.net/project/xtended/cheeseburger/Xtended-cheeseburger-20190511-XP7-OFFICIAL-Release-v14.zip</download>
+      <download>https://netix.dl.sourceforge.net/project/xtended/cheeseburger/Xtended-cheeseburger-20190616-XP7-OFFICIAL-Release-v15.2.zip</download>
       <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/cheeseburger_changelog.txt</changelog>
       <gapps>https://OpenGapps.org</gapps>
       <forum>https://forum.xda-developers.com/oneplus-5/development/stable-msm-xtended-t3761012</forum>
