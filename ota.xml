@@ -128,6 +128,18 @@
       <forum>https://forum.xda-developers.com/mi-a1/development/stable-msm-xtended-xp-1-release-v1-t3854187</forum>
       <telegram>https://t.me/XtendedOfficial</telegram>
     </tissot>
+    <whyred>
+      <maintainer>Ritzz</maintainer> 
+      <devicename>Redmi Note 5 Pro (whyred)</devicename>
+      <filename>Xtended-whyred-20190626-XP7-OFFICIAL-Release-v15.zip</filename>
+      <buildtype>Stable</buildtype>
+      <download>https://sourceforge.net/projects/xtended/files/whyred/Xtended-whyred-20190626-XP7-OFFICIAL-Release-v15.zip/download</download>
+      <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/whyred_changelog.txt</changelog>
+      <recovery>Use any Pie Supported Recovery</recovery>
+      <gapps>https://OpenGapps.org</gapps>
+      <forum>https://forum.xda-developers.com/redmi-note-5-pro/development/stable-msm-xtended-xp4-release-v9-t3889353</forum>
+      <telegram>https://t.me/XtendedOfficial</telegram>
+    </whyred>
   </manufacturer>
 <!-- MOTOROLA -->
   <manufacturer id="Motorola">
