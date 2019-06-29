@@ -69,30 +69,6 @@
       <forum>https://forum.xda-developers.com/redmi-4a/development/stable-msm-xtended-pie-firstblood-t3843313</forum>
       <telegram>https://t.me/XtendedOfficial</telegram>
     </rolex>
-    <santoni>
-      <maintainer>Wajid Khan</maintainer>
-      <devicename>Redmi4x (santoni)</devicename>
-      <filename>Xtended-santoni-20181027-XP2-OFFICIAL-Release-v5</filename>
-      <buildtype>Stable</buildtype>
-      <download>https://netix.dl.sourceforge.net/project/xtended/santoni/Xtended-santoni-20181027-XP2-OFFICIAL-Release-v5.zip</download>
-      <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/santoni_changelog.txt</changelog>
-      <recovery>Any Treble Enabled TWRP Recovery</recovery>
-      <gapps>https://OpenGapps.org</gapps>
-      <forum>https://forum.xda-developers.com/xiaomi-redmi-4x/development/rom-msm-xtended-pie-t3852960</forum>
-      <telegram>https://t.me/XtendedOfficial</telegram>
-    </santoni>
-    <vince>
-      <maintainer>Raj Kale (Rajkale99)</maintainer>
-      <devicename>Redmi Note 5 (vince)</devicename>
-      <filename>Xtended-vince-20190123-XP4-OFFICIAL-Release-v9zip</filename>
-      <buildtype>Stable</buildtype>
-      <download>https://netix.dl.sourceforge.net/project/xtended/vince/Xtended-vince-20190123-XP4-OFFICIAL-Release-v9zip</download>
-      <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/vince_changelog.txt</changelog>
-      <recovery>Use Brigdev twrp Recovery</recovery>
-      <gapps>https://OpenGapps.org</gapps>
-      <forum>https://forum.xda-developers.com/redmi-note-5/development/official-msm-xtended-9-0-pie-t3859327</forum>
-      <telegram>https://t.me/XtendedOfficial</telegram>
-    </vince>
     <mido>
       <maintainer>Sagar Rokade</maintainer>
       <devicename>Redmi Note 4 (mido)</devicename>
@@ -116,18 +92,6 @@
       <forum>https://forum.xda-developers.com/redmi-4-prime/development/unofficial-msm-xtended-xp-release-t3892969</forum>
       <telegram>https://t.me/XtendedOfficial</telegram>
     </markw>
-    <tissot>
-      <maintainer>AnuragRai (Dark-Matter7232)</maintainer> 
-      <devicename>MI A1 (tissot)</devicename>
-      <filename>Xtended-tissot-20181208-XP4-OFFICIAL-Release-v8.zip</filename>
-      <buildtype>Stable</buildtype>
-      <download>https://netix.dl.sourceforge.net/project/xtended/tissot/Xtended-tissot-20181208-XP4-OFFICIAL-Release-v8.zip</download>
-      <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/tissot_changelog.txt</changelog>
-      <recovery>Use Cosmic Dan twrp Recovery</recovery>
-      <gapps>https://OpenGapps.org</gapps>
-      <forum>https://forum.xda-developers.com/mi-a1/development/stable-msm-xtended-xp-1-release-v1-t3854187</forum>
-      <telegram>https://t.me/XtendedOfficial</telegram>
-    </tissot>
     <whyred>
       <maintainer>Ritzz</maintainer> 
       <devicename>Redmi Note 5 Pro (whyred)</devicename>
