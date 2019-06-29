@@ -1,0 +1,95 @@
+====================
+     2019-06-27    
+====================
+
+====================
+     2019-06-26    
+====================
+
+====================
+     2019-06-25    
+====================
+
+====================
+     2019-06-24    
+====================
+
+====================
+     2019-06-23    
+====================
+
+====================
+     2019-06-22    
+====================
+
+====================
+     2019-06-21    
+====================
+
+====================
+     2019-06-20    
+====================
+
+ * vendor/qcom/opensource/cryptfs_hw
+41cdc2a  cryptfs_hw: Support devices use metadata as key  [Erfan Abdi]
+d68ba75  cryptfs_hw: Cleanup should_use_keymaster  [Michael Bestas]
+4ebe66b  Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD  [Bruno Martins]
+484788e  cryptfs_hw: Fix build warnings  [Michael Bestas]
+
+====================
+     2019-06-19    
+====================
+
+ * packages/apps/Dialer
+b5d987d  Fix InCallUi Buttons being white once pressed post accent commit  [SuperDroidBond]
+249264d  Accent Based InCall-UI[1/3]  [RakeshBatra]
+f9cf7ea  Unlink InCallUI background from Sim colors  [Alex]
+2354d6e  Dialer: AudioModeProvider: use wired route for usb headsets  [codeworkx]
+
+====================
+     2019-06-18    
+====================
+
+ * frameworks/base
+c9b14d7  Accent Based InCall-UI [2/3]  [RakeshBatra]
+
+ * packages/apps/DevicesOTA
+cf3703c  V15 OTA & changelog for cheeseburger & dumpling  [mukesh22584]
+
+====================
+     2019-06-17    
+====================
+
+ * frameworks/base
+04f98dd  SmartCharging : Change the Overlays for most devices  [Anushek Prasal]
+
+ * packages/apps/Xtensions
+f1a59bc  Accent Based InCall-UI [3/3]  [RakeshBatra]
+
+====================
+     2019-06-16    
+====================
+
+ * frameworks/base
+3fe31aa  base: Use wireless charging animation for wired charging too  [Anushek Prasal]
+5ef085a  Add toggle for charging animation [1/2]  [Pranav Vashi]
+9e55de8  Add missing ensureRunningOnConnectivityServiceThread() function *After June Patch Merge  [phenomenall]
+db6d478  hwui: Avoid fake high input latency while vsync drifting  [Gao Shuo]
+2d90a44  FloatingToolbar must end animation immediately when parent window gone  [TAO MIAO]
+4f0614d  Extend the watchdog timeout of main thread  [zhiyong.wang]
+f3d74ab  Catch the SQLiteFullException in NotificationUsageStats  [Ethan_Hu]
+
+ * packages/apps/Xtensions
+df54a3b  Add toggle for charging animation [2/2]  [Pranav Vashi]
+
+====================
+     2019-06-15    
+====================
+
+====================
+     2019-06-14    
+====================
+
+ * system/sepolicy
+d25a043  sepolicy: Add policy for edgegestureservice  [slothdabski]
+
