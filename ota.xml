@@ -122,10 +122,10 @@
     <sanders>
       <maintainer>Ashwathama</maintainer>
       <devicename>Moto G5s Plus(sanders)</devicename>
-      <filename>Xtended-sanders-20190312-XP5-OFFICIAL-Release-v12.zip</filename>
+      <filename>Xtended-sanders-20190713-XP8-OFFICIAL-Release-v16.zip</filename>
       <buildtype>Stable</buildtype>
       <paypal>https://www.paypal.me/superdroidbond</paypal>
-      <download>https://netix.dl.sourceforge.net/project/xtended/files/sanders/Xtended-sanders-20190312-XP5-OFFICIAL-Release-v12.zip</download>
+      <download>https://netix.dl.sourceforge.net/project/xtended/files/sanders/Xtended-sanders-20190713-XP8-OFFICIAL-Release-v16.zip</download>
       <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/sanders_changelog.txt</changelog>
       <recovery>https://drive.google.com/open?id=1Z2WClmjfJ-wep4ds4kdwFUkjQ6Oh-XLx</recovery>
       <gapps>https://OpenGapps.org</gapps>
