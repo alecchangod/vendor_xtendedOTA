@@ -1,95 +1,166 @@
 ====================
-     2019-06-27    
+     2019-07-13    
 ====================
 
-====================
-     2019-06-26    
-====================
+ * vendor/xtended
+9f4fdd4  Merge pull request #8 from sai4041412/xp  [Mukesh Singh]
+0382abe  Let's add MSM-Papers  [sai4041412]
 
 ====================
-     2019-06-25    
-====================
-
-====================
-     2019-06-24    
-====================
-
-====================
-     2019-06-23    
-====================
-
-====================
-     2019-06-22    
-====================
-
-====================
-     2019-06-21    
-====================
-
-====================
-     2019-06-20    
-====================
-
- * vendor/qcom/opensource/cryptfs_hw
-41cdc2a  cryptfs_hw: Support devices use metadata as key  [Erfan Abdi]
-d68ba75  cryptfs_hw: Cleanup should_use_keymaster  [Michael Bestas]
-4ebe66b  Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD  [Bruno Martins]
-484788e  cryptfs_hw: Fix build warnings  [Michael Bestas]
-
-====================
-     2019-06-19    
-====================
-
- * packages/apps/Dialer
-b5d987d  Fix InCallUi Buttons being white once pressed post accent commit  [SuperDroidBond]
-249264d  Accent Based InCall-UI[1/3]  [RakeshBatra]
-f9cf7ea  Unlink InCallUI background from Sim colors  [Alex]
-2354d6e  Dialer: AudioModeProvider: use wired route for usb headsets  [codeworkx]
-
-====================
-     2019-06-18    
+     2019-07-12    
 ====================
 
  * frameworks/base
-c9b14d7  Accent Based InCall-UI [2/3]  [RakeshBatra]
+5580fb5  Fix compilation warning  [Alex Cruz]
+a610332  Android Q style Wifi icons (Evolution X version)  [Stallix]
+ea430ce   Fix notification lag  [Anushek Prasal]
+def05c5  Reduce the padding between media controls & seekbar  [rajadeja]
+d3b4730  AudioService: Remove Analog Dock from fixed-volume devices  [Vachounet]
+ec80bb9  PhoneWindowManager: Set delay for screenshot shortcut to 0  [Anirudh Gupta]
+a9961cc  Prevent crash in TTS engine due to improper configuration  [Pranav Vashi]
+34486d8  perfLock: Enable ActivityBoost  [yanglv]
+190d308  SystemUI: Use proper lock icon scale on dismissing notification panel view  [LuK1337]
+f06f99a  SystemUI: Handle orientation and screenSize changes for TunerActivity  [LuK1337]
+
+ * packages/apps/Settings
+1ef48d3  Settings: Update several icons to Q DP4 versions  [Stallix]
+015b7d9  Themes: Convert sync icons to vector so they theme correctly  [Alex]
+3fb518d   Don't hardcode eject sdcard icon color  [jhenrique09]
+1f7970c  Automatic translation import  [Joey Huab]
+1016d40  fuelgauge: Fix NPE  [Joe Maples]
+97d8b65  Settings: Add drawable for Private DNS  [theimpulson]
+0de3902  Settings: Update NFC drawable  [Unknown]
+ef47bbc  Settings: Add User icon to the searchbar  [Anushek Prasal]
+6fdc21a  Update Turkish translations  [Mevlüt TOPÇU]
+f46e504  Update Russian translations  [SVB22]
+829079c  Update Turkish translations  [Mevlüt TOPÇU]
+
+ * vendor/xtended
+63823eb  updated lawnchair-2305  [ultranoob-5]
+
+====================
+     2019-07-11    
+====================
+
+ * hardware/qcom/display-caf/sdm845
+9a95e92  display: Always build libcopybit headers  [Rashed Abdel-Tawab]
+
+====================
+     2019-07-10    
+====================
+
+ * frameworks/av
+367b2b4  CameraMetadata: HAX - Fix front cam on Playground  [Henrique Silva]
+2220f6e  Merge tag 'android-9.0.0_r45'  [ultranoob-5]
+
+ * system/netd
+5ca33f4  Merge tag 'android-9.0.0_r45'  [ultranoob-5]
+9184553  Revert "Merge tag 'android-9.0.0_r45'"  [ultranoob-5]
+
+====================
+     2019-07-09    
+====================
+
+ * vendor/xtended
+7cb6cbd  Upgrade to XP8 v16  [Anish Pratheepan]
+
+====================
+     2019-07-08    
+====================
+
+ * packages/apps/PackageInstaller
+056dab1  Merge tag 'android-9.0.0_r45'  [ultranoob-5]
+
+ * prebuilts/clang/host/linux-x86
+f4afd0e  Update prebuilt Clang to r353983e.  [Stephen Hines]
+
+ * system/netd
+ffd17da  Merge tag 'android-9.0.0_r45'  [ultranoob-5]
+
+====================
+     2019-07-07    
+====================
+
+ * build/make
+e046751  Merge tag 'android-9.0.0_r45'  [ultranoob-5]
+
+ * frameworks/base
+f48597f  Import rest of animation from Pixel's Q4 preview image  [DennySPB]
+
+====================
+     2019-07-06    
+====================
+
+ * frameworks/base
+5f5eacb  SystemUI: Fix several layout bugs  [eray orçunus]
+3fa83d5  Move Q animation to custom animations  [DennySPB]
+f8b6b7b  QS tiles: Update icons from Android Q  [Stallix]
+01eb42d  Telephony: Stop using rssnr, it falsly shows wrong signal bars  [phhusson]
+6cc96a0  New icons from Q  [Stallix]
+8625f66  CustomTextClock: LangGuard: Add Portuguese translations - Also add langguard to strings below 20  [ovenoboyo]
+af98df2b  CustomTextClock: Add more detailing to the functions  [ovenoboyo]
+7c25790  CustomTextClock: LangGuard: Fix dutch translations  [ovenoboyo]
+97c2a7e  Add Japanese and Dutch translation for Q text clock  [Dil3mm4]
+0c685e3  CustomTextClock: This makes the lockscreen lag  [Dil3mm4]
+15c0543  SystemUI: Protect against terrible music players  [Harsh Shandilya]
+5c3c99b3   Make status bar ticker play nice with center clock  [SpiritCroc]
+df43471  base: Q seekbar: make the seekbar transparent for non-seekable notifs  [ElDainosor]
+0e470c6  Add Dual Channel into Bluetooth Audio Channel Mode developer options menu  [ValdikSS]
+7c31263  Frameworks: Slightly refactor Parcel code  [Andreas Gampe]
+c747ba5  Stable seek bar positioning  [Sergey]
+dccb911  Import Android Q activity animations from aosip  [Lucchetto]
+
+ * frameworks/native
+472d10b  Merge pull request #1 from ankan005/xp  [Mukesh Singh]
+56f63ab  fix July ASB mismerge  [Ankan005]
+
+ * hardware/qcom/fm
+647ae02  Automatic translation import  [Michael Bestas]
+
+====================
+     2019-07-05    
+====================
+
+====================
+     2019-07-04    
+====================
+
+====================
+     2019-07-03    
+====================
+
+====================
+     2019-07-02    
+====================
+
+ * frameworks/base
+b82a449  Merge tag 'android-9.0.0_r45'  [ultranoob-5]
+
+ * frameworks/native
+a3ca009  Merge tag 'android-9.0.0_r45'  [ultranoob-5]
+
+ * manifest
+4b945cd  Merge tag 'android-9.0.0_r45'  [ultranoob-5]
+
+ * system/bt
+664a861  Merge tag 'android-9.0.0_r45'  [ultranoob-5]
+
+ * system/core
+9889a7f  Merge tag 'android-9.0.0_r45'  [ultranoob-5]
+
+====================
+     2019-07-01    
+====================
+
+====================
+     2019-06-30    
+====================
 
  * packages/apps/DevicesOTA
-cf3703c  V15 OTA & changelog for cheeseburger & dumpling  [mukesh22584]
+1c5b738  Merge pull request #47 from riteshm321/xp  [Mukesh Singh]
+8c1db75  Update ota.xml  [Ritzz]
+442cda9  drop some devices  [Anish Pratheepan]
+82b1dd0  Merge pull request #46 from riteshm321/xp  [Anish Pratheepan]
 
-====================
-     2019-06-17    
-====================
-
- * frameworks/base
-04f98dd  SmartCharging : Change the Overlays for most devices  [Anushek Prasal]
-
- * packages/apps/Xtensions
-f1a59bc  Accent Based InCall-UI [3/3]  [RakeshBatra]
-
-====================
-     2019-06-16    
-====================
-
- * frameworks/base
-3fe31aa  base: Use wireless charging animation for wired charging too  [Anushek Prasal]
-5ef085a  Add toggle for charging animation [1/2]  [Pranav Vashi]
-9e55de8  Add missing ensureRunningOnConnectivityServiceThread() function *After June Patch Merge  [phenomenall]
-db6d478  hwui: Avoid fake high input latency while vsync drifting  [Gao Shuo]
-2d90a44  FloatingToolbar must end animation immediately when parent window gone  [TAO MIAO]
-4f0614d  Extend the watchdog timeout of main thread  [zhiyong.wang]
-f3d74ab  Catch the SQLiteFullException in NotificationUsageStats  [Ethan_Hu]
-
- * packages/apps/Xtensions
-df54a3b  Add toggle for charging animation [2/2]  [Pranav Vashi]
-
-====================
-     2019-06-15    
-====================
-
-====================
-     2019-06-14    
-====================
-
- * system/sepolicy
-d25a043  sepolicy: Add policy for edgegestureservice  [slothdabski]
-
+ * vendor/xtended
+16ae0de  add & drop devices  [Anish Pratheepan]
