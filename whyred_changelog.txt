@@ -1,4 +1,37 @@
 ====================
+     2019-07-21    
+====================
+
+Device Side:-
+
+* proprietary-files: Unpined time services blobs
+* removed splita2dp prop from vendor prop
+* Fix ART props typos 
+* Updated graphics sdm blobs from LA.UM.7.2.r1-06900-sdm660.0
+* Updated all audio flags/configs
+* Cleaned soundtrigger blobs
+* Declared omx.media hild on device.mk
+* Updated perf Blobs from LA.UM.7.2.r1-06900-sdm660.0
+* Incall Volume boosted
+* Incall Volume control issue fixed
+* Increased notification icons to 8
+* Removed unused thermals configs
+* Updated init.qcom.rc from caf
+* Added regenerated thermal configs
+
+Rom Changelogs:-
+
+* Updated several icons to Q DP4 versions
+* Converted sync icons to vector so they theme correctly
+* Don't hardcode eject sdcard icon color
+* Automatic translation import
+* Fixed NPE
+* Added drawable for Private DNS
+* Updated NFC drawable
+* Added User icon to the searchbar
+* Updated Turkish translations
+
+====================
      2019-07-13    
 ====================
 
