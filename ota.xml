@@ -53,6 +53,17 @@
       <forum>https://forum.xda-developers.com/oneplus-5/development/stable-msm-xtended-t3761012</forum>
       <telegram>https://t.me/XtendedOfficial</telegram>
     </cheeseburger>
+    <oneplus2>
+      <maintainer>abhijiths</maintainer>
+      <devicename>Oneplus2 (oneplus2)</devicename>
+      <filename>Xtended-oneplus2-20190722-XP8-OFFICIAL-Release-v16.zip</filename>
+      <buildtype>Stable</buildtype>
+      <download>https://sourceforge.net/projects/xtended/files/oneplus2/Xtended-oneplus2-20190722-XP8-OFFICIAL-Release-v16.zip/download</download>
+      <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/oneplus2_changelog.txt</changelog>
+      <gapps>https://OpenGapps.org</gapps>
+      <forum>https://forum.xda-developers.com/oneplus-2/development/stable-msm-xtended-xp6-release-v13-t3925584</forum>
+      <telegram>https://t.me/XtendedOfficial</telegram>
+    </oneplus2>
   </manufacturer>
   <!-- XIAOMI -->
   <manufacturer id="Xiaomi"> 
@@ -104,6 +115,7 @@
       <forum>https://forum.xda-developers.com/redmi-note-5-pro/development/stable-msm-xtended-xp4-release-v9-t3889353</forum>
       <telegram>https://t.me/XtendedOfficial</telegram>
     </whyred>
+
   </manufacturer>
 <!-- MOTOROLA -->
   <manufacturer id="Motorola">

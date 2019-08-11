@@ -1,0 +1,35 @@
+====================
+     2019-07-23    
+====================
+ Device side changes :
+ - update kernel to matrix_v1.7
+ - added some more dirac blobs into vendor 
+ - miscellanous optimisations and patches
+
+ ROM side changes :
+ - Bump release version to V16.
+ - Merge july security patch.
+ - Import Android Q activity animation.
+ - Tried to improve lock screen lag.
+ - Protect against treble music player.
+ - Added Japanese and Dutch, Portuguese translation for Q text clock.
+ - "Custom text clock" added more detailing to the function.
+ - Stop using rssnr,it shows wrong signal bar.
+ - Update icon from AndroidQ
+ - Moved Q animation to custom animation.
+ - Import rest of animation from androidQ preview image.
+ - Update Turkish, Russiantranslation.
+ - Settings: add user icon to the search bar.
+ - Updated NFC drawble.
+ - Added drawble for private DNS.
+ - Fix NPE.
+ - Settings:show more than 4items in menu.
+ - Convert sync icon tovector.
+ - Update several icon to QDP4 version.
+ - Added Q style wifi icon.
+ - SystemUI: use proper lock icon scale on dismissing notification panel view.
+ - Enable ActivityBoost.
+ - Reduce the padding between media control and seekbar.
+ - updated lawnchair-2305.
+ - added charging animation
+ - Fixed notification lag
