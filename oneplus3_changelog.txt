@@ -1,284 +1,217 @@
 ====================
-     2019-05-10    
+     2019-08-11    
 ====================
-
- * external/skia
-d887f87  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
-e9d49f4  external/skia: Take Fast Jpeg Decoding Path  [Mort (Tianqi) Guo]
-9d94508  skia: Silence a few warnings for cpp  [mydongistiny]
-b41bb46  skia: Clean up -Wextra-semi-stmt warnings  [mydongistiny]
-bf4663d  libskia: Build using ThinLTO  [mydongistiny]
-6d03a5b  fGpu is null when GrGpuResource::release  [zhang defang]
-74ae89b  ARGB Blitter:  Remove unused variable  [Joe Maples]
-709e4b1  Avoid coverage bleed for AA arcs with tiny sweep angles  [Brian Osman]
-11c42eb  Move fragCoord workaround declaration  [Brian Osman]
-b26bbbb  skia: Use std::move() to prevent unnecessary copying  [mydongistiny]
-23d05b9  Optimize the for loop in onGetYUV8Planes  [nagarajan.n]
-8126cd3  Skia performance optimize for bitmap  [Libo Jin]
-
- * frameworks/base
-d3dc626  StatusBar battery: Toggle for left/right percentage position [1/2]  [a.derendyaev]
-
- * packages/apps/Xtensions
-2f487d0  StatusBar battery: Toggle for left/right percentage position [2/2]  [a.derendyaev]
-
-====================
-     2019-05-09    
-====================
-
- * frameworks/base
-29cbdea  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
-f9019af  BatteryStats: Correct formatter for pkginst in battery stats.  [Hirono Shiyama]
-0df36bd  Fix data source for HEIF exif extractor  [Chong Zhang]
-c9b8596  Remove the check of mService when BluetoothHidDevice doUnbind  [jiangyou li]
 
  * vendor/xtended
-9d09a6b  Upgrade to XP7 v14  [SuperDroidBond]
+de89b39  Update roomservice.py  [Mukesh Singh]
+ec625f1  PoorManThemes: Messages: fix conversation list select menu icons color  [Vachounet]
+f54efe2  omni: PoorManThemes: Fix color item on dialer for light theme  [micky387]
+f8c9775  Fix the SmartCharging permissions  [SuperDroidBond]
 
 ====================
-     2019-05-08    
+     2019-08-10    
+====================
+
+====================
+     2019-08-09    
+====================
+
+ * frameworks/base
+0f8eb26  Introduce FontTile  [bigrushdog]
+77c46b7  Allow QS detail view to scroll  [Roman Birg]
+8248044  Add QSDetailItems  [Danesh M]
+1091cfa  Bluetooth: Unregister BLE APPs when mBluetoothGatt valid only  [Venkata Jagadeesh Garaga]
+1e004e9  PM: Stop recording unsupported class loaders  [Alan Stokes]
+7e27d1d  Fix ShortcutService handling of locale change during device setup  [peter.zhang]
+391977d  jni: Fix improper call to createFromExisting()  [Wang Han]
+4e132cc  Fix bugs regarding system app cannot write visible path  [sangho.yoon]
+85cc45b  QS: Add advanced location tile options  [Joey]
+7f282bd  Revert "QS: LocationTile: make it cycle modes"  [mukesh22584]
+c86f89d  Reduce the bottom margin for Ambient Notifications  [SuperDroidBond]
+1212af1  SystemUI: Ensure battery estimates update on callback  [Chris Crump]
+8b01f49  [1/2] Op gestures: add swipe start height setting  [Marko Man]
+86d1a51  OP like gestures: more tweaks [1/2]  [DennySPB]
+2bd1cb3  [OP Gestures] Enable gestures on the keyguard as well  [Dil3mm4]
+ae62ccc  SwipeToScreenshot: Import MIUI implementation  [Henrique Silva]
+
+ * packages/apps/Settings
+e95a183  Reduce searchbar usericon size more  [SuperDroidBond]
+
+ * packages/apps/Xtensions
+b740d81  Op gestures: add swipe start height setting [2/2]  [Marko Man]
+8c75e35  OP like gestures: more tweaks [2/2]  [DennySPB]
+
+ * vendor/xtended
+8f76a0b  Not All Accent Can Have Gradient  [SuperDroidBond]
+
+====================
+     2019-08-08    
+====================
+
+====================
+     2019-08-07    
 ====================
 
  * build/make
-0bd8979  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
+c25cf4f  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
 
  * frameworks/av
-db1704e  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
+2fac39d  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
+
+ * frameworks/base
+9909189  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
+b31107f  base: add Bootleg's Date Styles [1/2]  [ElDainosor]
+fbcede5  base: add Q beta pill background [1/2]  [ElDainosor]
+7ad0d29  Powermenu Background filter [1/2]  [AnkitGourav]
+b5018a9  Introduce lockscreen date styles [1/2]  [Alex]
+89a921c  Accent Tinted and blurred filter for media coverart [1/2]  [Ankit-Gourav]
 
  * frameworks/native
-4bb6989  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
+d91ffd0  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
 
- * frameworks/opt/net/wifi
-0c59809  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
-
- * frameworks/opt/telephony
-9c3e168  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
-
- * manifest
-92cce0b  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
-
- * packages/apps/Contacts
-f48b0a6  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
-
- * packages/apps/DeskClock
-f5f6888  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
-
- * packages/apps/DocumentsUI
-b0154c1  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
-
- * packages/apps/PackageInstaller
-e4e4426  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
+ * packages/apps/Bluetooth
+8576701  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
 
  * packages/apps/Settings
-7a3ce2f  fix typo (#2)  [Anish Pratheepan]
-
- * packages/providers/DownloadProvider
-513aacc  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
-
- * packages/providers/MediaProvider
-64a9c9c  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
-
- * packages/services/Telecomm
-9da88ce  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
-
- * packages/services/Telephony
-21c4227  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
-
- * system/bt
-77f7c7a  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
-
- * system/core
-deda445  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
-
- * system/sepolicy
-cfa23c4  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
-
-====================
-     2019-05-07    
-====================
+a69b89c  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
 
  * packages/apps/Xtensions
-c3fd0fe  Q-Clock: Transform Q Clock to X Clock [2/2]  [SuperDroidBond]
-b9de604  [2/2] Xtensions: Add Q style to battery icon chooser  [paphonb]
-b67e673  Fix typos (#7)  [governmentissuejoe]
-f688819  Lockscreen Visualizer: Add pulse magic [2/2]  [Pranav Vashi]
-
- * vendor/xtended
-f2e990d  vendor: Switch to Lawnchair  [Kshitij Gupta]
-
-====================
-     2019-05-06    
-====================
-
- * frameworks/base
-5263bc1  SystemUI: Enable/fix QS detail view & adapt to Pie  [eray orçunus]
-0e1b2e1  Fix inaccurate power algorithm of mobile radio  [yuanhuihui]
-47bedb3  Fix mWaitingForDrawnCallback of startImeAdjustAnimation  [cnx421]
-
- * system/sepolicy
-59182c4  Introduce sepolicy exceptions for theme assets  [Surge Raval]
-7c4ba33  Initial sepolicy rules for substratum service  [Ivan Iskandar]
-cd79e80  sepolicy: Add policy for external display power saving  [Kevin Zhou]
-
-====================
-     2019-05-05    
-====================
-
- * frameworks/base
-e787f41  Q-Clock: Transform Q Clock to X Clock [1/2]  [SuperDroidBond]
-fad720e  Lockscreen Visualizer: Add pulse magic [1/2]  [Pranav Vashi]
-
- * manifest
-2b161e6  track our skia forked from LOS  [SuperDroidBond]
-
-====================
-     2019-05-04    
-====================
-
- * device/xtended/sepolicy
-29ebf03  aosip: Add selinux policy for pocket bridge  [Chris Lahaye]
-6941af7  aosip: Add pocket judge selinux policy  [Carlo Savignano]
-
- * frameworks/base
-0e7baf5  Merge pull request #4 from prometheusXderpgang/xp  [SuperDroidBond]
-31195c2  [1/2] base: Add Q style to battery icon chooser  [paphonb]
-
- * vendor/xtended
-b920a82  Merge pull request #5 from prometheusXderpgang/xp  [SuperDroidBond]
-9ce6c17  QSOreo:Fix tinting on expanded status bar  [SKULSHADY]
-
-====================
-     2019-05-03    
-====================
-
-====================
-     2019-05-02    
-====================
-
- * frameworks/base
-0fd91af  SystemUI: fix landscape powermenu layout  [DennySPB]
-
- * system/sepolicy
-302f5f7  Merge pull request #2 from xawlw/xp  [SuperDroidBond]
-c3a5b7d  Fix storaged access to /sys/block/mmcblk0/stat after 48027a00  [Vladimir Oltean]
-
-====================
-     2019-05-01    
-====================
-
- * frameworks/base
-08c47b3  LTE tile: Remove oreo style slashes  [Pranav Vashi]
-7be7824  GamingModeTile: stop adjusting volume  [HolyAngel]
-00228c8  Add wakelock option for flashlight  [Dominggoes Isakh]
-cebf88a  base: Fix old mobile signal icons  [umikaki]
-88380ce  base: Fix crash when changing default phone app  [Illia Poplawski]
-a4a722c  SystemUI: fix no service and emergency calls only placement  [Nick Filmer]
-0620c5e  base: LS filters: Add 2 more variants  [ElDainosor]
-17ffec2  base: Optimize toGrayscale function  [ElDainosor]
-5a80223  base: Intensify the blur amount on LS cover art  [ElDainosor]
-458b2d6  ImageUtils: Switch blur lib to SimpleImageBlur  [ElDainosor]
-1809840  base: Add Lockscreen cover art filter [1/2]  [ElDainosor]
-3ea303b  ImageHelper: add getBlurredImage  [Dil3mm4]
-e899e3c  core: Implement Aggressive Battery [1/2]  [Joe Maples]
-7efc45f  base: fix power menu position in landscape  [Felipe Leon]
-
- * hardware/ril
-b4fac39  Merge pull request #1 from xawlw/xp  [SuperDroidBond]
-f0ab90e  libril: Restore support for RIL v6, v8 and v9 stacks  [Adrian DC]
-72716a2  libril: allow board to provide libril  [Tom Giordano]
-11f3fc4  libril: Protect against NULL unsolicited response function  [D. Andrei Măceș]
-
- * hardware/xtended/interfaces
-221067e  Use -Werror in hardware/interfaces/biometrics/fingerprint (#1)  [abhijiths0098]
-
- * packages/apps/DevicesOTA
-fdd89c6  Add Zuk in Official devices (#41)  [Kanishk]
-
- * packages/apps/Dialer
-f131f85  incallui: Add Turkish translation (#3)  [Murat Kozan]
-
- * packages/apps/MusicFX
-0c20b77  MuicFX: Update Turkish translation (#1)  [Murat Kozan]
-
- * packages/apps/OmniDisplayManager
-a7355c7  OmniDisplayManager: Add Turkish translation (#1)  [Murat Kozan]
-
- * packages/apps/OmniStyle
-7804fab  OmniStyle: Update Turkish translation (#2)  [Murat Kozan]
-
- * packages/apps/Settings
-dc2177f  Settings: Add Turkish translation (#1)  [Murat Kozan]
-
- * packages/apps/SmartNav
-d90f16c  SmartNav: Update Turkish translation (#1)  [Murat Kozan]
-
- * packages/apps/SmartNavSettings
-b622d43  SmartNav: Add Turkish translation (#1)  [Murat Kozan]
-
- * packages/apps/ThermalController
-459bfad  Thermal: Add Turkish translation (#1)  [Murat Kozan]
-
- * packages/apps/XOta
-5347d87  Ota: Add Turkish translation (#1)  [Murat Kozan]
-
- * packages/apps/Xtensions
-5f7348b  LS filters: Add 2 more variants  [ElDainosor]
-e3d5658  Add Lockscreen cover art filter [2/2]  [ElDainosor]
-a8c87fa  Implement Aggressive Battery [2/2]  [Joe Maples]
+062d8fc  add Bootleg's Date styles [2/2]  [ElDainosor]
+2819476  Date styles: add Q beta pill [2/2]  [ElDainosor]
+f4f4d94  Lockscreen date styles [2/2]  [Alex]
+905e4df  Powermenu background filter [2/2]  [AnkitGourav]
+ad8ef98  Accent Tinted and blurred filter for media coverart [2/2]  [AnkitGourav]
 
  * packages/services/OmniJaws
-eea13bf  OmniJaws: Update Turkish translation (#1)  [Murat Kozan]
+2464987  OmniJaws: Bye bye Yahoo - it was fun with you  [maxwen]
 
  * packages/services/Telephony
-77545c8  Telephony: Implement alternative method for manual network select  [Henrique Silva]
-ac9c151  Telephony: Add missing protected broadcasts  [Pranav Vashi]
-04635f4  ToggleLte: Add missed TDSCDMA modes  [Pranav Vashi]
+0d4ca06  Fix resource warnings.  [Youming Ye]
+
+ * vendor/xtended
+c81b031  Upgrade the version to XP9-v18  [SuperDroidBond]
+ffdf8b6  vendor: Dynamically add custom APNs  [Rashed Abdel-Tawab]
+3a6c718  apn: update APNs  [mukesh22584]
+05b6681  updated Lawnchair to alpha-2357  [mukesh22584]
 
 ====================
-     2019-04-30    
+     2019-08-06    
 ====================
+ * art
+d52091f  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
 
-====================
-     2019-04-29    
-====================
-
- * frameworks/opt/telephony
-abc40f2  Revert "Revert isResolvingImsBinding code in ImsResolver"  [SuperDroidBond]
-
- * manifest
-ac1168c  Track Our Update Engine  [SuperDroidBond]
-0bc885f  HALs: Track HALs from LineageOS from now  [SuperDroidBond]
-
-====================
-     2019-04-28    
-====================
+ * frameworks/av
+a4ce9dd  media: Add support for up to level 6.2 for AVC  [Vaibhav Deshu Venkatesh]
+77551a7  Camera: Consider the currently acquired input buffers  [Emilian Peev]
+7eeb176  Do not select direct output for same profile  [caixuejiang]
+99cb0c9  Set default value to mAttributes in AudioTrack  [Ippei Murata]
+aa80410  Camera: consider all cameras in flash light control  [Yin-Chia Yeh]
+14120fd  Camera: extend getBuffer wait timeout  [Yin-Chia Yeh]
+ac5ccdb  Camera3: Handle stream format override for shared output stream  [Shuzhen Wang]
+8b9ccc4  Camera: Use physical camera's capability for physical stream check  [Shuzhen Wang]
 
  * frameworks/base
-334b829  Wifi: Send DHCP DISCOVER with rapid commit  [Purushottam Kushwaha]
-ee086f3  wifi: Add APIs and keymgmt to support WPA3(DPP,SAE,OWE,SuiteB).  [Purushottam Kushwaha]
-675b8ef  Wifi: Add FILS support in WifiConfiguration  [Purushottam Kushwaha]
-29ef623  Re-add WPS implementation (2/3)  [Lyudmila17]
-a40e6c1  Revert "Turn LCD off when mirroring display to save power"  [SuperDroidBond]
-a8127f6  IconsHandler: Really update the icon packs available  [Giuseppe Maggio]
-63cf5c9  NetworkStatsHistory: Prevent IllegalArgumentException  [Henrique Silva]
-1c30479  ColorFade: fix EGL crash on exynos4 mali blobs  [Dominggoes Isakh]
-1d96401  CustomTextClock: Fix my derps for O' - Only for en doe  [ovenoboyo]
-73e6af7  Q-Clock: Add our LS Clock Font Style  [SuperDroidBond]
-fbc8206  CustomTextClock: LangGuard: Remove unnecessary function to get hour strings seperately  [ovenoboyo]
-413ab41  CustomTextClock: Check if language has changed before setting toprow text  [Dil3mm4]
-3520d86  CustomTextClock: Remove methods moved in utility classes  [Dil3mm4]
-3854033  CustomTextClock: This makes the lockscreen lag  [Dil3mm4]
-f40a5cc  CustomTextClock: Ditch code related to color getting  [Dil3mm4]
-97b3d7f  CustomTextClock: Create LangGuard utility  [Dil3mm4]
-b201d41  CustomTextClock: Refactor a few strings  [Dil3mm4]
-bc5674c  CustomTextClock: Remove all logging - Now that its almost done  [ovenoboyo]
-381eb30  CustomTextClock: Add O' again  [ovenoboyo]
-6080937  CustomTextClock: Account for *almost* all of the possiblities while updating text color  [Ovenoboyo]
-ba802cb  Squash Q-Clock un-hardcode strings and add translatable strings  [Dil3mm4]
-7bb6936  Change TopTextView color according to wallpaper - After 2weeks of intensive mindfuck, it was as simple as putting it in onDraw - It wont be resource intensive as onDraw on topview isn't called constantly  [ovenoboyo]
+f9710ef  wifi(settingslib): Update passpoint config to accessPoint  [Hu Wang]
+c45fc64  BoostFramework: Send PID if process is already existing in BG.  [Sai Manobhiram]
+bd3d87a  SmartCharging: add reset battery stats option [1/2]  [DennySPB]
+83cdeaa  SmartCharging: allow user set resume level [1/2]  [DennySPB]
+ed41a98  Fix NPE in destroyUiAutomationService function  [hangl]
+e5dc553  wifi: Filter unsupported networks from scan results  [Veerendranath Jakkam]
+abf04a7  Wifi: Connect indication on UI for STA when AP supports SAE+PSK  [Anurag Das]
+62b8b3f  Wifi: Update accesspoint to cater to add network option from GUI  [Anurag Das]
+0d23b50  Wifi: Check for SAE/OWE AKM prior to PSK  [Anurag Das]
+5fc03c7  Stop using deprecated Canvas APIs.  [Derek Sollenberger]
+99f630f  Remove isBandwidthControlEnabled.  [Lorenzo Colitti]
+8a3764d  SystemUI: Fix SystemUI failed to go to doze issue  [Weijie Wang]
+c9b5096  idle-maint: provide a way to run GC more aggressively  [Jaegeuk Kim]
+c0d13d2  BT: Adding aptX-Adaptive codec entry to Framework  [Gurpreet Ghai]
+dee7f2b  Fix sim pin on DSDS  [Jordan Liu]
+d965987  Dismiss SIM lock page after correct SIM  [Jordan Liu]
+c339462  When data switches during voice call, make sure signal bar updates it.  [Malcolm Chen]
+8988c7e  Stop USB Debugging authorization window dismissing on tap outside.  [Tobias Thierer]
+6d33741  Update navigation bar upon change of display density  [rleix]
+452bf47  Unable to input PIN with hardware keyboard  [Wang, ArvinX]
+e0d801c  Fix to register the receiver for all users  [Kyeongkab.Nam]
+8413c60  Remove unnecessary right padding from time picker  [Tetsutoki Shiozawa]
+8420827  MediaCodecInfo: Add support for level 6.2  [Vaibhav Deshu Venkatesh]
+d806b1b  frameworks/base: Avoid recording negative data  [Pavan Kumar M]
+6b01c3a  Use the boot class loader as parent of system server loader  [Nicolas Geoffray]
+e503710  Remove uses of libcore.io DropBox and EventLogger  [Paul Duffin]
+f7acd42  Move DexLoadReporter setup before AppComponentFactory calls  [David Brazdil]
+000aeee  Fix NullPointerException in ConnectivityService  [soma, kawata]
+3b205ca  Optimize the font cache size according to display resolution  [Libo Jin]
+f5692ab  Fix handlelr thread block while switching bluetooth  [Kou Lei]
 
- * frameworks/opt/telephony
-4e9a6ac  Merge tag 'android-9.0.0_r33' into pie  [Anushek Prasal]
-e4b57e5  Merge remote-tracking branch 'AOSP/pie-gsi' into pie  [Anushek Prasal]
+ * frameworks/native
+4a9e178  media: Add support for level 6-6.2 for AVC  [Vaibhav Deshu Venkatesh]
+
+ * manifest
+d0a9c60  track vendor_qcom_opensource_audio from xtended  [ultranoob-5]
+abb434d  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
+
+ * packages/apps/Bluetooth
+d54892e  Fix null pointer exception on AvrcpTargetService  [slki.shin]
+e71bff1  Bluetooth:add missing permission  [kldoc]
+
+ * packages/apps/Settings
+47b727b  Stop calling isBandwidthControlEnabled.  [Lorenzo Colitti]
+9ff6d25  SmartCharging: add reset battery stats option [2/2]  [DennySPB]
+660d2c2  SmartCharging: allow user set resume level [2/2]  [DennySPB]
+
+ * packages/services/Telecomm
+a86d7c1  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
+
+ * system/bt
+6423170  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
+
+ * vendor/qcom/opensource/audio
+ac4f79d  policy_hal: Adapt to AudioMix API changes in f/av audiopolicy  [Kevin F. Haggerty]
+
+====================
+     2019-08-05    
+====================
+
+====================
+     2019-08-04    
+====================
+
+ * hardware/qcom/fm
+2cf84a8  Automatic translation import  [Michael Bestas]
+
+ * manifest
+1105c73  Updated thread template  [Mukesh Singh]
+
+====================
+     2019-08-03    
+====================
+
+====================
+     2019-08-02    
+====================
+
+====================
+     2019-08-01    
+====================
+
+====================
+     2019-07-31    
+====================
+
+ * hardware/qcom/audio-caf/msm8960
+b49d4dc  hal: Add support for voice calls on Fusion3 platforms  [Arne Coucheron]
+d50691c  audio-hw: Restrict voice_start_usecase only for 1 call at a time  [Chandramouli Karthik]
+b89a37d  hal: Fix no audio during voice call with voip in background  [kunleiz]
+ab35348  hal: fix no sound issue in voice call  [kunleiz]
+
+====================
+     2019-07-30    
+====================
+
+ * vendor/xtended
+9bc823c  Add New BootAnimation  [SuperDroidBond]
+dc24eed  added 3 qs tiles (#9)  [Ankan Ghosh]
+a8f8730  Let's add MSM-Papers  [sai4041412]
+
+====================
 
 
