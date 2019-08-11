@@ -1,199 +1,243 @@
 ====================
-     2019-07-21    
+     2019-08-11    
 ====================
 
-Device Side:-
-
-* proprietary-files: Unpined time services blobs
-* removed splita2dp prop from vendor prop
-* Fix ART props typos 
-* Updated graphics sdm blobs from LA.UM.7.2.r1-06900-sdm660.0
-* Updated all audio flags/configs
-* Cleaned soundtrigger blobs
-* Declared omx.media hild on device.mk
-* Updated perf Blobs from LA.UM.7.2.r1-06900-sdm660.0
-* Incall Volume boosted
-* Incall Volume control issue fixed
-* Increased notification icons to 8
-* Removed unused thermals configs
-* Updated init.qcom.rc from caf
-* Added regenerated thermal configs
-
-Rom Changelogs:-
-
-* Updated several icons to Q DP4 versions
-* Converted sync icons to vector so they theme correctly
-* Don't hardcode eject sdcard icon color
-* Automatic translation import
-* Fixed NPE
-* Added drawable for Private DNS
-* Updated NFC drawable
-* Added User icon to the searchbar
-* Updated Turkish translations
-
-====================
-     2019-07-13    
-====================
+ * manifest
+9226d56  manifest: add Xtended-Devices  [Anish Pratheepan]
 
  * vendor/xtended
-9f4fdd4  Merge pull request #8 from sai4041412/xp  [Mukesh Singh]
-0382abe  Let's add MSM-Papers  [sai4041412]
+a6dcdb7  Update roomservice.py  [Mukesh Singh]
+819a18a  PoorManThemes: Messages: fix conversation list select menu icons color  [Vachounet]
+b073bcb  omni: PoorManThemes: Fix color item on dialer for light theme  [micky387]
+f8c9775  Fix the SmartCharging permissions  [SuperDroidBond]
 
 ====================
-     2019-07-12    
+     2019-08-10    
+====================
+
+====================
+     2019-08-09    
 ====================
 
  * frameworks/base
-5580fb5  Fix compilation warning  [Alex Cruz]
-a610332  Android Q style Wifi icons (Evolution X version)  [Stallix]
-ea430ce   Fix notification lag  [Anushek Prasal]
-def05c5  Reduce the padding between media controls & seekbar  [rajadeja]
-d3b4730  AudioService: Remove Analog Dock from fixed-volume devices  [Vachounet]
-ec80bb9  PhoneWindowManager: Set delay for screenshot shortcut to 0  [Anirudh Gupta]
-a9961cc  Prevent crash in TTS engine due to improper configuration  [Pranav Vashi]
-34486d8  perfLock: Enable ActivityBoost  [yanglv]
-190d308  SystemUI: Use proper lock icon scale on dismissing notification panel view  [LuK1337]
-f06f99a  SystemUI: Handle orientation and screenSize changes for TunerActivity  [LuK1337]
+0f8eb26  Introduce FontTile  [bigrushdog]
+77c46b7  Allow QS detail view to scroll  [Roman Birg]
+8248044  Add QSDetailItems  [Danesh M]
+1091cfa  Bluetooth: Unregister BLE APPs when mBluetoothGatt valid only  [Venkata Jagadeesh Garaga]
+1e004e9  PM: Stop recording unsupported class loaders  [Alan Stokes]
+7e27d1d  Fix ShortcutService handling of locale change during device setup  [peter.zhang]
+391977d  jni: Fix improper call to createFromExisting()  [Wang Han]
+4e132cc  Fix bugs regarding system app cannot write visible path  [sangho.yoon]
+85cc45b  QS: Add advanced location tile options  [Joey]
+7f282bd  Revert "QS: LocationTile: make it cycle modes"  [mukesh22584]
+c86f89d  Reduce the bottom margin for Ambient Notifications  [SuperDroidBond]
+1212af1  SystemUI: Ensure battery estimates update on callback  [Chris Crump]
+8b01f49  [1/2] Op gestures: add swipe start height setting  [Marko Man]
+86d1a51  OP like gestures: more tweaks [1/2]  [DennySPB]
+2bd1cb3  [OP Gestures] Enable gestures on the keyguard as well  [Dil3mm4]
+ae62ccc  SwipeToScreenshot: Import MIUI implementation  [Henrique Silva]
 
  * packages/apps/Settings
-1ef48d3  Settings: Update several icons to Q DP4 versions  [Stallix]
-015b7d9  Themes: Convert sync icons to vector so they theme correctly  [Alex]
-3fb518d   Don't hardcode eject sdcard icon color  [jhenrique09]
-1f7970c  Automatic translation import  [Joey Huab]
-1016d40  fuelgauge: Fix NPE  [Joe Maples]
-97d8b65  Settings: Add drawable for Private DNS  [theimpulson]
-0de3902  Settings: Update NFC drawable  [Unknown]
-ef47bbc  Settings: Add User icon to the searchbar  [Anushek Prasal]
-6fdc21a  Update Turkish translations  [Mevlüt TOPÇU]
-f46e504  Update Russian translations  [SVB22]
-829079c  Update Turkish translations  [Mevlüt TOPÇU]
+e95a183  Reduce searchbar usericon size more  [SuperDroidBond]
+
+ * packages/apps/Xtensions
+b740d81  Op gestures: add swipe start height setting [2/2]  [Marko Man]
+8c75e35  OP like gestures: more tweaks [2/2]  [DennySPB]
 
  * vendor/xtended
-63823eb  updated lawnchair-2305  [ultranoob-5]
+8f76a0b  Not All Accent Can Have Gradient  [SuperDroidBond]
 
 ====================
-     2019-07-11    
+     2019-08-08    
 ====================
 
- * hardware/qcom/display-caf/sdm845
-9a95e92  display: Always build libcopybit headers  [Rashed Abdel-Tawab]
-
 ====================
-     2019-07-10    
-====================
-
- * frameworks/av
-367b2b4  CameraMetadata: HAX - Fix front cam on Playground  [Henrique Silva]
-2220f6e  Merge tag 'android-9.0.0_r45'  [ultranoob-5]
-
- * system/netd
-5ca33f4  Merge tag 'android-9.0.0_r45'  [ultranoob-5]
-9184553  Revert "Merge tag 'android-9.0.0_r45'"  [ultranoob-5]
-
-====================
-     2019-07-09    
-====================
-
- * vendor/xtended
-7cb6cbd  Upgrade to XP8 v16  [Anish Pratheepan]
-
-====================
-     2019-07-08    
-====================
-
- * packages/apps/PackageInstaller
-056dab1  Merge tag 'android-9.0.0_r45'  [ultranoob-5]
-
- * prebuilts/clang/host/linux-x86
-f4afd0e  Update prebuilt Clang to r353983e.  [Stephen Hines]
-
- * system/netd
-ffd17da  Merge tag 'android-9.0.0_r45'  [ultranoob-5]
-
-====================
-     2019-07-07    
+     2019-08-07    
 ====================
 
  * build/make
-e046751  Merge tag 'android-9.0.0_r45'  [ultranoob-5]
+c25cf4f  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
+
+ * external/sqlite
+82bfb85  sqlite: upgrade to SQLite 3.29.0  [mydongistiny]
+3bef45c  sqlite: upgrade to SQLite 3.28.0  [mydongistiny]
+5e772db  sqlite: upgrade to SQLite 3.27.2  [mydongistiny]
+f0db81b  sqlite: upgrade to SQLite 3.27.1  [mydongistiny]
+9bc512c  sqlite: upgrade to SQLite 3.27.0  [mydongistiny]
+de0f9f2  sqlite: Remove useless function of tokenize  [Jinguang Dong]
+5f5a7a7  Fix parameter checking logic error in tokenize  [Jinguang Dong]
+38099bd  sqlite: upgrade to SQLite 3.26.0  [mydongistiny]
+da50fdc  sqlite: upgrade to SQLite 3.25.3  [mydongistiny]
+9fa6ee6  sqlite: upgrade to SQLite 3.25.2  [mydongistiny]
+1223006  Reduce sync safety levels from 3 to 1  [Dave Kessler]
+23ad679  remove nnk from OWNERS  [Nick Kralevich]
+
+ * frameworks/av
+2fac39d  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
 
  * frameworks/base
-f48597f  Import rest of animation from Pixel's Q4 preview image  [DennySPB]
-
-====================
-     2019-07-06    
-====================
-
- * frameworks/base
-5f5eacb  SystemUI: Fix several layout bugs  [eray orçunus]
-3fa83d5  Move Q animation to custom animations  [DennySPB]
-f8b6b7b  QS tiles: Update icons from Android Q  [Stallix]
-01eb42d  Telephony: Stop using rssnr, it falsly shows wrong signal bars  [phhusson]
-6cc96a0  New icons from Q  [Stallix]
-8625f66  CustomTextClock: LangGuard: Add Portuguese translations - Also add langguard to strings below 20  [ovenoboyo]
-af98df2b  CustomTextClock: Add more detailing to the functions  [ovenoboyo]
-7c25790  CustomTextClock: LangGuard: Fix dutch translations  [ovenoboyo]
-97c2a7e  Add Japanese and Dutch translation for Q text clock  [Dil3mm4]
-0c685e3  CustomTextClock: This makes the lockscreen lag  [Dil3mm4]
-15c0543  SystemUI: Protect against terrible music players  [Harsh Shandilya]
-5c3c99b3   Make status bar ticker play nice with center clock  [SpiritCroc]
-df43471  base: Q seekbar: make the seekbar transparent for non-seekable notifs  [ElDainosor]
-0e470c6  Add Dual Channel into Bluetooth Audio Channel Mode developer options menu  [ValdikSS]
-7c31263  Frameworks: Slightly refactor Parcel code  [Andreas Gampe]
-c747ba5  Stable seek bar positioning  [Sergey]
-dccb911  Import Android Q activity animations from aosip  [Lucchetto]
+9909189  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
+b31107f  base: add Bootleg's Date Styles [1/2]  [ElDainosor]
+fbcede5  base: add Q beta pill background [1/2]  [ElDainosor]
+7ad0d29  Powermenu Background filter [1/2]  [AnkitGourav]
+b5018a9  Introduce lockscreen date styles [1/2]  [Alex]
+89a921c  Accent Tinted and blurred filter for media coverart [1/2]  [Ankit-Gourav]
 
  * frameworks/native
-472d10b  Merge pull request #1 from ankan005/xp  [Mukesh Singh]
-56f63ab  fix July ASB mismerge  [Ankan005]
+d91ffd0  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
 
- * hardware/qcom/fm
-647ae02  Automatic translation import  [Michael Bestas]
+ * packages/apps/Bluetooth
+8576701  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
 
-====================
-     2019-07-05    
-====================
+ * packages/apps/Settings
+a69b89c  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
 
-====================
-     2019-07-04    
-====================
+ * packages/apps/Xtensions
+062d8fc  add Bootleg's Date styles [2/2]  [ElDainosor]
+2819476  Date styles: add Q beta pill [2/2]  [ElDainosor]
+f4f4d94  Lockscreen date styles [2/2]  [Alex]
+905e4df  Powermenu background filter [2/2]  [AnkitGourav]
+ad8ef98  Accent Tinted and blurred filter for media coverart [2/2]  [AnkitGourav]
 
-====================
-     2019-07-03    
-====================
+ * packages/services/OmniJaws
+2464987  OmniJaws: Bye bye Yahoo - it was fun with you  [maxwen]
 
-====================
-     2019-07-02    
-====================
+ * packages/services/Telephony
+0d4ca06  Fix resource warnings.  [Youming Ye]
 
- * frameworks/base
-b82a449  Merge tag 'android-9.0.0_r45'  [ultranoob-5]
-
- * frameworks/native
-a3ca009  Merge tag 'android-9.0.0_r45'  [ultranoob-5]
-
- * manifest
-4b945cd  Merge tag 'android-9.0.0_r45'  [ultranoob-5]
-
- * system/bt
-664a861  Merge tag 'android-9.0.0_r45'  [ultranoob-5]
-
- * system/core
-9889a7f  Merge tag 'android-9.0.0_r45'  [ultranoob-5]
-
-====================
-     2019-07-01    
-====================
-
-====================
-     2019-06-30    
-====================
-
- * packages/apps/DevicesOTA
-1c5b738  Merge pull request #47 from riteshm321/xp  [Mukesh Singh]
-8c1db75  Update ota.xml  [Ritzz]
-442cda9  drop some devices  [Anish Pratheepan]
-82b1dd0  Merge pull request #46 from riteshm321/xp  [Anish Pratheepan]
+ * vendor/nxp/opensource/commonsys/packages/apps/Nfc
+6d96848  Prevent OOB Read in Mfc_Transceive  [George Chang]
+597f5c6  Prevent OOB write in Mfc_Transceive  [George Chang]
+a36d991  Prevent OOB write in phFriNfc_ExtnsTransceive  [George Chang]
+524414f  Skip setEnableHostRouting when switching to screen off  [George Chang]
 
  * vendor/xtended
-16ae0de  add & drop devices  [Anish Pratheepan]
+c81b031  Upgrade the version to XP9-v18  [SuperDroidBond]
+ffdf8b6  vendor: Dynamically add custom APNs  [Rashed Abdel-Tawab]
+3a6c718  apn: update APNs  [mukesh22584]
+05b6681  updated Lawnchair to alpha-2357  [mukesh22584]
+
+====================
+     2019-08-06    
+====================
+ * art
+d52091f  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
+
+ * frameworks/av
+a4ce9dd  media: Add support for up to level 6.2 for AVC  [Vaibhav Deshu Venkatesh]
+77551a7  Camera: Consider the currently acquired input buffers  [Emilian Peev]
+7eeb176  Do not select direct output for same profile  [caixuejiang]
+99cb0c9  Set default value to mAttributes in AudioTrack  [Ippei Murata]
+aa80410  Camera: consider all cameras in flash light control  [Yin-Chia Yeh]
+14120fd  Camera: extend getBuffer wait timeout  [Yin-Chia Yeh]
+ac5ccdb  Camera3: Handle stream format override for shared output stream  [Shuzhen Wang]
+8b9ccc4  Camera: Use physical camera's capability for physical stream check  [Shuzhen Wang]
+
+ * frameworks/base
+f9710ef  wifi(settingslib): Update passpoint config to accessPoint  [Hu Wang]
+c45fc64  BoostFramework: Send PID if process is already existing in BG.  [Sai Manobhiram]
+bd3d87a  SmartCharging: add reset battery stats option [1/2]  [DennySPB]
+83cdeaa  SmartCharging: allow user set resume level [1/2]  [DennySPB]
+ed41a98  Fix NPE in destroyUiAutomationService function  [hangl]
+e5dc553  wifi: Filter unsupported networks from scan results  [Veerendranath Jakkam]
+abf04a7  Wifi: Connect indication on UI for STA when AP supports SAE+PSK  [Anurag Das]
+62b8b3f  Wifi: Update accesspoint to cater to add network option from GUI  [Anurag Das]
+0d23b50  Wifi: Check for SAE/OWE AKM prior to PSK  [Anurag Das]
+5fc03c7  Stop using deprecated Canvas APIs.  [Derek Sollenberger]
+99f630f  Remove isBandwidthControlEnabled.  [Lorenzo Colitti]
+8a3764d  SystemUI: Fix SystemUI failed to go to doze issue  [Weijie Wang]
+c9b5096  idle-maint: provide a way to run GC more aggressively  [Jaegeuk Kim]
+c0d13d2  BT: Adding aptX-Adaptive codec entry to Framework  [Gurpreet Ghai]
+dee7f2b  Fix sim pin on DSDS  [Jordan Liu]
+d965987  Dismiss SIM lock page after correct SIM  [Jordan Liu]
+c339462  When data switches during voice call, make sure signal bar updates it.  [Malcolm Chen]
+8988c7e  Stop USB Debugging authorization window dismissing on tap outside.  [Tobias Thierer]
+6d33741  Update navigation bar upon change of display density  [rleix]
+452bf47  Unable to input PIN with hardware keyboard  [Wang, ArvinX]
+e0d801c  Fix to register the receiver for all users  [Kyeongkab.Nam]
+8413c60  Remove unnecessary right padding from time picker  [Tetsutoki Shiozawa]
+8420827  MediaCodecInfo: Add support for level 6.2  [Vaibhav Deshu Venkatesh]
+d806b1b  frameworks/base: Avoid recording negative data  [Pavan Kumar M]
+6b01c3a  Use the boot class loader as parent of system server loader  [Nicolas Geoffray]
+e503710  Remove uses of libcore.io DropBox and EventLogger  [Paul Duffin]
+f7acd42  Move DexLoadReporter setup before AppComponentFactory calls  [David Brazdil]
+000aeee  Fix NullPointerException in ConnectivityService  [soma, kawata]
+3b205ca  Optimize the font cache size according to display resolution  [Libo Jin]
+f5692ab  Fix handlelr thread block while switching bluetooth  [Kou Lei]
+
+ * frameworks/native
+4a9e178  media: Add support for level 6-6.2 for AVC  [Vaibhav Deshu Venkatesh]
+
+ * manifest
+d0a9c60  track vendor_qcom_opensource_audio from xtended  [ultranoob-5]
+abb434d  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
+
+ * packages/apps/Bluetooth
+d54892e  Fix null pointer exception on AvrcpTargetService  [slki.shin]
+e71bff1  Bluetooth:add missing permission  [kldoc]
+
+ * packages/apps/Nfc
+7fab21a  Merge tag 'android-9.0.0_r46' into staging/lineage-16.0_merge-android-9.0.0_r46  [Kevin F. Haggerty]
+
+ * packages/apps/Settings
+47b727b  Stop calling isBandwidthControlEnabled.  [Lorenzo Colitti]
+9ff6d25  SmartCharging: add reset battery stats option [2/2]  [DennySPB]
+660d2c2  SmartCharging: allow user set resume level [2/2]  [DennySPB]
+
+ * packages/services/Telecomm
+a86d7c1  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
+
+ * system/bt
+6423170  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
+
+ * vendor/qcom/opensource/audio
+ac4f79d  policy_hal: Adapt to AudioMix API changes in f/av audiopolicy  [Kevin F. Haggerty]
+
+====================
+     2019-08-05    
+====================
+
+====================
+     2019-08-04    
+====================
+
+ * hardware/qcom/fm
+2cf84a8  Automatic translation import  [Michael Bestas]
+
+ * manifest
+1105c73  Updated thread template  [Mukesh Singh]
+
+====================
+     2019-08-03    
+====================
+
+====================
+     2019-08-02    
+====================
+
+====================
+     2019-08-01    
+====================
+
+====================
+     2019-07-31    
+====================
+
+ * hardware/qcom/audio-caf/msm8960
+b49d4dc  hal: Add support for voice calls on Fusion3 platforms  [Arne Coucheron]
+d50691c  audio-hw: Restrict voice_start_usecase only for 1 call at a time  [Chandramouli Karthik]
+b89a37d  hal: Fix no audio during voice call with voip in background  [kunleiz]
+ab35348  hal: fix no sound issue in voice call  [kunleiz]
+
+====================
+     2019-07-30    
+====================
+
+ * vendor/xtended
+9bc823c  Add New BootAnimation  [SuperDroidBond]
+dc24eed  added 3 qs tiles (#9)  [Ankan Ghosh]
+a8f8730  Let's add MSM-Papers  [sai4041412]
+
+====================
+     2019-07-29    
+====================
