@@ -103,17 +103,6 @@
       <forum>https://forum.xda-developers.com/redmi-note-4/xiaomi-redmi-note-4-snapdragon-roms-kernels-recoveries--other-development/official-msm-xtended-pie-9-0-t3846001</forum>
       <telegram>https://t.me/XtendedOfficial</telegram>
     </mido>
-    <markw>
-      <maintainer>DarkAngelGR</maintainer>
-      <devicename>Redmi 4 Prime (markw)</devicename>
-      <filename>Xtended-markw-20190626-XP7-Official-Release-v15.zip</filename>
-      <buildtype>Stable</buildtype>
-      <download>https://downloads.sourceforge.net/project/xtended/markw/Xtended-markw-20190626-XP7-Official-Release-v15.zip</download>
-      <recovery> Use Any Treble Enabled Recovery</recovery>
-      <gapps>https://OpenGapps.org</gapps>
-      <forum>https://forum.xda-developers.com/redmi-4-prime/development/unofficial-msm-xtended-xp-release-t3892969</forum>
-      <telegram>https://t.me/XtendedOfficial</telegram>
-    </markw>
     <whyred>
       <maintainer>Ritzz</maintainer> 
       <devicename>Redmi Note 5 Pro (whyred)</devicename>
