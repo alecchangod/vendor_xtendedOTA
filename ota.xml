@@ -58,7 +58,7 @@
       <devicename>Oneplus2 (oneplus2)</devicename>
       <filename>Xtended-oneplus2-20190722-XP8-OFFICIAL-Release-v16.zip</filename>
       <buildtype>Stable</buildtype>
-      <download>https://sourceforge.net/projects/xtended/files/oneplus2/Xtended-oneplus2-20190722-XP8-OFFICIAL-Release-v16.zip/download</download>
+      <download>https://netix.dl.sourceforge.net/project/xtended/oneplus2/Xtended-oneplus2-20190722-XP8-OFFICIAL-Release-v16.zip</download>
       <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/oneplus2_changelog.txt</changelog>
       <gapps>https://OpenGapps.org</gapps>
       <forum>https://forum.xda-developers.com/oneplus-2/development/stable-msm-xtended-xp6-release-v13-t3925584</forum>
@@ -69,7 +69,7 @@
       <devicename>OnePlus one (bacon)</devicename>
       <filename>Xtended-bacon-20190812-XP9-OFFICIAL-Release-v18.zip</filename>
       <buildtype>Stable</buildtype>
-      <download>https://sourceforge.net/projects/xtended/files/bacon/Xtended-bacon-20190812-XP9-OFFICIAL-Release-v18.zip/download</download>
+      <download>https://netix.dl.sourceforge.net/project/xtended/bacon/Xtended-bacon-20190812-XP9-OFFICIAL-Release-v18.zip</download>
       <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/bacon_changelog.txt</changelog>
       <gapps>https://OpenGapps.org</gapps>
       <forum>https://forum.xda-developers.com/oneplus-one/development/stable-msm-xtended-xp7-release-v14-t3929224</forum>
@@ -96,7 +96,7 @@
       <devicename>Redmi Note 4 (mido)</devicename>
       <filename>Xtended-mido-20190411-XP6-OFFICIAL-Release-v13</filename>
       <buildtype>Stable</buildtype>
-      <download>https://sourceforge.net/projects/xtended/files/mido/Xtended-mido-20190411-XP6-OFFICIAL-Release-v13.zip/download</download>
+      <download>https://netix.dl.sourceforge.net/project/xtended/mido/Xtended-mido-20190411-XP6-OFFICIAL-Release-v13.zip</download>
       <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/mido_changelog.txt</changelog>
       <recovery>Use Any Treble Enabled Recovery</recovery>
       <gapps>https://OpenGapps.org</gapps>
@@ -119,14 +119,13 @@
       <devicename>Redmi Note 5 Pro (whyred)</devicename>
       <filename>Xtended-whyred-20190811-XP9-OFFICIAL-Release-v18.zip</filename>
       <buildtype>Stable</buildtype>
-      <download>https://sourceforge.net/projects/xtended/files/whyred/Xtended-whyred-20190811-XP9-OFFICIAL-Release-v18.zip/download</download>
+      <download>https://netix.dl.sourceforge.net/project/xtended/whyred/Xtended-whyred-20190811-XP9-OFFICIAL-Release-v18.zip</download>
       <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/whyred_changelog.txt</changelog>
       <recovery>Use any Pie Supported Recovery</recovery>
       <gapps>https://OpenGapps.org</gapps>
       <forum>https://forum.xda-developers.com/redmi-note-5-pro/development/stable-msm-xtended-xp4-release-v9-t3889353</forum>
       <telegram>https://t.me/XtendedOfficial</telegram>
     </whyred>
-
   </manufacturer>
 <!-- MOTOROLA -->
   <manufacturer id="Motorola">
@@ -187,3 +186,4 @@
     </z2_plus>
   </manufacturer>
 </OTA>
+
