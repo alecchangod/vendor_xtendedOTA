@@ -64,6 +64,17 @@
       <forum>https://forum.xda-developers.com/oneplus-2/development/stable-msm-xtended-xp6-release-v13-t3925584</forum>
       <telegram>https://t.me/XtendedOfficial</telegram>
     </oneplus2>
+    <bacon>
+      <maintainer>xawlw</maintainer>
+      <devicename>OnePlus one (bacon)</devicename>
+      <filename>Xtended-bacon-20190812-XP9-OFFICIAL-Release-v18.zip</filename>
+      <buildtype>Stable</buildtype>
+      <download>https://sourceforge.net/projects/xtended/files/bacon/Xtended-bacon-20190812-XP9-OFFICIAL-Release-v18.zip/download</download>
+      <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/bacon_changelog.txt</changelog>
+      <gapps>https://OpenGapps.org</gapps>
+      <forum>https://forum.xda-developers.com/oneplus-one/development/stable-msm-xtended-xp7-release-v14-t3929224</forum>
+      <telegram>https://t.me/XtendedOfficial</telegram>
+    </bacon>
   </manufacturer>
   <!-- XIAOMI -->
   <manufacturer id="Xiaomi"> 
