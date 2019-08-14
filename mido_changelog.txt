@@ -1,213 +1,257 @@
 ====================
-     2019-04-11    
-====================
-
- * packages/apps/Launcher3
-37d7eea  Launcher3: Improve label hide logic  [neobuddy89]
-2707fae  Launcher3: Fix NPE in PagedView  [Pranav Vashi]
-c656427  Launcher3: Switch to actual compiled library for SystemUI  [neobuddy89]
-b09d844  Launcher3: Add missing permission for flashlight gesture  [neobuddy89]
-e1c6808  Launcher3: Add permission to allow updating database  [neobuddy89]
-b69aa6d  Change some defaults  [SuperDroidBond]
-
- * packages/apps/Messaging
-cd92f2c  Merge pull request #2 from prometheusXderpgang/xp  [SuperDroidBond]
-
-====================
-     2019-04-10    
-====================
-
- * packages/apps/Messaging
-d84c7e4  Adapt Mark as Read for Xtended  [prometheusXderpgang]
-828ff84  Messaging: Add "Mark as read" quick action for message notifications  [Paul Keith]
-
-====================
-     2019-04-09    
-====================
-
- * manifest
-0e8f543  Fix sync error  [SuperDroidBond]
-
-====================
-     2019-04-08    
+     2019-08-13    
 ====================
 
 ====================
-     2019-04-07    
+     2019-08-12    
 ====================
 
- * manifest
-35a3a1f  Update Thread_Template.txt  [Mukesh Singh]
-1aaa324  Track our vendor qcom opensource interfaces  [Mukesh Singh]
-
- * packages/apps/Launcher3
-b9e8df4  QSB: inherit all apps background on Google search bar  [ElDainosor]
-848fae2  Option to hide/show quicksearchbar  [Gábor Vass]
-b99a3df  add search provider option (Google, Bing, DuckDuckGo)  [hundeva]
-
- * vendor/qcom/opensource/interfaces
-41ffc7f  display: include config/1.1  [codeworkx]
-9e95f73  qcom/interfaces: Remove android.hidl.base from display 1.1 too  [Rashed Abdel-Tawab]
-67be90e  display: Link to 1.0's vendor library  [Pullakavi Srinivas]
-65f812b  display: Add API to set display animation  [Naseer Ahmed]
-44465bc  qcom/interfaces: -static java libraries don't exist anymore  [Rashed Abdel-Tawab]
-7af3276  Remove redundant dependencies  [Steven Moreland]
+ * packages/apps/DevicesOTA
+86b47df  ota: drop markw  [Anish Pratheepan]
+902f66f  Fix the OTA Blunder  [SuperDroidBond]
+c029d94  bacon: August update (#3)  [xawlw]
+79ca776  Merge pull request #2 from riteshm321/xp  [Mukesh Singh]
+1dd69eb  Whyred Changelogs xp9 v18  [Ritzz]
+4220be8  OTA for whyred  [Ritzz]
 
  * vendor/xtended
-1e8d706  Call it XP6 & v13  [SuperDroidBond]
+b14e567  drop markw  [Anish Pratheepan]
+9c73972  Revert "apn: update APNs"  [mukesh22584]
+cad105a  Revert "vendor: Dynamically add custom APNs"  [mukesh22584]
 
 ====================
-     2019-04-06    
+     2019-08-11    
 ====================
 
- * packages/apps/Launcher3
-a531e39  Xtend the commit of @ezio84 and make separate settings for all apps grid layout  [SuperDroidBond]
-7b82a78  Make app drawer more transparent  [SuperDroidBond]
-1f2c063  Launcher3: add theme style switch  [maxwen]
+ * manifest
+9226d56  manifest: add Xtended-Devices  [Anish Pratheepan]
+
+ * packages/apps/DevicesOTA
+0d4398d  op3: update for XP9 Release v18  [SuperDroidBond]
+60cb906  XP9-v18: update potter  [Anish Pratheepan]
+7916b85  ota (#1)  [abhijiths0098]
+
+ * vendor/xtended
+a6dcdb7  Update roomservice.py  [Mukesh Singh]
+819a18a  PoorManThemes: Messages: fix conversation list select menu icons color  [Vachounet]
+b073bcb  omni: PoorManThemes: Fix color item on dialer for light theme  [micky387]
+f8c9775  Fix the SmartCharging permissions  [SuperDroidBond]
 
 ====================
-     2019-04-05    
+     2019-08-10    
 ====================
 
- * packages/apps/Launcher3
-325cc66  Launcher3: decouple colors from system  [maxwen]
-
 ====================
-     2019-04-04    
+     2019-08-09    
 ====================
 
  * frameworks/base
-1a26fa1  Add Action Utils from DU for Launcher3 Package Gesture  [Alex Cruz]
-f73ecb7  RecentsIconPack: Fallback to default icons on icon pack removal  [Giuseppe Maggio]
+0f8eb26  Introduce FontTile  [bigrushdog]
+77c46b7  Allow QS detail view to scroll  [Roman Birg]
+8248044  Add QSDetailItems  [Danesh M]
+1091cfa  Bluetooth: Unregister BLE APPs when mBluetoothGatt valid only  [Venkata Jagadeesh Garaga]
+1e004e9  PM: Stop recording unsupported class loaders  [Alan Stokes]
+7e27d1d  Fix ShortcutService handling of locale change during device setup  [peter.zhang]
+391977d  jni: Fix improper call to createFromExisting()  [Wang Han]
+4e132cc  Fix bugs regarding system app cannot write visible path  [sangho.yoon]
+85cc45b  QS: Add advanced location tile options  [Joey]
+7f282bd  Revert "QS: LocationTile: make it cycle modes"  [mukesh22584]
+c86f89d  Reduce the bottom margin for Ambient Notifications  [SuperDroidBond]
+1212af1  SystemUI: Ensure battery estimates update on callback  [Chris Crump]
+8b01f49  [1/2] Op gestures: add swipe start height setting  [Marko Man]
+86d1a51  OP like gestures: more tweaks [1/2]  [DennySPB]
+2bd1cb3  [OP Gestures] Enable gestures on the keyguard as well  [Dil3mm4]
+ae62ccc  SwipeToScreenshot: Import MIUI implementation  [Henrique Silva]
 
- * packages/apps/Launcher3
-ede7150  Launcher3: Adapt for Xtended  [SuperDroidBond]
+ * packages/apps/Settings
+e95a183  Reduce searchbar usericon size more  [SuperDroidBond]
+
+ * packages/apps/Xtensions
+b740d81  Op gestures: add swipe start height setting [2/2]  [Marko Man]
+8c75e35  OP like gestures: more tweaks [2/2]  [DennySPB]
+
+ * vendor/xtended
+8f76a0b  Not All Accent Can Have Gradient  [SuperDroidBond]
 
 ====================
-     2019-04-03    
+     2019-08-08    
+====================
+
+====================
+     2019-08-07    
 ====================
 
  * build/make
-dd512c6  Merge tag 'android-9.0.0_r35'  [mukesh22584]
+c25cf4f  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
+
+ * external/sqlite
+82bfb85  sqlite: upgrade to SQLite 3.29.0  [mydongistiny]
+3bef45c  sqlite: upgrade to SQLite 3.28.0  [mydongistiny]
+5e772db  sqlite: upgrade to SQLite 3.27.2  [mydongistiny]
+f0db81b  sqlite: upgrade to SQLite 3.27.1  [mydongistiny]
+9bc512c  sqlite: upgrade to SQLite 3.27.0  [mydongistiny]
+de0f9f2  sqlite: Remove useless function of tokenize  [Jinguang Dong]
+5f5a7a7  Fix parameter checking logic error in tokenize  [Jinguang Dong]
+38099bd  sqlite: upgrade to SQLite 3.26.0  [mydongistiny]
+da50fdc  sqlite: upgrade to SQLite 3.25.3  [mydongistiny]
+9fa6ee6  sqlite: upgrade to SQLite 3.25.2  [mydongistiny]
+1223006  Reduce sync safety levels from 3 to 1  [Dave Kessler]
+23ad679  remove nnk from OWNERS  [Nick Kralevich]
+
+ * frameworks/av
+2fac39d  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
 
  * frameworks/base
-aad0389  Support per-app icon and label customization [2/2]  [Anas Karbila]
-bd67860  Custom Icons handler: add launcher icon cache support  [ezio84]
-d3f1c23  Stock Recents/Overview icon pack support [2/3]  [ezio84]
-
- * manifest
-59e813e  Merge branch 'android-9.0.0_r35'  [Mukesh Singh]
-
-====================
-     2019-04-02    
-====================
-
- * frameworks/base
-0e1fc43  Merge tag 'android-9.0.0_r35'  [mukesh22584]
-4a42d37  Adaptive icon system-wide setting [1/3]  [SpiritCroc]
-bfbf5a2  PhoneWindowManager: Allow torch during ambient display  [ezio84]
-568f0f4  Quick settings panel : Set transparency [1/2]  [Nico60]
-
- * packages/apps/Bluetooth
-d9d590c  Merge tag 'android-9.0.0_r35' into HEAD  [mukesh22584]
-
- * packages/apps/Settings
-78b983f  We want About Phone to be Last in List  [SuperDroidBond]
-
- * packages/apps/Xtensions
-e66dc79  Quick settings panel : Set transparency [2/2]  [Nico60]
-e065634  Adaptive icon system-wide setting [2/3]  [SpiritCroc]
-9697ca6  Add SystemPropListPreference  [SpiritCroc]
-
- * system/bt
-8acc5fe  Merge tag 'android-9.0.0_r35' into HEAD  [mukesh22584]
-
- * system/core
-2b48ae0  Filter out QTI performance spam  [DennySPB]
-a668091  Shut up camera and wcnss debug output  [faust93]
-6f192a4  Filter GalleryDatab*  [Simao Gomes Viana]
-b191441  healthd: make periodic battery status a debug message  [Stefan Assmann]
-
- * system/sepolicy
-a748d48  sepolicy: Adaptive icon system-wide-setting [3/3]  [SpiritCroc]
-
-====================
-     2019-04-01    
-====================
-
- * frameworks/base
-d5eea90  telephony: Conditionally ignore RSSNR signal level  [Chris]
-6f42267  Telephony: Stop using rssnr, it falsly shows wrong signal bars  [phhusson]
-9f41eab  Revert "Improve a calculation method for LTE antenna reception level"  [DennySPB]
-66cc784  Revert "Ignore RSSNR in LTE signal strength calculation [1/2]"  [DennySPB]
-3afca7e  OP gestures: fix APP switch triggering  [DennySPB]
-d82c1a2  UserManagerService: Use ro.build.date to signal upgrades  [Sam Mortimer]
-4d9b5a8  Core: Use ro.build.date to signal mIsUpgrade  [dhacker29]
-5b05596  Show mobile icons with left-to-right in order of slot index  [Yong Shi]
-23954b4  Revert "SystemUI: Sort subscriptions in reversed order"  [Pranav Vashi]
-07646a5  Revert "base: SystemUI: tuner: fix reorder of mobile slots"  [Pranav Vashi]
-74e636a  Fix the QSHeader Accent without header images  [SuperDroidBond]
-
-====================
-     2019-03-31    
-====================
-
- * frameworks/base
-fd0c15f  SystemUI: Fix multiuser icon glitch in QS footer  [Anushek Prasal]
-acf047a  base: QS header improvements  [Anushek Prasal]
+9909189  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
+b31107f  base: add Bootleg's Date Styles [1/2]  [ElDainosor]
+fbcede5  base: add Q beta pill background [1/2]  [ElDainosor]
+7ad0d29  Powermenu Background filter [1/2]  [AnkitGourav]
+b5018a9  Introduce lockscreen date styles [1/2]  [Alex]
 
  * frameworks/native
-35b7bbd  Respect source crop when capturing layers.  [Alec Mouri]
-d4f0c70  libgui: add docs to geometry states and captureScreen  [Chia-I Wu]
-0d7d14a  surfaceflinger: fix captureScreen for landscape LCM  [Chia-I Wu]
-ad051dc  surfaceflinger: improve RenderArea needsFiltering  [Chia-I Wu]
-e657575  surfaceflinger: respect install orientation in DisplayRenderArea  [Chia-I Wu]
-519ae94  surfaceflinger: add install orientation to DisplayDevice  [Chia-I Wu]
-5a6b2ee  surfaceflinger: make mPrimaryDisplayOrientation static  [Chia-I Wu]
-64e8a9c  surfaceflinger: clean up captureScreen  [Chia-I Wu]
-f4b6fff  surfaceflinger: silence some RenderArea errors  [Chia-I Wu]
-a74adfe  surfaceflinger: fix race conditions in captureScreen  [Chia-I Wu]
-efc6f6f  surfaceflinger: remove ISurfaceComposer.h from RenderArea  [Chia-I Wu]
-58668bf  surfaceflinger: reorder width and height in RenderArea ctor  [Chia-I Wu]
-03d9e9f  surfaceflinger: documents RenderArea  [Chia-I Wu]
-f3aefed  opengl: Disable sdclang for EGL and OpenGLES  [Adithya R]
-b8fc34f  libgui: Fix copyback dirty region  [Ch Ganesh Kumar]
-0fb806a  libbinder: auto-choose between binder/vndbinder  [Steven Moreland]
-86de620  binder: Remove thread shutdown logic  [Steven Moreland]
-18ec2c1  Remove more "template" keywords from non templated calls  [Stephen Hines]
-fe6f40a  Cleanup previous replacing NULL with nullptr  [Yi Kong]
-92a1f5b  binder: Replace NULL/0 with nullptr  [Yi Kong]
-fdb2064  Modernize codebase by replacing NULL with nullptr  [Yi Kong]
-4fbffb8  Modernize codebase by replacing NULL with nullptr  [Yi Kong]
-063cec7  binder: Release tracking lock before invoking binder_proxy_limit_callback  [wangmingming1]
+d91ffd0  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
 
- * packages/apps/Dialer
-b364f27  Make proxi sensor smart-case friendly  [DennySPB]
-5f6e355  Fix incorrect proximity sensor behaviour  [DennySPB]
+ * packages/apps/Bluetooth
+8576701  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
+
+ * packages/apps/Settings
+a69b89c  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
+
+ * packages/apps/Xtensions
+062d8fc  add Bootleg's Date styles [2/2]  [ElDainosor]
+2819476  Date styles: add Q beta pill [2/2]  [ElDainosor]
+f4f4d94  Lockscreen date styles [2/2]  [Alex]
+905e4df  Powermenu background filter [2/2]  [AnkitGourav]
+ad8ef98  Accent Tinted and blurred filter for media coverart [2/2]  [AnkitGourav]
+
+ * packages/services/OmniJaws
+2464987  OmniJaws: Bye bye Yahoo - it was fun with you  [maxwen]
+
+ * vendor/nxp/opensource/commonsys/packages/apps/Nfc
+6d96848  Prevent OOB Read in Mfc_Transceive  [George Chang]
+597f5c6  Prevent OOB write in Mfc_Transceive  [George Chang]
+a36d991  Prevent OOB write in phFriNfc_ExtnsTransceive  [George Chang]
+524414f  Skip setEnableHostRouting when switching to screen off  [George Chang]
 
  * vendor/xtended
-c946e9a  Update APN's (March 2019 Pixel 3XL factory image)  [Josh Chasky]
-49783b4  vendor: Add Champagne Limousines font  [soybi]
-9111fd2  vendor: Add Nunito font  [Alex Cruz]
+c81b031  Upgrade the version to XP9-v18  [SuperDroidBond]
+ffdf8b6  vendor: Dynamically add custom APNs  [Rashed Abdel-Tawab]
+3a6c718  apn: update APNs  [mukesh22584]
+05b6681  updated Lawnchair to alpha-2357  [mukesh22584]
 
 ====================
-     2019-03-30    
+     2019-08-06    
 ====================
+ * art
+d52091f  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
+
+ * frameworks/av
+a4ce9dd  media: Add support for up to level 6.2 for AVC  [Vaibhav Deshu Venkatesh]
+77551a7  Camera: Consider the currently acquired input buffers  [Emilian Peev]
+7eeb176  Do not select direct output for same profile  [caixuejiang]
+99cb0c9  Set default value to mAttributes in AudioTrack  [Ippei Murata]
+aa80410  Camera: consider all cameras in flash light control  [Yin-Chia Yeh]
+14120fd  Camera: extend getBuffer wait timeout  [Yin-Chia Yeh]
+ac5ccdb  Camera3: Handle stream format override for shared output stream  [Shuzhen Wang]
+8b9ccc4  Camera: Use physical camera's capability for physical stream check  [Shuzhen Wang]
 
  * frameworks/base
-a00c0fb  base: Fix partial screenshot  [Anushek Prasal]
-b979475  Ambient: do not extend pulse notification when not needed  [Giuseppe Maggio]
-4463eed  Ambient music ticker: fix text scrolling on AoD  [ezio84]
-b448ead  Ambient music ticker: fix text scrolling glitches  [ezio84]
-fff20b2  Improve ambient play layout on keyguard  [Henrique Silva]
+89a921c  Accent Tinted and blurred filter for media coverart [1/2]  [Ankit-Gourav]
+f9710ef  wifi(settingslib): Update passpoint config to accessPoint  [Hu Wang]
+c45fc64  BoostFramework: Send PID if process is already existing in BG.  [Sai Manobhiram]
+bd3d87a  SmartCharging: add reset battery stats option [1/2]  [DennySPB]
+83cdeaa  SmartCharging: allow user set resume level [1/2]  [DennySPB]
+ed41a98  Fix NPE in destroyUiAutomationService function  [hangl]
+e5dc553  wifi: Filter unsupported networks from scan results  [Veerendranath Jakkam]
+abf04a7  Wifi: Connect indication on UI for STA when AP supports SAE+PSK  [Anurag Das]
+62b8b3f  Wifi: Update accesspoint to cater to add network option from GUI  [Anurag Das]
+0d23b50  Wifi: Check for SAE/OWE AKM prior to PSK  [Anurag Das]
+5fc03c7  Stop using deprecated Canvas APIs.  [Derek Sollenberger]
+99f630f  Remove isBandwidthControlEnabled.  [Lorenzo Colitti]
+8a3764d  SystemUI: Fix SystemUI failed to go to doze issue  [Weijie Wang]
+c9b5096  idle-maint: provide a way to run GC more aggressively  [Jaegeuk Kim]
+c0d13d2  BT: Adding aptX-Adaptive codec entry to Framework  [Gurpreet Ghai]
+dee7f2b  Fix sim pin on DSDS  [Jordan Liu]
+d965987  Dismiss SIM lock page after correct SIM  [Jordan Liu]
+c339462  When data switches during voice call, make sure signal bar updates it.  [Malcolm Chen]
+8988c7e  Stop USB Debugging authorization window dismissing on tap outside.  [Tobias Thierer]
+6d33741  Update navigation bar upon change of display density  [rleix]
+452bf47  Unable to input PIN with hardware keyboard  [Wang, ArvinX]
+e0d801c  Fix to register the receiver for all users  [Kyeongkab.Nam]
+8413c60  Remove unnecessary right padding from time picker  [Tetsutoki Shiozawa]
+8420827  MediaCodecInfo: Add support for level 6.2  [Vaibhav Deshu Venkatesh]
+d806b1b  frameworks/base: Avoid recording negative data  [Pavan Kumar M]
+6b01c3a  Use the boot class loader as parent of system server loader  [Nicolas Geoffray]
+e503710  Remove uses of libcore.io DropBox and EventLogger  [Paul Duffin]
+f7acd42  Move DexLoadReporter setup before AppComponentFactory calls  [David Brazdil]
+000aeee  Fix NullPointerException in ConnectivityService  [soma, kawata]
+3b205ca  Optimize the font cache size according to display resolution  [Libo Jin]
+f5692ab  Fix handlelr thread block while switching bluetooth  [Kou Lei]
 
- * prebuilts/clang/host/linux-x86
-89b7e7d  Update prebuilt Clang to r353983b.  [Yi Kong]
+ * frameworks/native
+4a9e178  media: Add support for level 6-6.2 for AVC  [Vaibhav Deshu Venkatesh]
+
+ * manifest
+d0a9c60  track vendor_qcom_opensource_audio from xtended  [ultranoob-5]
+abb434d  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
+
+ * packages/apps/Bluetooth
+d54892e  Fix null pointer exception on AvrcpTargetService  [slki.shin]
+e71bff1  Bluetooth:add missing permission  [kldoc]
+
+ * packages/apps/Nfc
+7fab21a  Merge tag 'android-9.0.0_r46' into staging/lineage-16.0_merge-android-9.0.0_r46  [Kevin F. Haggerty]
+
+ * packages/apps/Settings
+47b727b  Stop calling isBandwidthControlEnabled.  [Lorenzo Colitti]
+9ff6d25  SmartCharging: add reset battery stats option [2/2]  [DennySPB]
+660d2c2  SmartCharging: allow user set resume level [2/2]  [DennySPB]
+
+ * packages/services/Telecomm
+a86d7c1  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
+
+ * packages/services/Telephony
+0d4ca06  Fix resource warnings.  [Youming Ye]
+
+ * system/bt
+6423170  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
+
+ * vendor/qcom/opensource/audio
+ac4f79d  policy_hal: Adapt to AudioMix API changes in f/av audiopolicy  [Kevin F. Haggerty]
 
 ====================
-     2019-03-29    
+     2019-08-05    
 ====================
 
- * frameworks/base
-050198d  Animate visibility change for Keyguard Inidication Area  [Shreyansh Lodha]
+====================
+     2019-08-04    
+====================
+
+ * hardware/qcom/fm
+2cf84a8  Automatic translation import  [Michael Bestas]
+
+====================
+     2019-08-03    
+====================
+
+ * manifest
+1105c73  Updated thread template  [Mukesh Singh]
+
+====================
+     2019-08-02    
+====================
+
+====================
+     2019-08-01    
+====================
+
+====================
+     2019-07-31    
+====================
+
+ * hardware/qcom/audio-caf/msm8960
+b49d4dc  hal: Add support for voice calls on Fusion3 platforms  [Arne Coucheron]
+d50691c  audio-hw: Restrict voice_start_usecase only for 1 call at a time  [Chandramouli Karthik]
+b89a37d  hal: Fix no audio during voice call with voip in background  [kunleiz]
+ab35348  hal: fix no sound issue in voice call  [kunleiz]
 
