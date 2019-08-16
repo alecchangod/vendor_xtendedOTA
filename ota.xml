@@ -23,7 +23,7 @@
       <buildtype>Stable</buildtype>
       <paypal>https://www.paypal.me/superdroidbond</paypal>
       <download>https://netix.dl.sourceforge.net/project/xtended/oneplus3/Xtended-oneplus3-20190811-XP9-OFFICIAL-Release-v18.zip</download>
-      <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/oneplus3_changelog.txt</changelog>
+      <changelog>https://raw.githubusercontent.com/Project-Xtended/vendor_xtended_DevicesOTA/xp/oneplus3_changelog.txt</changelog>
       <recovery>https://drive.google.com/open?id=1sF5RyYECDPg-5hbFjN03OSh50-dh4cMl</recovery>
       <gapps>https://OpenGapps.org</gapps>
       <forum>https://forum.xda-developers.com/oneplus-3/oneplus-3--3t-cross-device-development/cardinal-aosp-5-0-android-8-0-pre-t3693585</forum>
@@ -36,7 +36,7 @@
       <buildtype>Stable</buildtype>
       <paypal>https://www.paypal.me/mukesh22584</paypal>
       <download>https://netix.dl.sourceforge.net/project/xtended/dumpling/Xtended-dumpling-20190616-XP7-OFFICIAL-Release-v15.2.zip</download>
-      <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/dumpling_changelog.txt</changelog>
+      <changelog>https://raw.githubusercontent.com/Project-Xtended/vendor_xtended_DevicesOTA/xp/dumpling_changelog.txt</changelog>
       <gapps>https://OpenGapps.org</gapps>
       <forum>https://forum.xda-developers.com/oneplus-5t/development/msm-xtended-oreoandroid-8-1-t3754938</forum>
       <telegram>https://t.me/XtendedOfficial</telegram>
@@ -48,7 +48,7 @@
       <buildtype>Stable</buildtype>
       <paypal>https://www.paypal.me/mukesh22584</paypal>
       <download>https://netix.dl.sourceforge.net/project/xtended/cheeseburger/Xtended-cheeseburger-20190616-XP7-OFFICIAL-Release-v15.2.zip</download>
-      <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/cheeseburger_changelog.txt</changelog>
+      <changelog>https://raw.githubusercontent.com/Project-Xtended/vendor_xtended_DevicesOTA/xp/cheeseburger_changelog.txt</changelog>
       <gapps>https://OpenGapps.org</gapps>
       <forum>https://forum.xda-developers.com/oneplus-5/development/stable-msm-xtended-t3761012</forum>
       <telegram>https://t.me/XtendedOfficial</telegram>
@@ -59,7 +59,7 @@
       <filename>Xtended-oneplus2-20190722-XP8-OFFICIAL-Release-v16.zip</filename>
       <buildtype>Stable</buildtype>
       <download>https://netix.dl.sourceforge.net/project/xtended/oneplus2/Xtended-oneplus2-20190722-XP8-OFFICIAL-Release-v16.zip</download>
-      <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/oneplus2_changelog.txt</changelog>
+      <changelog>https://raw.githubusercontent.com/Project-Xtended/vendor_xtended_DevicesOTA/xp/oneplus2_changelog.txt</changelog>
       <gapps>https://OpenGapps.org</gapps>
       <forum>https://forum.xda-developers.com/oneplus-2/development/stable-msm-xtended-xp6-release-v13-t3925584</forum>
       <telegram>https://t.me/XtendedOfficial</telegram>
@@ -70,7 +70,7 @@
       <filename>Xtended-bacon-20190812-XP9-OFFICIAL-Release-v18.zip</filename>
       <buildtype>Stable</buildtype>
       <download>https://netix.dl.sourceforge.net/project/xtended/bacon/Xtended-bacon-20190812-XP9-OFFICIAL-Release-v18.zip</download>
-      <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/bacon_changelog.txt</changelog>
+      <changelog>https://raw.githubusercontent.com/Project-Xtended/vendor_xtended_DevicesOTA/xp/bacon_changelog.txt</changelog>
       <gapps>https://OpenGapps.org</gapps>
       <forum>https://forum.xda-developers.com/oneplus-one/development/stable-msm-xtended-xp7-release-v14-t3929224</forum>
       <telegram>https://t.me/XtendedOfficial</telegram>
@@ -85,10 +85,10 @@
       <buildtype>Stable</buildtype>
       <paypal>https://www.paypal.me/Ankan117</paypal>
       <download>https://netix.dl.sourceforge.net/project/xtended/rolex/Xtended-rolex-20181226-XP4-OFFICIAL-Release-v8.5.zip</download>
-      <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/rolex_changelog.txt</changelog>
+      <changelog>https://raw.githubusercontent.com/Project-Xtended/vendor_xtended_DevicesOTA/xp/rolex_changelog.txt</changelog>
       <recovery>https://sourceforge.net/projects/batik-recovery/files/rolex/BR-rolex-S-1.4-20181010-0716-OFFICIAL.zip</recovery>
       <gapps>https://OpenGapps.org</gapps>
-      <forum>https://forum.xda-developers.com/redmi-4a/development/stable-msm-xtended-pie-firstblood-t3843313</forum>
+      <forum>https://forum.xda-developers.com/redmi-4a/development/stable-msm-Project-Xtended-firstblood-t3843313</forum>
       <telegram>https://t.me/XtendedOfficial</telegram>
     </rolex>
     <mido>
@@ -97,10 +97,10 @@
       <filename>Xtended-mido-20190813-XP9-OFFICIAL-Release-v18.zip</filename>
       <buildtype>Stable</buildtype>
       <download>https://netix.dl.sourceforge.net/project/xtended/mido/Xtended-mido-20190813-XP9-OFFICIAL-Release-v18.zip</download>
-      <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/mido_changelog.txt</changelog>
+      <changelog>https://raw.githubusercontent.com/Project-Xtended/vendor_xtended_DevicesOTA/xp/mido_changelog.txt</changelog>
       <recovery>Use Any Treble Enabled Recovery</recovery>
       <gapps>https://OpenGapps.org</gapps>
-      <forum>https://forum.xda-developers.com/redmi-note-4/xiaomi-redmi-note-4-snapdragon-roms-kernels-recoveries--other-development/official-msm-xtended-pie-9-0-t3846001</forum>
+      <forum>https://forum.xda-developers.com/redmi-note-4/xiaomi-redmi-note-4-snapdragon-roms-kernels-recoveries--other-development/official-msm-Project-Xtended-9-0-t3846001</forum>
       <telegram>https://t.me/XtendedOfficial</telegram>
     </mido>
     <whyred>
@@ -109,7 +109,7 @@
       <filename>Xtended-whyred-20190811-XP9-OFFICIAL-Release-v18.zip</filename>
       <buildtype>Stable</buildtype>
       <download>https://netix.dl.sourceforge.net/project/xtended/whyred/Xtended-whyred-20190811-XP9-OFFICIAL-Release-v18.zip</download>
-      <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/whyred_changelog.txt</changelog>
+      <changelog>https://raw.githubusercontent.com/Project-Xtended/vendor_xtended_DevicesOTA/xp/whyred_changelog.txt</changelog>
       <recovery>Use any Pie Supported Recovery</recovery>
       <gapps>https://OpenGapps.org</gapps>
       <forum>https://forum.xda-developers.com/redmi-note-5-pro/development/stable-msm-xtended-xp4-release-v9-t3889353</forum>
@@ -125,7 +125,7 @@
       <buildtype>Stable</buildtype>
       <paypal>https://www.paypal.me/anishpratheepan</paypal>
       <download>https://netix.dl.sourceforge.net/project/xtended/potter/Xtended-potter-20190811-XP9-OFFICIAL-Release-v18.zip</download>
-      <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/potter_changelog.txt</changelog>
+      <changelog>https://raw.githubusercontent.com/Project-Xtended/vendor_xtended_DevicesOTA/xp/potter_changelog.txt</changelog>
       <gapps>https://OpenGapps.org</gapps>
       <forum>https://forum.xda-developers.com/g5-plus/development/rom-msm-xtended-t3851041</forum>
       <telegram>https://t.me/XtendedOfficial</telegram>			
@@ -137,10 +137,10 @@
       <buildtype>Stable</buildtype>
       <paypal>https://www.paypal.me/superdroidbond</paypal>
       <download>https://netix.dl.sourceforge.net/project/xtended/files/sanders/Xtended-sanders-20190713-XP8-OFFICIAL-Release-v16.zip</download>
-      <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/sanders_changelog.txt</changelog>
+      <changelog>https://raw.githubusercontent.com/Project-Xtended/vendor_xtended_DevicesOTA/xp/sanders_changelog.txt</changelog>
       <recovery>https://drive.google.com/open?id=1Z2WClmjfJ-wep4ds4kdwFUkjQ6Oh-XLx</recovery>
       <gapps>https://OpenGapps.org</gapps>
-      <forum>https://forum.xda-developers.com/moto-g5s-plus/development/rom-msm-xtended-pie-9-0-t3868296</forum>
+      <forum>https://forum.xda-developers.com/moto-g5s-plus/development/rom-msm-Project-Xtended-9-0-t3868296</forum>
       <telegram>https://t.me/XtendedOfficial</telegram>
     </sanders> 
   </manufacturer>
@@ -153,7 +153,7 @@
       <buildtype>Stable</buildtype>
       <paypal>https://www.paypal.me/superdroidbond</paypal>
       <download>https://netix.dl.sourceforge.net/project/xtended/files/MaxPro1-X00TD/Xtended-X00T-20190512-XP7-Official-Release-v14.zip</download>
-      <changelog>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/X00T_changelog.txt</changelog>
+      <changelog>https://raw.githubusercontent.com/Project-Xtended/vendor_xtended_DevicesOTA/xp/X00T_changelog.txt</changelog>
       <gapps>https://OpenGapps.org</gapps>
       <forum>https://forum.xda-developers.com/asus-zenfone-max-pro-m1/development/stable-msm-xtended-xp5-release-v12-t3909795</forum>
       <telegram>https://t.me/XtendedOfficial</telegram>
@@ -168,7 +168,7 @@
       <buildtype>Stable</buildtype>
       <paypal>https://www.paypal.me/superdroidbond</paypal>
       <download>https://netix.dl.sourceforge.net/project/xtended/zuk2/Xtended-z2_plus-20190511-XP7-OFFICIAL-Release-v14.zip</download>
-      <changelog>>https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/z2_plus_changelog.txt</changelog>
+      <changelog>>https://raw.githubusercontent.com/Project-Xtended/vendor_xtended_DevicesOTA/xp/z2_plus_changelog.txt</changelog>
       <gapps>https://OpenGapps.org</gapps>
       <forum>https://forum.xda-developers.com/lenovo-zuk-z2/development/stable-msm-xtended-xp4-release-v8-5-t3882775</forum>
       <telegram>https://t.me/XtendedOfficial</telegram>
