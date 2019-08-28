@@ -1,243 +1,219 @@
 ====================
-     2019-08-11    
+     2019-08-28    
 ====================
 
- * manifest
-9226d56  manifest: add Xtended-Devices  [Anish Pratheepan]
-
- * vendor/xtended
-a6dcdb7  Update roomservice.py  [Mukesh Singh]
-819a18a  PoorManThemes: Messages: fix conversation list select menu icons color  [Vachounet]
-b073bcb  omni: PoorManThemes: Fix color item on dialer for light theme  [micky387]
-f8c9775  Fix the SmartCharging permissions  [SuperDroidBond]
+ * device/xiaomi/whyred
+b641e16  revert to permissive as enforcing does not boot  [Ritzz]
+e0065c6  whyred: board: Switch to kernel-based exfat  [guaiyihu]
+5747c44  fogot the changes:P  [Ritzz]
 
 ====================
-     2019-08-10    
+     2019-08-27    
 ====================
 
 ====================
-     2019-08-09    
-====================
-
- * frameworks/base
-0f8eb26  Introduce FontTile  [bigrushdog]
-77c46b7  Allow QS detail view to scroll  [Roman Birg]
-8248044  Add QSDetailItems  [Danesh M]
-1091cfa  Bluetooth: Unregister BLE APPs when mBluetoothGatt valid only  [Venkata Jagadeesh Garaga]
-1e004e9  PM: Stop recording unsupported class loaders  [Alan Stokes]
-7e27d1d  Fix ShortcutService handling of locale change during device setup  [peter.zhang]
-391977d  jni: Fix improper call to createFromExisting()  [Wang Han]
-4e132cc  Fix bugs regarding system app cannot write visible path  [sangho.yoon]
-85cc45b  QS: Add advanced location tile options  [Joey]
-7f282bd  Revert "QS: LocationTile: make it cycle modes"  [mukesh22584]
-c86f89d  Reduce the bottom margin for Ambient Notifications  [SuperDroidBond]
-1212af1  SystemUI: Ensure battery estimates update on callback  [Chris Crump]
-8b01f49  [1/2] Op gestures: add swipe start height setting  [Marko Man]
-86d1a51  OP like gestures: more tweaks [1/2]  [DennySPB]
-2bd1cb3  [OP Gestures] Enable gestures on the keyguard as well  [Dil3mm4]
-ae62ccc  SwipeToScreenshot: Import MIUI implementation  [Henrique Silva]
-
- * packages/apps/Settings
-e95a183  Reduce searchbar usericon size more  [SuperDroidBond]
-
- * packages/apps/Xtensions
-b740d81  Op gestures: add swipe start height setting [2/2]  [Marko Man]
-8c75e35  OP like gestures: more tweaks [2/2]  [DennySPB]
-
- * vendor/xtended
-8f76a0b  Not All Accent Can Have Gradient  [SuperDroidBond]
-
-====================
-     2019-08-08    
+     2019-08-26    
 ====================
 
 ====================
-     2019-08-07    
+     2019-08-25    
 ====================
 
- * build/make
-c25cf4f  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
+ * device/xiaomi/whyred
+ecbae8f  xtendedify  [Ritzz]
+f62e822  xtendify  [Ritzz]
+59b68af  device.mk: Build qti from sauce  [AyanC1]
+e17386b  Fix Volte for us  [asad]
+8082f36  whyred fixes for hotspot  [Ritzz]
+ede258c  Import hostapd configs and move_wifi_data script from OB12  [DennySPB]
 
- * external/sqlite
-82bfb85  sqlite: upgrade to SQLite 3.29.0  [mydongistiny]
-3bef45c  sqlite: upgrade to SQLite 3.28.0  [mydongistiny]
-5e772db  sqlite: upgrade to SQLite 3.27.2  [mydongistiny]
-f0db81b  sqlite: upgrade to SQLite 3.27.1  [mydongistiny]
-9bc512c  sqlite: upgrade to SQLite 3.27.0  [mydongistiny]
-de0f9f2  sqlite: Remove useless function of tokenize  [Jinguang Dong]
-5f5a7a7  Fix parameter checking logic error in tokenize  [Jinguang Dong]
-38099bd  sqlite: upgrade to SQLite 3.26.0  [mydongistiny]
-da50fdc  sqlite: upgrade to SQLite 3.25.3  [mydongistiny]
-9fa6ee6  sqlite: upgrade to SQLite 3.25.2  [mydongistiny]
-1223006  Reduce sync safety levels from 3 to 1  [Dave Kessler]
-23ad679  remove nnk from OWNERS  [Nick Kralevich]
+ * device/xtended/sepolicy
+adedc1b  sepolicy: Add hal_lineage_fod domain  [LuK1337]
+602e99b  sepolicy: Add hal_lineage_camera_motor domain  [Łukasz Patron]
+6e71d7a  Add sepolicy for edge gesture service  [Pranav Vashi]
+57a8db8  Remove LiveDisplay Policy  [SuperDroidBond]
+3b7602c  sepolicy: Smart Charging (3/4)  [Lucchetto]
 
  * frameworks/av
-2fac39d  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
+fd1a928  av: camera: catch mad hals that mess up buffer time  [maxwen]
+2cb1a1d  CameraService: Support hooks for motorized camera  [Peter Cai]
 
  * frameworks/base
-9909189  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
-b31107f  base: add Bootleg's Date Styles [1/2]  [ElDainosor]
-fbcede5  base: add Q beta pill background [1/2]  [ElDainosor]
-7ad0d29  Powermenu Background filter [1/2]  [AnkitGourav]
-b5018a9  Introduce lockscreen date styles [1/2]  [Alex]
-89a921c  Accent Tinted and blurred filter for media coverart [1/2]  [Ankit-Gourav]
+4d6647e  FODCircleView: Fix position if cutout is hidden  [jhenrique09]
+ea78855  SystemUI: Update keyguard indication margin when fod is in use  [Chris Crump]
+1420a4c  Initial support for in-display fingerprint sensors  [Peter Cai]
 
- * frameworks/native
-d91ffd0  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
+ * frameworks/opt/net/wifi
+d3231ba  Wifi: Add support for wpa3(dpp,sae,owe,suiteB) network  [Anurag Das]
+c9bdeb0  Wifi: Add support to configure HLP, DHCP and manageIpClient for FILS N/W  [Ajit Vaishya]
+aa4c079  Wifi: Introduce client interface for vendor supplicant 2.0  [Ajit Vaishya]
+f72c89c  Re-add WPS implementation (3/3)  [Lyudmila17]
 
- * packages/apps/Bluetooth
-8576701  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
+ * hardware/interfaces
+e7587ab  init Xtended  [SuperDroidBond]
 
- * packages/apps/Settings
-a69b89c  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
+ * hardware/xtended/interfaces
+798fd09  fix Vendor Flag  [SuperDroidBond]
+9dc4c27  IFingerprintInscreen: Allow HALs to control position and size  [Peter Cai]
+61daaa3  IFingerprintInscreen: Allow HALs to provide finger up/down callback  [LuK1337]
+ee0a315  IFingerprintInscreen: Allow HALs to control dimming  [Peter Cai]
+cb0987b  Introduce in-screen fingerprint scanner HAL  [Peter Cai]
+2f002f9  introduce camera motor hal  [Peter Cai]
 
- * packages/apps/Xtensions
-062d8fc  add Bootleg's Date styles [2/2]  [ElDainosor]
-2819476  Date styles: add Q beta pill [2/2]  [ElDainosor]
-f4f4d94  Lockscreen date styles [2/2]  [Alex]
-905e4df  Powermenu background filter [2/2]  [AnkitGourav]
-ad8ef98  Accent Tinted and blurred filter for media coverart [2/2]  [AnkitGourav]
+ * system/core
+5fbf42e  fs_mgr: Add MF_WRAPPEDKEY flag  [Shivaprasad Hongal]
 
- * packages/services/OmniJaws
-2464987  OmniJaws: Bye bye Yahoo - it was fun with you  [maxwen]
+ * system/vold
+ad9cf87  Init Xtended  [SuperDroidBond]
+
+ * vendor/xtended
+400b65b  vendor: Add vendor.lineage.biometrics.fingerprint.inscreen permission  [LuK1337]
+8cf2812  vendor: qcom: Set proper CAF data-ipa-cfg-mgr pathmap  [Michael Bestas]
+ef4e932  vendor: qcom: Set data-ipa-cfg-mgr pathmap  [Ethan Chen]
+4907468  vendor: Add sysfs permissions for pocket bridge  [Chris Lahaye]
+
+====================
+     2019-08-24    
+====================
+
+ * frameworks/base
+39c9b91  SystemUI: Add default data sub switcher in CellularTile  [chengzhi.hou]
+006c29f  [FORWARDPORT]telephony: Hack GSM and LTE signal strength  [Sultan Alsawaf]
+5623fee  Ticker: fix alightment in statusbar  [Josh Fox (XlxFoXxlX)]
+
+ * frameworks/opt/telephony
+2c5ecf6  telephony: Query LTE thresholds from CarrierConfig  [Artem Borisov]
+e3b858b  telephony: Squashed support of dynamic signal strength thresholds  [Paul Keith]
+3634cc0  Implement signal strength hacks used on Huawei devices  [codeworkx]
+
+ * hardware/xtended/interfaces
+26c6846  aw2013: lets not crash service on missing LED  [Dev4Perf]
+84fa4ac  light: aw2013: Mark as shutdown critical  [Steven Moreland]
+cf5bcd5  gzosp/interfaces: Add aw2013 lights HIDL HAL implementation  [Michael Bestas]
+9f3890b  fpc: keep fpc in system-background  [Tim Murray]
+
+====================
+     2019-08-23    
+====================
+
+ * device/xiaomi/whyred
+db4c835  whyred: audio: increase handset speaker volume and some mics  [srfarias]
+
+ * external/skia
+f2561cf  Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/external/skia into HEAD  [mukesh22584]
+
+ * frameworks/opt/telephony
+0a5f014  Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/frameworks/opt/telephony into HEAD  [mukesh22584]
+
+ * packages/providers/MediaProvider
+5483844  Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/packages/providers/MediaProvider into HEAD  [mukesh22584]
 
  * packages/services/Telephony
-0d4ca06  Fix resource warnings.  [Youming Ye]
+abdaaec  Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD  [mukesh22584]
 
- * vendor/nxp/opensource/commonsys/packages/apps/Nfc
-6d96848  Prevent OOB Read in Mfc_Transceive  [George Chang]
-597f5c6  Prevent OOB write in Mfc_Transceive  [George Chang]
-a36d991  Prevent OOB write in phFriNfc_ExtnsTransceive  [George Chang]
-524414f  Skip setEnableHostRouting when switching to screen off  [George Chang]
+ * system/core
+054ff48  merge tag  android-9.0.0_r46 of https://android.googlesource.com/platform/system/core into head  [mukesh22584]
 
  * vendor/xtended
-c81b031  Upgrade the version to XP9-v18  [SuperDroidBond]
-ffdf8b6  vendor: Dynamically add custom APNs  [Rashed Abdel-Tawab]
-3a6c718  apn: update APNs  [mukesh22584]
-05b6681  updated Lawnchair to alpha-2357  [mukesh22584]
+99e4e71  drop markw  [Anish Pratheepan]
+fe9fe51  Revert "apn: update APNs"  [mukesh22584]
+d2ba635  Revert "vendor: Dynamically add custom APNs"  [mukesh22584]
 
 ====================
-     2019-08-06    
+     2019-08-22    
 ====================
- * art
-d52091f  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
+
+====================
+     2019-08-21    
+====================
+
+ * hardware/qcom/display
+4ddd151  Revert "sdm: core: Use upstream DRM_MODE_REFLECT_ defines"  [razorloves]
+
+====================
+     2019-08-20    
+====================
+
+ * device/xiaomi/whyred
+02e2f93  whyred: Drop the creation of deprecated system_data folders  [Bruno Martins]
+42d0c4b  whyred: Don't ship libbtnv.so  [Wang Han]
+79dd0fc  whyred: import blobs from nhappy patch  [srfarias]
+3d27098  whyred: audio: don't override these ACDB ids  [srfarias]
 
  * frameworks/av
-a4ce9dd  media: Add support for up to level 6.2 for AVC  [Vaibhav Deshu Venkatesh]
-77551a7  Camera: Consider the currently acquired input buffers  [Emilian Peev]
-7eeb176  Do not select direct output for same profile  [caixuejiang]
-99cb0c9  Set default value to mAttributes in AudioTrack  [Ippei Murata]
-aa80410  Camera: consider all cameras in flash light control  [Yin-Chia Yeh]
-14120fd  Camera: extend getBuffer wait timeout  [Yin-Chia Yeh]
-ac5ccdb  Camera3: Handle stream format override for shared output stream  [Shuzhen Wang]
-8b9ccc4  Camera: Use physical camera's capability for physical stream check  [Shuzhen Wang]
+2ce0b3c  MediaProfiles: Enhance profiles for extended usecases  [Praveen Chavan]
+e38ba9c  libstagefright: compilation fix  [Arusha Goyal]
+c0236ed  libcameraservice: Don't pass NULL args on setCallbacks call  [irii]
 
  * frameworks/base
-f9710ef  wifi(settingslib): Update passpoint config to accessPoint  [Hu Wang]
-c45fc64  BoostFramework: Send PID if process is already existing in BG.  [Sai Manobhiram]
-bd3d87a  SmartCharging: add reset battery stats option [1/2]  [DennySPB]
-83cdeaa  SmartCharging: allow user set resume level [1/2]  [DennySPB]
-ed41a98  Fix NPE in destroyUiAutomationService function  [hangl]
-e5dc553  wifi: Filter unsupported networks from scan results  [Veerendranath Jakkam]
-abf04a7  Wifi: Connect indication on UI for STA when AP supports SAE+PSK  [Anurag Das]
-62b8b3f  Wifi: Update accesspoint to cater to add network option from GUI  [Anurag Das]
-0d23b50  Wifi: Check for SAE/OWE AKM prior to PSK  [Anurag Das]
-5fc03c7  Stop using deprecated Canvas APIs.  [Derek Sollenberger]
-99f630f  Remove isBandwidthControlEnabled.  [Lorenzo Colitti]
-8a3764d  SystemUI: Fix SystemUI failed to go to doze issue  [Weijie Wang]
-c9b5096  idle-maint: provide a way to run GC more aggressively  [Jaegeuk Kim]
-c0d13d2  BT: Adding aptX-Adaptive codec entry to Framework  [Gurpreet Ghai]
-dee7f2b  Fix sim pin on DSDS  [Jordan Liu]
-d965987  Dismiss SIM lock page after correct SIM  [Jordan Liu]
-c339462  When data switches during voice call, make sure signal bar updates it.  [Malcolm Chen]
-8988c7e  Stop USB Debugging authorization window dismissing on tap outside.  [Tobias Thierer]
-6d33741  Update navigation bar upon change of display density  [rleix]
-452bf47  Unable to input PIN with hardware keyboard  [Wang, ArvinX]
-e0d801c  Fix to register the receiver for all users  [Kyeongkab.Nam]
-8413c60  Remove unnecessary right padding from time picker  [Tetsutoki Shiozawa]
-8420827  MediaCodecInfo: Add support for level 6.2  [Vaibhav Deshu Venkatesh]
-d806b1b  frameworks/base: Avoid recording negative data  [Pavan Kumar M]
-6b01c3a  Use the boot class loader as parent of system server loader  [Nicolas Geoffray]
-e503710  Remove uses of libcore.io DropBox and EventLogger  [Paul Duffin]
-f7acd42  Move DexLoadReporter setup before AppComponentFactory calls  [David Brazdil]
-000aeee  Fix NullPointerException in ConnectivityService  [soma, kawata]
-3b205ca  Optimize the font cache size according to display resolution  [Libo Jin]
-f5692ab  Fix handlelr thread block while switching bluetooth  [Kou Lei]
+6bfa30d  NetworkManagement : Add ability to restrict app vpn usage  [Uldiniad]
 
- * frameworks/native
-4a9e178  media: Add support for level 6-6.2 for AVC  [Vaibhav Deshu Venkatesh]
-
- * manifest
-d0a9c60  track vendor_qcom_opensource_audio from xtended  [ultranoob-5]
-abb434d  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
-
- * packages/apps/Bluetooth
-d54892e  Fix null pointer exception on AvrcpTargetService  [slki.shin]
-e71bff1  Bluetooth:add missing permission  [kldoc]
-
- * packages/apps/Nfc
-7fab21a  Merge tag 'android-9.0.0_r46' into staging/lineage-16.0_merge-android-9.0.0_r46  [Kevin F. Haggerty]
+ * hardware/qcom/display-caf/sm8150
+54a97e8  hwc2: Remove useless info  [Luca Stefani]
 
  * packages/apps/Settings
-47b727b  Stop calling isBandwidthControlEnabled.  [Lorenzo Colitti]
-9ff6d25  SmartCharging: add reset battery stats option [2/2]  [DennySPB]
-660d2c2  SmartCharging: allow user set resume level [2/2]  [DennySPB]
-
- * packages/services/Telecomm
-a86d7c1  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
-
- * system/bt
-6423170  Merge tag 'android-9.0.0_r46'  [ultranoob-5]
-
- * vendor/qcom/opensource/audio
-ac4f79d  policy_hal: Adapt to AudioMix API changes in f/av audiopolicy  [Kevin F. Haggerty]
+7483af3  Settings: per-app VPN data restriction  [Uldiniad]
 
 ====================
-     2019-08-05    
+     2019-08-19    
 ====================
 
+ * device/xiaomi/whyred
+94a431f  whyred: system.prop: rendering improvements  [srfarias]
+c641ccb  Revert "whyred: system_prop: Run ActivityManager and RenderThread as SCHED_FIFO"  [srfarias]
+92ca3e4  Refined early SF phase offsets  [millerliang]
+61683c4  Enable early SF configurations  [Midas Chien]
+3d22424  Revert "whyred: Remove custom VSYNC offsets"  [srfarias]
+
+ * system/vold
+0ff3b95  Add "changepw" command to vdc.  [LuK1337]
+
 ====================
-     2019-08-04    
+     2019-08-18    
 ====================
 
- * hardware/qcom/fm
-2cf84a8  Automatic translation import  [Michael Bestas]
-
- * manifest
-1105c73  Updated thread template  [Mukesh Singh]
+ * device/xiaomi/whyred
+51af10f  whyred: proprietary-files: Move QMI blob from platina to a new section  [srfarias]
+8a3c874  whyred: boardconfig: remove useless audio flags  [srfarias]
+803519b  whyred: overlays: make the UI smoother  [srfarias]
 
 ====================
-     2019-08-03    
+     2019-08-17    
 ====================
 
 ====================
-     2019-08-02    
+     2019-08-16    
 ====================
 
-====================
-     2019-08-01    
-====================
+ * device/xiaomi/whyred
+ce04452  whyred: boardconfig: Optimize SystemUI to avoid janks  [Kalpaj Chaudhari]
+77edee7  whyred: boardconfig: enable dexpreopt, but disable it for prebuilts  [srfarias]
+bb997c4  whyred: overlays: auto brightness and disable BT on boot  [srfarias]
+6bae063  whyred: overlays: i don't like the animation at 1x  [srfarias]
+45a9680  whyred: Adjust for QCOM BT HAL property name changes  [Petri Gynther]
+ac4bc67  whyred: overlay: Define TCP/IP Buffer sizes inside overlay  [Kalpaj Chaudhari]
+3c7745f  whyred: Remove obsolete tcp buffer size system properties.  [Tom Cherry]
+9ede01d  whyred: Add factory hal 1.1 to manifest  [Sauvik Saha]
+3b6837d  whyred: Disable use_buffer_age to workaround driver issue  [Chris Craik]
+
+ * packages/apps/DevicesOTA
+07ba459  Adapt to Project-Xtended  [Anish Pratheepan]
+21294d1  Update Mido : 13/08/19  [Sagarrokade006]
+
+ * packages/apps/XOta
+99bf0f8  Adapt OTA for Project-Xtended  [Anish Pratheepan]
+
+ * packages/apps/Xtensions
+dc75e9d  Fix typo  [governmentissuejoe]
 
 ====================
-     2019-07-31    
+     2019-08-15    
 ====================
 
- * hardware/qcom/audio-caf/msm8960
-b49d4dc  hal: Add support for voice calls on Fusion3 platforms  [Arne Coucheron]
-d50691c  audio-hw: Restrict voice_start_usecase only for 1 call at a time  [Chandramouli Karthik]
-b89a37d  hal: Fix no audio during voice call with voip in background  [kunleiz]
-ab35348  hal: fix no sound issue in voice call  [kunleiz]
-
-====================
-     2019-07-30    
-====================
-
- * vendor/xtended
-9bc823c  Add New BootAnimation  [SuperDroidBond]
-dc24eed  added 3 qs tiles (#9)  [Ankan Ghosh]
-a8f8730  Let's add MSM-Papers  [sai4041412]
-
-====================
-     2019-07-29    
-====================
+ * frameworks/opt/net/wifi
+5a3140e  Prevent scan searching overhead  [Sticky Chen]
+55dfa4b  WiFi: Ignore connectivity scans during WFD session  [Arif Hussain]
+3a3327d  wifi: Not reset country code for Dual SIM if any slot is active  [Hu Wang]
+a28b8d0  wifi: don't check if WIFI_DRIVER_STATE_CTRL_PARAM is readable  [codeworkx]
+8dbe2ad  wifi: Check whether dev node is accessible or not before opening  [Yuanyuan Liu]
+c4c8ec3  libwifi-hal: add flag to wait for kernel driver to get ready  [codeworkx]

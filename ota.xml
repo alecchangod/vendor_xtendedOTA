@@ -106,9 +106,9 @@
     <whyred>
       <maintainer>Ritzz</maintainer> 
       <devicename>Redmi Note 5 Pro (whyred)</devicename>
-      <filename>Xtended-whyred-20190811-XP9-OFFICIAL-Release-v18.zip</filename>
+      <filename>Xtended-whyred-20190828-XP9-OFFICIAL-Release-v18.zip</filename>
       <buildtype>Stable</buildtype>
-      <download>https://netix.dl.sourceforge.net/project/xtended/whyred/Xtended-whyred-20190811-XP9-OFFICIAL-Release-v18.zip</download>
+      <download>https://sourceforge.net/projects/xtended/files/whyred/Xtended-whyred-20190828-XP9-OFFICIAL-Release-v18.zip/download</download>
       <changelog>https://raw.githubusercontent.com/Project-Xtended/vendor_xtended_DevicesOTA/xp/whyred_changelog.txt</changelog>
       <recovery>Use any Pie Supported Recovery</recovery>
       <gapps>https://OpenGapps.org</gapps>
