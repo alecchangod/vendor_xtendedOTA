@@ -149,10 +149,10 @@
     <X00T>
       <maintainer>Muhammad Fikri (Genkzsz11)</maintainer>
       <devicename>Zenfone Max Pro M1 (X00T)</devicename>
-      <filename>Xtended-X00T-20190512-XP7-Official-Release-v14.zip</filename>
+      <filename>Xtended-X00T-20190915-XP9-Official-Release-v19.zip</filename>
       <buildtype>Stable</buildtype>
       <paypal>https://www.paypal.me/superdroidbond</paypal>
-      <download>https://netix.dl.sourceforge.net/project/xtended/files/MaxPro1-X00TD/Xtended-X00T-20190512-XP7-Official-Release-v14.zip</download>
+      <download>https://netix.dl.sourceforge.net/project/xtended/files/MaxPro1-X00TD/Xtended-X00T-20190915-XP9-Official-Release-v19.zip</download>
       <changelog>https://raw.githubusercontent.com/Project-Xtended/vendor_xtended_DevicesOTA/xp/X00T_changelog.txt</changelog>
       <gapps>https://OpenGapps.org</gapps>
       <forum>https://forum.xda-developers.com/asus-zenfone-max-pro-m1/development/stable-msm-xtended-xp5-release-v12-t3909795</forum>

@@ -1,272 +1,351 @@
 ====================
-     2019-05-12    
-====================
-
- * external/skia
-d887f87  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
-e9d49f4  external/skia: Take Fast Jpeg Decoding Path  [Mort (Tianqi) Guo]
-9d94508  skia: Silence a few warnings for cpp  [mydongistiny]
-b41bb46  skia: Clean up -Wextra-semi-stmt warnings  [mydongistiny]
-bf4663d  libskia: Build using ThinLTO  [mydongistiny]
-6d03a5b  fGpu is null when GrGpuResource::release  [zhang defang]
-74ae89b  ARGB Blitter:  Remove unused variable  [Joe Maples]
-709e4b1  Avoid coverage bleed for AA arcs with tiny sweep angles  [Brian Osman]
-11c42eb  Move fragCoord workaround declaration  [Brian Osman]
-b26bbbb  skia: Use std::move() to prevent unnecessary copying  [mydongistiny]
-23d05b9  Optimize the for loop in onGetYUV8Planes  [nagarajan.n]
-8126cd3  Skia performance optimize for bitmap  [Libo Jin]
-
- * frameworks/base
-604f314  Revert "Need to check empty not null for String"  [Genkzsz11]
-aade631  overlays: Install overlays to system  [xyyx]
-d3dc626  StatusBar battery: Toggle for left/right percentage position [1/2]  [a.derendyaev]
-
- * manifest
-f92e138  Track libjeg-turbo from ColtOS  [SuperDroidBond]
-b46318a  NFC: Track all NFC related repos from LOS directly  [SuperDroidBond]
-
- * packages/apps/Xtensions
-2f487d0  StatusBar battery: Toggle for left/right percentage position [2/2]  [a.derendyaev]
-
- * packages/services/Telecomm
-b8866d4  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/packages/services/Telecomm into c9  [RakeshBatra]
-
- * packages/services/Telephony
-9e257fc  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/packages/services/Telephony into c9  [RakeshBatra]
-
- * vendor/xtended
-e715e99  Merge remote-tracking branch 'xtended/xp' into HEAD  [Genkzsz11]
-542aadc  fix default revision  [Mukesh Singh]
-8c040eb  Upgrade to XP7 v14  [SuperDroidBond]
-
-====================
-     2019-05-08    
-====================
-
- * frameworks/base
-29cbdea  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
-f9019af  BatteryStats: Correct formatter for pkginst in battery stats.  [Hirono Shiyama]
-0df36bd  Fix data source for HEIF exif extractor  [Chong Zhang]
-c9b8596  Remove the check of mService when BluetoothHidDevice doUnbind  [jiangyou li]
-
- * hardware/interfaces
-244a913  Merge tag 'android-9.0.0_r37' into pie  [Anushek Prasal]
-
- * hardware/qcom/audio-caf-msm8998
-3512b18  Merge tag 'LA.UM.7.4.r1-05100-8x98.0' into pie  [Rizky Benggolo]
-
- * hardware/qcom/display-caf-msm8998
-c8d20ef  Merge tag 'LA.UM.7.4.r1-05100-8x98.0' into pie  [Rizky Benggolo]
-
- * hardware/qcom/media-caf-msm8998
-c5f2193  Merge tag 'LA.UM.7.4.r1-05100-8x98.0' into pie  [Rizky Benggolo]
-
- * packages/apps/DocumentsUI
-6087363  Merge tag 'android-9.0.0_r37' into pie  [Anushek Prasal]
-
- * packages/providers/DownloadProvider
-145807f  Merge tag 'android-9.0.0_r37' into pie  [Anushek Prasal]
-
- * vendor/qcom/opensource/data-ipa-cfg-mgr
-97fc5f1  Merge tag 'LA.UM.7.4.r1-05100-8x98.0' of vendor/qcom-opensource/data-ipa-cfg-mgr into p  [Volodymyr Zhdanov]
-
-====================
-     2019-05-07    
+     2019-09-15    
 ====================
 
  * build/make
-0bd8979  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
+d55e120  Fix compilation error  [Mukesh Singh]
 
- * external/wpa_supplicant_8
-36dfa10  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/external/wpa_supplicant_8 into HEAD  [DennySPB]
-
- * frameworks/av
-db1704e  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
-
- * frameworks/native
-4bb6989  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
-
- * frameworks/opt/net/wifi
-0c59809  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
-
- * frameworks/opt/telephony
-9c3e168  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
-
- * manifest
-92cce0b  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
-
- * packages/apps/Contacts
-f48b0a6  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
-
- * packages/apps/DeskClock
-f5f6888  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
-
- * packages/apps/PackageInstaller
-e4e4426  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
-
- * packages/apps/Settings
-7a3ce2f  fix typo (#2)  [Anish Pratheepan]
-
- * packages/providers/MediaProvider
-64a9c9c  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
-
- * system/bt
-77f7c7a  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
-
- * system/core
-deda445  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
-
- * system/sepolicy
-cfa23c4  Merge tag 'android-9.0.0_r37'  [SuperDroidBond]
-
-====================
-     2019-05-06    
-====================
-
- * packages/apps/Xtensions
-c3fd0fe  Q-Clock: Transform Q Clock to X Clock [2/2]  [SuperDroidBond]
-b9de604  [2/2] Xtensions: Add Q style to battery icon chooser  [paphonb]
-b67e673  Fix typos (#7)  [governmentissuejoe]
-f688819  Lockscreen Visualizer: Add pulse magic [2/2]  [Pranav Vashi]
+ * device/asus/X00T
+3d85aa7  Xtended  [Genkzsz11]
 
  * vendor/xtended
-f2e990d  vendor: Switch to Lawnchair  [Kshitij Gupta]
+48012b4  Update release version to v19  [Mukesh Singh]
 
 ====================
-     2019-05-05    
+     2019-09-14    
 ====================
+
+ * device/asus/X00T
+9090227  X00T: Use new hidl base/hidl manager  [Genkzsz11]
+f775b7e  X00T: add new partitions  [Genkzsz11]
+2cbe322  X00T: uprev configstore to 1.1  [Genkzsz11]
+
+====================
+     2019-09-13    
+====================
+
+====================
+     2019-09-12    
+====================
+
+ * device/asus/X00T
+a4b6800  X00T: label new fingerprint biometrics  [Dede Dindin Qudsy]
+9b25d69  X00T: remove LIGHTS_ADJUSTABLE_BATTERY_LED_BRIGHTNESS from deviceLightCapabilities  [Dede Dindin Qudsy]
+3934cf0  X00T: remove nonexistents service  [Dede Dindin Qudsy]
+328a8f7  X00T: adapt for X00T  [Smosia]
+da395d0  X00T: build fingerprint biometrics from source  [Dede Dindin Qudsy]
+60c15be  X00T: cleanup wifi packages  [Dede Dindin Qudsy]
+e16a51f  X00T: remove /data/misc/seemp creation  [Dede Dindin Qudsy]
+6263a27  X00T: regenerate config.fs  [Dede Dindin Qudsy]
 
  * frameworks/base
-5263bc1  SystemUI: Enable/fix QS detail view & adapt to Pie  [eray orçunus]
-0e1b2e1  Fix inaccurate power algorithm of mobile radio  [yuanhuihui]
-47bedb3  Fix mWaitingForDrawnCallback of startImeAdjustAnimation  [cnx421]
-e787f41  Q-Clock: Transform Q Clock to X Clock [1/2]  [SuperDroidBond]
-
- * manifest
-2b161e6  track our skia forked from LOS  [SuperDroidBond]
-
- * system/sepolicy
-59182c4  Introduce sepolicy exceptions for theme assets  [Surge Raval]
-7c4ba33  Initial sepolicy rules for substratum service  [Ivan Iskandar]
-cd79e80  sepolicy: Add policy for external display power saving  [Kevin Zhou]
+eda9ece  fix weather not hiding during pulsing  [SuperDroidBond]
+2c1373c  Typography / Q Clock: Fix Minutes showing in 2 lines  [SuperDroidBond]
 
 ====================
-     2019-05-04    
+     2019-09-11    
 ====================
+
+ * device/asus/X00T
+c5bf164  X00T: fix red leds permission  [Dede Dindin Qudsy]
+f6a51bf  X00T: update light hal  [Dede Dindin Qudsy]
+2af8e5f  X00T: fix battery blinking  [Dede Dindin Qudsy]
+b2e9bcb  X00T: sepolicy: add binderized light hal to file_contexts  [Dede Dindin Qudsy]
+b5576e9  X00T: switch to binderized light HAL  [Bruno Martins]
+4d7b6c0  X00T: remove BT_FIRMWARE_SYMLINKS  [Dede Dindin Qudsy]
+04aac05  X00T: Drop module eng tags  [Han Wang]
 
  * frameworks/base
-fad720e  Lockscreen Visualizer: Add pulse magic [1/2]  [Pranav Vashi]
-
-====================
-     2019-05-03    
-====================
-
- * device/xtended/sepolicy
-29ebf03  aosip: Add selinux policy for pocket bridge  [Chris Lahaye]
-6941af7  aosip: Add pocket judge selinux policy  [Carlo Savignano]
-
- * frameworks/base
-0e7baf5  Merge pull request #4 from prometheusXderpgang/xp  [SuperDroidBond]
-31195c2  [1/2] base: Add Q style to battery icon chooser  [paphonb]
-
- * hardware/qcom/audio-caf-msm8998
-8b37c7a  Merge 8a314f777c2d599988e457512a8bffe530db3a52 on remote branch  [Linux Build Service Account]
-
- * hardware/qcom/display-caf-msm8998
-b133d80  Merge 21177de14753fe774a58bf5cb085c32bdb5be314 on remote branch  [Linux Build Service Account]
-
- * hardware/qcom/media-caf-msm8998
-1876ce7  Merge 9e0d0b25225e7a717df78462702a518fdd46f7da on remote branch  [Linux Build Service Account]
-
- * vendor/qcom/opensource/data-ipa-cfg-mgr
-4d010b0  Merge 11e3a7639c5e38668f744c8713f69c76219b0076 on remote branch  [Linux Build Service Account]
-
- * vendor/xtended
-b920a82  Merge pull request #5 from prometheusXderpgang/xp  [SuperDroidBond]
-9ce6c17  QSOreo:Fix tinting on expanded status bar  [SKULSHADY]
-
-====================
-     2019-05-02    
-====================
-
-====================
-     2019-05-01    
-====================
-
- * frameworks/base
-0fd91af  SystemUI: fix landscape powermenu layout  [DennySPB]
-
- * hardware/ril
-b4fac39  Merge pull request #1 from xawlw/xp  [SuperDroidBond]
-
- * packages/apps/DevicesOTA
-fdd89c6  Add Zuk in Official devices (#41)  [Kanishk]
-
- * system/sepolicy
-302f5f7  Merge pull request #2 from xawlw/xp  [SuperDroidBond]
-c3a5b7d  Fix storaged access to /sys/block/mmcblk0/stat after 48027a00  [Vladimir Oltean]
-
-====================
-     2019-04-30    
-====================
-
- * frameworks/base
-08c47b3  LTE tile: Remove oreo style slashes  [Pranav Vashi]
-7be7824  GamingModeTile: stop adjusting volume  [HolyAngel]
-00228c8  Add wakelock option for flashlight  [Dominggoes Isakh]
-cebf88a  base: Fix old mobile signal icons  [umikaki]
-88380ce  base: Fix crash when changing default phone app  [Illia Poplawski]
-a4a722c  SystemUI: fix no service and emergency calls only placement  [Nick Filmer]
-0620c5e  base: LS filters: Add 2 more variants  [ElDainosor]
-17ffec2  base: Optimize toGrayscale function  [ElDainosor]
-5a80223  base: Intensify the blur amount on LS cover art  [ElDainosor]
-458b2d6  ImageUtils: Switch blur lib to SimpleImageBlur  [ElDainosor]
-1809840  base: Add Lockscreen cover art filter [1/2]  [ElDainosor]
-3ea303b  ImageHelper: add getBlurredImage  [Dil3mm4]
-e899e3c  core: Implement Aggressive Battery [1/2]  [Joe Maples]
-7efc45f  base: fix power menu position in landscape  [Felipe Leon]
-
- * hardware/ril
-f0ab90e  libril: Restore support for RIL v6, v8 and v9 stacks  [Adrian DC]
-72716a2  libril: allow board to provide libril  [Tom Giordano]
-11f3fc4  libril: Protect against NULL unsolicited response function  [D. Andrei Măceș]
-
- * hardware/xtended/interfaces
-221067e  Use -Werror in hardware/interfaces/biometrics/fingerprint (#1)  [abhijiths0098]
+06d5759  Fix Google Markup FC  [DennySPB]
+f08b3bd  SystemUI: Fix analog clocks not refreshing in AOD  [Nicholas]
+6494daa  TypographicClock: Tint top row with wallpaper primary color  [Harsh Shandilya]
+11d62c2  FOD: Differentiate dreaming and pulse  [Marko Man]
 
  * packages/apps/Dialer
-f131f85  incallui: Add Turkish translation (#3)  [Murat Kozan]
+5906b8b  Allow per-call account selection.  [Danny Baumann]
+7a0f303  Enable Call Recording for Sri Lanka and Costa Rica.  [Arekusu Rin]
+4defafa  Enable or disable call recording for numerous countries via MCC.  [Arekusu Rin]
+6607a5e  res: Fix malformed XML  [Bruno Martins]
+3791cbc  Allow call recording for Bulgaria.  [Arekusu Rin]
+cce629a  Allow call recording for Belgium  [Alexandre Pary]
+1b8e53e  Allow call recording for Austria  [Markus Gruber]
+61c7ec6  Control dialer's incoming call proximity sensor check via an overlay  [blunden]
+82aa047  Re-add call statistics.  [Danny Baumann]
+96606b3  Fix InCallUi Buttons being white once pressed post accent commit  [SuperDroidBond]
+9d0b282  Accent Based InCall-UI[1/3]  [RakeshBatra]
+8f4989a  Unlink InCallUI background from Sim colors  [Alex]
+6b2d1d5  Dialer: AudioModeProvider: use wired route for usb headsets  [codeworkx]
+a9bc44b  incallui: workaround ultrasound proximity sensor handling  [Vol Zhdanov]
+9b700eb  Make proxi sensor smart-case friendly  [DennySPB]
+03ab1ba  Fix incorrect proximity sensor behaviour  [DennySPB]
+73c8f3a  Dialer: force fast scroller text color to white and move thumb to edge  [maxwen]
+d37a999  Dialer: change contacts index text color from accent to default  [maxwen]
+d2927e2  Possible fix for white background (#2)  [Jan Švanda]
+bf161ee  Dialer: fix crash on call end when showing post call action  [maxwen]
+28f831e  Dialer: PoorManThemes: fix context menu in call history  [maxwen]
+e5f6dbc  Dialer - Breathing missedcall/sms/voicemail [2/5]  [garwedgess]
+caeffa0  [1/2] Dialer: PoorMensTheme: fix call log popup menu colors  [maxwen]
+530057c  Dialer: PoorManThemes: define text color for number interactions  [Marko Man]
+220c5d4  PoorManTheme: fix log cards bg  [Marko Man]
+673eedc  Disable answer false touch detection by default  [xyyx]
+d34f82f  Add back autoanswer option when bt or wired headset connected  [DennySPB]
+06fc5ed  Add back proximity autoanswer feature  [DennySPB]
+9c68245  Dialer auto proximity speakerphone [2/2]  [dankoman]
+45b6bfb  Dialer: PoorManThemes: allow theming  [Marko Man]
+c3de6e6  The ability to set a contact photo on the whole screen for incoming and outgoing calls is added.  [Alexey Derendyaev]
+a81ebe8  fix npe when auto-recording is enabled  [Alexey Derendyaev]
+82c16f8  Add autorecord feature  [DennySPB]
+9840443  Re-add call recording.  [Danny Baumann]
+e625587  Add setting to enable Do Not Disturb during calls  [blunden]
 
- * packages/apps/MusicFX
-0c20b77  MuicFX: Update Turkish translation (#1)  [Murat Kozan]
+====================
+     2019-09-10    
+====================
+ * art
+9fc477e  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/art into HEAD  [mukesh22584]
 
- * packages/apps/OmniStyle
-7804fab  OmniStyle: Update Turkish translation (#2)  [Murat Kozan]
+ * build/make
+b958935  Bump Security String to 2019-09-05  [Kevin F. Haggerty]
+
+ * device/asus/X00T
+fed684f  X00T: Remove warning build  [Genkzsz11]
+4f4317a  Revert "X00T: Add missing wfd blobs & use prebuilt libaacwrapper"  [Genkzsz11]
+
+ * frameworks/base
+cc2b71c  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/frameworks/base into HEAD  [mukesh22584]
+77eff9a  Q Style Clock: Make it fully translatable  [paphonb]
+de17b0d  SystemUI: Cleanup keyguard_status_view layout  [Harsh Shandilya]
+11cd60e  KeyguardStatusView: Cleanup pointless duplication  [Harsh Shandilya]
+
+ * frameworks/native
+c96aad0  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/frameworks/native into HEAD  [mukesh22584]
+
+ * manifest
+02fcbc1  Merge TAG 'android-9.0.0_r48' into HEAD  [mukesh22584]
+
+ * packages/apps/Dialer
+0b4f591  Add missing permissions to Dialer  [beanstown106]
+e442e7d  Allow using private framework API.  [Danny Baumann]
+18895d1  Add back in-call vibration features  [Danny Baumann]
+51a4392  Add toggle for post call snackbar  [DennySPB]
+
+ * packages/apps/Recorder
+b595647  Automatic translation import  [jhenrique09]
+44282b1  overlay: Use dp instead of sp on timer tick  [jhenrique09]
+97efe95  Keep overlay always dark  [jhenrique09]
+f5b9ca9  ScreencastService: Update notification immediately after recording started  [jhenrique09]
+33bde8d  OverlayService: Hide when starting recording, if not overlay should not be displayed  [jhenrique09]
+d0ba573  Fix inline build  [jhenrique09]
+635c7d3  Improve error handling and some code  [jhenrique09]
+95e8e3d  Prevent miss-clicks on views  [jhenrique09]
+ab88018  Fix lag when dragging overlay and updating timer  [jhenrique09]
+80cadbb  Add alpha on floating window  [jhenrique09]
+ee58afc  Cleanup config  [jhenrique09]
+72be392  Adjust internal audio recording params  [jhenrique09]
+f65f147  Add timer into activity  [jhenrique09]
+43d0a37  Revert "Open last recorded item on stop"  [jhenrique09]
+2c8711c  Improve floating window  [jhenrique09]
+9dac116  Don't hardcode font  [jhenrique09]
+1929aaa  Fix black theme  [jhenrique09]
+1dd1e11  overlay: Add little spacing on the end of recording button  [jhenrique09]
+3aa9eb0  Improve share notifications  [jhenrique09]
+ba82f0c  Disable qs tiles when locked  [jhenrique09]
+920edad  Open last recorded item on stop  [jhenrique09]
+f068b92  Add listener on Settings activity  [jhenrique09]
+a2c2244  Stop overlay service on record started  [jhenrique09]
+0c2ca28  Add orientation preference  [jhenrique09]
+cbcf4de  Pause recording when screen off to save resources  [jhenrique09]
+1f852f0  Check before unregistering broadcast receiver  [jhenrique09]
+3798fef  Always use H264  [jhenrique09]
+5a33310  Hide some activities from recents  [jhenrique09]
+b9953d9  Add more preferences  [jhenrique09]
+b795d0f  Use reflection to collapse statusbar  [jhenrique09]
+a852816  Improve transparent theme  [jhenrique09]
+885016c  Conditionally disable internal audio recording support  [jhenrique09]
+94aa30e  Import custom androidx preference library for better theming  [jhenrique09]
+c240c48  More theming improvements  [jhenrique09]
+881f7af  Refactor settings UI  [jhenrique09]
+21c9554  Refactor recording methods  [jhenrique09]
+07a20fb  Separate and improve strings  [jhenrique09]
+0d0ccba  Rename strings to custom_strings.xml  [jhenrique09]
+f471fbb  Cleanup intents  [jhenrique09]
+2eef6d7  Remove from launcher  [jhenrique09]
+0529156  Implement qs tiles and refactor code  [jhenrique09]
+a7048fe  Improve recording floating overlay  [jhenrique09]
+ddadd26  Don't use shared prefs to store recording state  [jhenrique09]
+f74024d  UI redesign  [jhenrique09]
+914857b  Add system audio recording support [1/2]  [jhenrique09]
+7732526  Revert previous QS implementation  [DennySPB]
 
  * packages/apps/Settings
-dc2177f  Settings: Add Turkish translation (#1)  [Murat Kozan]
+d8ca0a2  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD  [mukesh22584]
 
- * packages/apps/SmartNav
-d90f16c  SmartNav: Update Turkish translation (#1)  [Murat Kozan]
+ * packages/services/Telecomm
+2f7b48a  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/packages/services/Telecomm into HEAD  [mukesh22584]
 
- * packages/apps/SmartNavSettings
-b622d43  SmartNav: Add Turkish translation (#1)  [Murat Kozan]
+ * system/core
+fee8f1c  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/system/core into HEAD  [mukesh22584]
 
- * packages/apps/ThermalController
-459bfad  Thermal: Add Turkish translation (#1)  [Murat Kozan]
+ * system/sepolicy
+2a85614  A2dp sink SHO: Add bluetooth support to access mediametrics service  [blinoff82]
+f785e3a  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/system/sepolicy into HEAD  [mukesh22584]
 
- * packages/apps/XOta
-5347d87  Ota: Add Turkish translation (#1)  [Murat Kozan]
+ * system/vold
+ba5b1c8  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/system/vold into HEAD  [mukesh22584]
+
+====================
+     2019-09-09    
+====================
+
+ * device/asus/X00T
+688b173  X00T: Address denail  [Genkzsz11]
+9a29c85  X00T: enable livedisplay  [Genkzsz11]
+974e025  X00T: uprev security patch level  [Genkzsz11]
+
+ * packages/apps/Bluetooth
+98057ee  Fix NPE on isMandatoryCodec  [Henrique Silva]
+
+====================
+     2019-09-08    
+====================
+
+ * frameworks/base
+1a0b562  Fix dash charge not showing battery level  [SuperDroidBond]
+d2ff1ee  Utils: Add method for CustomDoze  [mukesh22584]
+9ea75cc  Ambient brightness values: use a custom system setting [1/2]  [Ezio Lacandia Bijelkic]
+c023cbe  SystemUI: Expose ambient music ticker bottom margin  [Anushek Prasal]
+
+ * packages/apps/CustomDoze
+d220e5f  Enable seekbar edit box for Ambient custom brightness  [Ezio Lacandia Bijelkic]
+089a73f  CustomSeekBar: allow longpress on left value to set it manually  [ezio84]
+7cb94d5  Custom seekbar pref: allow to refresh values  [ezio84]
+90c8bac  use inbuilt Seekbar Preference  [SuperDroidBond]
+1627caf  CustomSeekBar: Fix NPE 08-23 20:07:44.650 31111 31111 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.TextView.setText(java.lang.CharSequence)' on a null object reference 08-23 20:07:44.650 31111 31111 E AndroidRuntime: 	at com.nitrogen.settings.preferences.CustomSeekBarPreference.setDefaultValue(CustomSeekBarPreference.java:240)  [xyyx]
+3ec4169  Add alert_dialog_padding_material  [xyyx]
+a90384e  CustomSeekBar: Fix disabling when create before: https://imgur.com/a/jtNip after: https://imgur.com/a/Q1rJH  [xyyx]
+e439ab4  New CustomSeekBar: allow to translate "Default" value string  [ezio84]
+3b3c3a7  New custom seekbar: more improvements fix value txt being cutted when too long  [ezio84]
+5ae300c  New fresh look for CustomSeekbar  [ezio84]
+5257fee  CustomSeekBar: fix progressbar glitch with custom min-max values  [ezio84]
+cbc4369  Fix seekbar attribute grabbing *also remove from attrs as we have always used android: for max  [dwitherell]
+2f799f4  Add CustomSeekBarPreference  [d34d]
+1938e48  Add back a helper pref that holds a system setting.  [Danny Baumann]
+4dd050b  Ambient display music ticker [2/2]  [ezio84]
+
+ * packages/apps/Settings
+d3a29ae  Refine Ambient Display & Prepare for Alt Ambient  [mukesh22584]
 
  * packages/apps/Xtensions
-5f7348b  LS filters: Add 2 more variants  [ElDainosor]
-e3d5658  Add Lockscreen cover art filter [2/2]  [ElDainosor]
-a8c87fa  Implement Aggressive Battery [2/2]  [Joe Maples]
-
- * packages/services/OmniJaws
-eea13bf  OmniJaws: Update Turkish translation (#1)  [Murat Kozan]
+7fb27b6  Lets Move ambient to Xtensions  [mukesh22584]
+0984001  Remove Ambient display music ticker from Xtensions  [SuperDroidBond]
 
 ====================
-     2019-04-29    
+     2019-09-07    
 ====================
+
+ * device/asus/X00T
+1476848  X00T: build substratum key  [Rizky Benggolo]
+d4dbe39  X00T: Build Stellio  [Rizky Benggolo]
+f6b4575  Revert "X00T: fstab: F2FS commit"  [Genkzsz11]
+fe94b8d  KONDOM DUREX  [Genkzsz11]
+
+ * frameworks/base
+d511f35  Fix Layout.primaryIsTrailingPreviousAllLineOffsets  [Mihai Popa]
+f8b8a79  HidProfile: sync isPreferred() with HidHostService  [Chienyuan]
+1e4c0cd  Correct argument order in permission check  [Bryan Ferris]
+bb7ca1e  Allow override of DUN settings  [Dave Daynard]
+91d3c7b  Fix NPE in SyncRtSurfaceTransactionApplier#scheduleApply  [Tracy Zhou]
+5856303  SystemUI: Whitelist our recorder on CastController  [jhenrique09]
+e2f4e00  VolumeDialogControllerImpl: Check for internal audio recording support  [jhenrique09]
+5701a9b  fwb: media_seekbar: make it sexy  [vladrevers]
+9859e9e  base: core: audio: unregister policy mixers already in place  [Derek Chen]
+f6d4ca1  fw/b: Use common network restrict apps method  [Sam Mortimer]
+c5ecbb0  Override the method onMenuPressed() in CarStatusBar to do the action "dismiss keyguard"  [Dheeraj Kumar Chaudhary]
+764b130  SystemUI: disable wallpaper-based tint for scrim  [Joey]
+
+ * packages/apps/CustomDoze
+2467c23  CustomDoze: Add option to show AOD on charge only [2/2]  [Marko Man]
+5efa15e  Use some Pixel strings  [timocapa]
+2514016  Make tilt and proximity sensor options optional  [Alex]
+88f55aa  Ensure Tilt sensor preference is off when Always On is enabled  [Alex]
+a7c42a0  TiltSensor:  I have been Triggered  [William Bellavnce]
+cfdb897  Ambient brightness values: use a custom system setting [2/2]  [ezio84]
+38bc678  Welcome Custom Doze  [Alex]
+79f4863  Allow to change default Ambient brightness values  [ezio84]
+9335a23  Add AoD option to CustomDoze  [ezio84]
+cf41b32  Performances: move settings check into the ExecutorService and reduce settings provider calls  [ezio84]
+beaa157  CustomDoze: fix custom gestures not working if default pulsing is disabled [2/2]  [ezio84]
+27e53b0  Ensure Doze respects RTL  [Alex]
+181eb68  Custom doze: use ExecutorService to handle sensor listener  [Ezio Lacandia Bijelkic]
+dfde374  Fix custom doze receiver protected broadcast logspam  [Ezio Lacandia Bijelkic]
+b7c1bb6  Custom doze service improvements  [ezio84]
+f3b7244  Allow to enable doze proximity actions without the notifications one  [Ezio Lacandia Bijelkic]
+
+ * packages/apps/Xtensions
+64f514c  Xtensions: Set QS BG alpha even with set qs from resources [2/2]  [Kshitij Gupta]
+b3c3073  QS: Allow coloring bg with accent [2/2]  [Kshitij Gupta]
+bbf8e25  Xtensions: QS themes [2/2]  [Kshitij Gupta]
+
+====================
+     2019-09-06    
+====================
+
+ * external/exfat
+5b7ad71  exfat: Rename utf conversion symbols  [Tom Marshall]
+a37a9f2  exfat: Add static libs for recovery  [Tom Marshall]
+d58d44b  Android: remove "tags" from Android.bp.  [LongPing.WEI]
+
+ * frameworks/base
+64a55f2  base: SystemUI: Fix qs-alpha conditions  [Kshitij Gupta]
+79d547b  base: Set QS BG alpha even with set qs from resources [1/2]  [HrX03]
+c1597f1  base: QS: Allow coloring bg with accent [1/2]  [Kshitij Gupta]
+6fca456  base: QS themes [1/2]  [Kshitij Gupta]
+
+ * manifest
+afca85b  Track our external exfat  [Mukesh Singh]
+
+====================
+     2019-09-05    
+====================
+
+====================
+     2019-09-04    
+====================
+
+ * build/make
+9a03ee4  Add raise_error param on GetBuildProp method  [Henrique Silva]
+f6b344c  backuptool: fix my typo.  [SuperDroidBond]
+
+ * frameworks/base
+7442867  remove ScreenrecordTile  [SuperDroidBond]
+
+ * packages/apps/Recorder
+be3b531  Tile: send broadcast for close all dialogs after click  [DennySPB]
+0d53c7d  Introduce Screen Record QS Tile  [DennySPB]
+3e9afe1  Same file path to save as the internal screenrecorder  [SuperDroidBond]
+
+ * vendor/xtended
+be6614d  vendor: Build Longshot app  [jhenrique09]
+653eb68  pathmap: remove duplicate include-path-for  [Ethan Chen]
+2dd673e  bring in-line with LOS  [SuperDroidBond]
+
+====================
+     2019-09-03    
+====================
+
+ * packages/apps/Settings
+e32064d  Deviceinfo: Move IMEI information to Sim status  [Chris]
+
+ * vendor/codeaurora/telephony
+7de911d  Revert "IMS-VT: Low battery handling for Video calls"  [Michael Bestas]
+
+====================
+     2019-09-02    
+====================
+
+ * frameworks/base
+28f6d15  base: Add toggle to disable charging animation [1/2]  [Anushek Prasal]
+
+ * packages/apps/Xtensions
+fa17ab6  Add toggle to disable charging animation [2/2]  [Anushek Prasal]
 
