@@ -1,219 +1,286 @@
 ====================
-     2019-08-28    
-====================
-
- * device/xiaomi/whyred
-b641e16  revert to permissive as enforcing does not boot  [Ritzz]
-e0065c6  whyred: board: Switch to kernel-based exfat  [guaiyihu]
-5747c44  fogot the changes:P  [Ritzz]
-
-====================
-     2019-08-27    
-====================
-
-====================
-     2019-08-26    
-====================
-
-====================
-     2019-08-25    
-====================
-
- * device/xiaomi/whyred
-ecbae8f  xtendedify  [Ritzz]
-f62e822  xtendify  [Ritzz]
-59b68af  device.mk: Build qti from sauce  [AyanC1]
-e17386b  Fix Volte for us  [asad]
-8082f36  whyred fixes for hotspot  [Ritzz]
-ede258c  Import hostapd configs and move_wifi_data script from OB12  [DennySPB]
-
- * device/xtended/sepolicy
-adedc1b  sepolicy: Add hal_lineage_fod domain  [LuK1337]
-602e99b  sepolicy: Add hal_lineage_camera_motor domain  [Łukasz Patron]
-6e71d7a  Add sepolicy for edge gesture service  [Pranav Vashi]
-57a8db8  Remove LiveDisplay Policy  [SuperDroidBond]
-3b7602c  sepolicy: Smart Charging (3/4)  [Lucchetto]
-
- * frameworks/av
-fd1a928  av: camera: catch mad hals that mess up buffer time  [maxwen]
-2cb1a1d  CameraService: Support hooks for motorized camera  [Peter Cai]
-
- * frameworks/base
-4d6647e  FODCircleView: Fix position if cutout is hidden  [jhenrique09]
-ea78855  SystemUI: Update keyguard indication margin when fod is in use  [Chris Crump]
-1420a4c  Initial support for in-display fingerprint sensors  [Peter Cai]
-
- * frameworks/opt/net/wifi
-d3231ba  Wifi: Add support for wpa3(dpp,sae,owe,suiteB) network  [Anurag Das]
-c9bdeb0  Wifi: Add support to configure HLP, DHCP and manageIpClient for FILS N/W  [Ajit Vaishya]
-aa4c079  Wifi: Introduce client interface for vendor supplicant 2.0  [Ajit Vaishya]
-f72c89c  Re-add WPS implementation (3/3)  [Lyudmila17]
-
- * hardware/interfaces
-e7587ab  init Xtended  [SuperDroidBond]
-
- * hardware/xtended/interfaces
-798fd09  fix Vendor Flag  [SuperDroidBond]
-9dc4c27  IFingerprintInscreen: Allow HALs to control position and size  [Peter Cai]
-61daaa3  IFingerprintInscreen: Allow HALs to provide finger up/down callback  [LuK1337]
-ee0a315  IFingerprintInscreen: Allow HALs to control dimming  [Peter Cai]
-cb0987b  Introduce in-screen fingerprint scanner HAL  [Peter Cai]
-2f002f9  introduce camera motor hal  [Peter Cai]
-
- * system/core
-5fbf42e  fs_mgr: Add MF_WRAPPEDKEY flag  [Shivaprasad Hongal]
-
- * system/vold
-ad9cf87  Init Xtended  [SuperDroidBond]
-
- * vendor/xtended
-400b65b  vendor: Add vendor.lineage.biometrics.fingerprint.inscreen permission  [LuK1337]
-8cf2812  vendor: qcom: Set proper CAF data-ipa-cfg-mgr pathmap  [Michael Bestas]
-ef4e932  vendor: qcom: Set data-ipa-cfg-mgr pathmap  [Ethan Chen]
-4907468  vendor: Add sysfs permissions for pocket bridge  [Chris Lahaye]
-
-====================
-     2019-08-24    
+     2019-09-19    
 ====================
 
  * frameworks/base
-39c9b91  SystemUI: Add default data sub switcher in CellularTile  [chengzhi.hou]
-006c29f  [FORWARDPORT]telephony: Hack GSM and LTE signal strength  [Sultan Alsawaf]
-5623fee  Ticker: fix alightment in statusbar  [Josh Fox (XlxFoXxlX)]
-
- * frameworks/opt/telephony
-2c5ecf6  telephony: Query LTE thresholds from CarrierConfig  [Artem Borisov]
-e3b858b  telephony: Squashed support of dynamic signal strength thresholds  [Paul Keith]
-3634cc0  Implement signal strength hacks used on Huawei devices  [codeworkx]
-
- * hardware/xtended/interfaces
-26c6846  aw2013: lets not crash service on missing LED  [Dev4Perf]
-84fa4ac  light: aw2013: Mark as shutdown critical  [Steven Moreland]
-cf5bcd5  gzosp/interfaces: Add aw2013 lights HIDL HAL implementation  [Michael Bestas]
-9f3890b  fpc: keep fpc in system-background  [Tim Murray]
+8950fb1  Temp fix for vendor mismatch popup  [wajid khan]
 
 ====================
-     2019-08-23    
-====================
-
- * device/xiaomi/whyred
-db4c835  whyred: audio: increase handset speaker volume and some mics  [srfarias]
-
- * external/skia
-f2561cf  Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/external/skia into HEAD  [mukesh22584]
-
- * frameworks/opt/telephony
-0a5f014  Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/frameworks/opt/telephony into HEAD  [mukesh22584]
-
- * packages/providers/MediaProvider
-5483844  Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/packages/providers/MediaProvider into HEAD  [mukesh22584]
-
- * packages/services/Telephony
-abdaaec  Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD  [mukesh22584]
-
- * system/core
-054ff48  merge tag  android-9.0.0_r46 of https://android.googlesource.com/platform/system/core into head  [mukesh22584]
-
- * vendor/xtended
-99e4e71  drop markw  [Anish Pratheepan]
-fe9fe51  Revert "apn: update APNs"  [mukesh22584]
-d2ba635  Revert "vendor: Dynamically add custom APNs"  [mukesh22584]
-
-====================
-     2019-08-22    
+     2019-09-18    
 ====================
 
 ====================
-     2019-08-21    
-====================
-
- * hardware/qcom/display
-4ddd151  Revert "sdm: core: Use upstream DRM_MODE_REFLECT_ defines"  [razorloves]
-
-====================
-     2019-08-20    
-====================
-
- * device/xiaomi/whyred
-02e2f93  whyred: Drop the creation of deprecated system_data folders  [Bruno Martins]
-42d0c4b  whyred: Don't ship libbtnv.so  [Wang Han]
-79dd0fc  whyred: import blobs from nhappy patch  [srfarias]
-3d27098  whyred: audio: don't override these ACDB ids  [srfarias]
-
- * frameworks/av
-2ce0b3c  MediaProfiles: Enhance profiles for extended usecases  [Praveen Chavan]
-e38ba9c  libstagefright: compilation fix  [Arusha Goyal]
-c0236ed  libcameraservice: Don't pass NULL args on setCallbacks call  [irii]
-
- * frameworks/base
-6bfa30d  NetworkManagement : Add ability to restrict app vpn usage  [Uldiniad]
-
- * hardware/qcom/display-caf/sm8150
-54a97e8  hwc2: Remove useless info  [Luca Stefani]
-
- * packages/apps/Settings
-7483af3  Settings: per-app VPN data restriction  [Uldiniad]
-
-====================
-     2019-08-19    
-====================
-
- * device/xiaomi/whyred
-94a431f  whyred: system.prop: rendering improvements  [srfarias]
-c641ccb  Revert "whyred: system_prop: Run ActivityManager and RenderThread as SCHED_FIFO"  [srfarias]
-92ca3e4  Refined early SF phase offsets  [millerliang]
-61683c4  Enable early SF configurations  [Midas Chien]
-3d22424  Revert "whyred: Remove custom VSYNC offsets"  [srfarias]
-
- * system/vold
-0ff3b95  Add "changepw" command to vdc.  [LuK1337]
-
-====================
-     2019-08-18    
-====================
-
- * device/xiaomi/whyred
-51af10f  whyred: proprietary-files: Move QMI blob from platina to a new section  [srfarias]
-8a3c874  whyred: boardconfig: remove useless audio flags  [srfarias]
-803519b  whyred: overlays: make the UI smoother  [srfarias]
-
-====================
-     2019-08-17    
+     2019-09-17    
 ====================
 
 ====================
-     2019-08-16    
+     2019-09-16    
 ====================
 
- * device/xiaomi/whyred
-ce04452  whyred: boardconfig: Optimize SystemUI to avoid janks  [Kalpaj Chaudhari]
-77edee7  whyred: boardconfig: enable dexpreopt, but disable it for prebuilts  [srfarias]
-bb997c4  whyred: overlays: auto brightness and disable BT on boot  [srfarias]
-6bae063  whyred: overlays: i don't like the animation at 1x  [srfarias]
-45a9680  whyred: Adjust for QCOM BT HAL property name changes  [Petri Gynther]
-ac4bc67  whyred: overlay: Define TCP/IP Buffer sizes inside overlay  [Kalpaj Chaudhari]
-3c7745f  whyred: Remove obsolete tcp buffer size system properties.  [Tom Cherry]
-9ede01d  whyred: Add factory hal 1.1 to manifest  [Sauvik Saha]
-3b6837d  whyred: Disable use_buffer_age to workaround driver issue  [Chris Craik]
+ * packages/apps/CustomDoze
+1fcee3e  Merge pull request #2 from Genkzsz11/xp1  [SuperDroidBond]
+09d61c6  Fix ambient auto brightness fc  [Genkzsz11]
 
  * packages/apps/DevicesOTA
-07ba459  Adapt to Project-Xtended  [Anish Pratheepan]
-21294d1  Update Mido : 13/08/19  [Sagarrokade006]
+36dad67  X00T: Update for Release v19 [15-09-19] (#7)  [Genkzsz11]
+0168135  bacon: September update (#8)  [xawlw]
+bd37778  OnePlus 3/T: update for Release v19  [SuperDroidBond]
 
- * packages/apps/XOta
-99bf0f8  Adapt OTA for Project-Xtended  [Anish Pratheepan]
+ * vendor/xtended
+b25adff  Update release version to v19  [Mukesh Singh]
+
+====================
+     2019-09-15    
+====================
+
+====================
+     2019-09-14    
+====================
+
+====================
+     2019-09-13    
+====================
+
+ * frameworks/base
+eda9ece  fix weather not hiding during pulsing  [SuperDroidBond]
+
+====================
+     2019-09-12    
+====================
+
+ * frameworks/base
+2c1373c  Typography / Q Clock: Fix Minutes showing in 2 lines  [SuperDroidBond]
+
+ * packages/apps/Dialer
+5906b8b  Allow per-call account selection.  [Danny Baumann]
+7a0f303  Enable Call Recording for Sri Lanka and Costa Rica.  [Arekusu Rin]
+4defafa  Enable or disable call recording for numerous countries via MCC.  [Arekusu Rin]
+6607a5e  res: Fix malformed XML  [Bruno Martins]
+3791cbc  Allow call recording for Bulgaria.  [Arekusu Rin]
+cce629a  Allow call recording for Belgium  [Alexandre Pary]
+1b8e53e  Allow call recording for Austria  [Markus Gruber]
+61c7ec6  Control dialer's incoming call proximity sensor check via an overlay  [blunden]
+82aa047  Re-add call statistics.  [Danny Baumann]
+96606b3  Fix InCallUi Buttons being white once pressed post accent commit  [SuperDroidBond]
+9d0b282  Accent Based InCall-UI[1/3]  [RakeshBatra]
+8f4989a  Unlink InCallUI background from Sim colors  [Alex]
+6b2d1d5  Dialer: AudioModeProvider: use wired route for usb headsets  [codeworkx]
+a9bc44b  incallui: workaround ultrasound proximity sensor handling  [Vol Zhdanov]
+9b700eb  Make proxi sensor smart-case friendly  [DennySPB]
+03ab1ba  Fix incorrect proximity sensor behaviour  [DennySPB]
+73c8f3a  Dialer: force fast scroller text color to white and move thumb to edge  [maxwen]
+d37a999  Dialer: change contacts index text color from accent to default  [maxwen]
+d2927e2  Possible fix for white background (#2)  [Jan Švanda]
+bf161ee  Dialer: fix crash on call end when showing post call action  [maxwen]
+28f831e  Dialer: PoorManThemes: fix context menu in call history  [maxwen]
+e5f6dbc  Dialer - Breathing missedcall/sms/voicemail [2/5]  [garwedgess]
+caeffa0  [1/2] Dialer: PoorMensTheme: fix call log popup menu colors  [maxwen]
+530057c  Dialer: PoorManThemes: define text color for number interactions  [Marko Man]
+220c5d4  PoorManTheme: fix log cards bg  [Marko Man]
+673eedc  Disable answer false touch detection by default  [xyyx]
+d34f82f  Add back autoanswer option when bt or wired headset connected  [DennySPB]
+06fc5ed  Add back proximity autoanswer feature  [DennySPB]
+9c68245  Dialer auto proximity speakerphone [2/2]  [dankoman]
+45b6bfb  Dialer: PoorManThemes: allow theming  [Marko Man]
+c3de6e6  The ability to set a contact photo on the whole screen for incoming and outgoing calls is added.  [Alexey Derendyaev]
+a81ebe8  fix npe when auto-recording is enabled  [Alexey Derendyaev]
+82c16f8  Add autorecord feature  [DennySPB]
+9840443  Re-add call recording.  [Danny Baumann]
+e625587  Add setting to enable Do Not Disturb during calls  [blunden]
+
+====================
+     2019-09-11    
+====================
+ * art
+9fc477e  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/art into HEAD  [mukesh22584]
+
+ * build/make
+b958935  Bump Security String to 2019-09-05  [Kevin F. Haggerty]
+
+ * frameworks/base
+06d5759  Fix Google Markup FC  [DennySPB]
+f08b3bd  SystemUI: Fix analog clocks not refreshing in AOD  [Nicholas]
+6494daa  TypographicClock: Tint top row with wallpaper primary color  [Harsh Shandilya]
+11d62c2  FOD: Differentiate dreaming and pulse  [Marko Man]
+cc2b71c  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/frameworks/base into HEAD  [mukesh22584]
+77eff9a  Q Style Clock: Make it fully translatable  [paphonb]
+
+ * frameworks/native
+c96aad0  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/frameworks/native into HEAD  [mukesh22584]
+
+ * manifest
+02fcbc1  Merge TAG 'android-9.0.0_r48' into HEAD  [mukesh22584]
+
+ * packages/apps/Recorder
+b595647  Automatic translation import  [jhenrique09]
+44282b1  overlay: Use dp instead of sp on timer tick  [jhenrique09]
+97efe95  Keep overlay always dark  [jhenrique09]
+f5b9ca9  ScreencastService: Update notification immediately after recording started  [jhenrique09]
+33bde8d  OverlayService: Hide when starting recording, if not overlay should not be displayed  [jhenrique09]
+d0ba573  Fix inline build  [jhenrique09]
+635c7d3  Improve error handling and some code  [jhenrique09]
+95e8e3d  Prevent miss-clicks on views  [jhenrique09]
+ab88018  Fix lag when dragging overlay and updating timer  [jhenrique09]
+80cadbb  Add alpha on floating window  [jhenrique09]
+ee58afc  Cleanup config  [jhenrique09]
+72be392  Adjust internal audio recording params  [jhenrique09]
+f65f147  Add timer into activity  [jhenrique09]
+43d0a37  Revert "Open last recorded item on stop"  [jhenrique09]
+2c8711c  Improve floating window  [jhenrique09]
+9dac116  Don't hardcode font  [jhenrique09]
+1929aaa  Fix black theme  [jhenrique09]
+1dd1e11  overlay: Add little spacing on the end of recording button  [jhenrique09]
+3aa9eb0  Improve share notifications  [jhenrique09]
+ba82f0c  Disable qs tiles when locked  [jhenrique09]
+920edad  Open last recorded item on stop  [jhenrique09]
+f068b92  Add listener on Settings activity  [jhenrique09]
+a2c2244  Stop overlay service on record started  [jhenrique09]
+0c2ca28  Add orientation preference  [jhenrique09]
+cbcf4de  Pause recording when screen off to save resources  [jhenrique09]
+1f852f0  Check before unregistering broadcast receiver  [jhenrique09]
+3798fef  Always use H264  [jhenrique09]
+5a33310  Hide some activities from recents  [jhenrique09]
+b9953d9  Add more preferences  [jhenrique09]
+b795d0f  Use reflection to collapse statusbar  [jhenrique09]
+a852816  Improve transparent theme  [jhenrique09]
+885016c  Conditionally disable internal audio recording support  [jhenrique09]
+94aa30e  Import custom androidx preference library for better theming  [jhenrique09]
+c240c48  More theming improvements  [jhenrique09]
+881f7af  Refactor settings UI  [jhenrique09]
+21c9554  Refactor recording methods  [jhenrique09]
+07a20fb  Separate and improve strings  [jhenrique09]
+0d0ccba  Rename strings to custom_strings.xml  [jhenrique09]
+f471fbb  Cleanup intents  [jhenrique09]
+2eef6d7  Remove from launcher  [jhenrique09]
+0529156  Implement qs tiles and refactor code  [jhenrique09]
+a7048fe  Improve recording floating overlay  [jhenrique09]
+ddadd26  Don't use shared prefs to store recording state  [jhenrique09]
+f74024d  UI redesign  [jhenrique09]
+914857b  Add system audio recording support [1/2]  [jhenrique09]
+7732526  Revert previous QS implementation  [DennySPB]
+
+ * packages/apps/Settings
+d8ca0a2  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD  [mukesh22584]
+
+ * packages/services/Telecomm
+2f7b48a  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/packages/services/Telecomm into HEAD  [mukesh22584]
+
+ * system/core
+fee8f1c  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/system/core into HEAD  [mukesh22584]
+
+ * system/sepolicy
+2a85614  A2dp sink SHO: Add bluetooth support to access mediametrics service  [blinoff82]
+f785e3a  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/system/sepolicy into HEAD  [mukesh22584]
+
+ * system/vold
+ba5b1c8  Merge tag 'android-9.0.0_r48' of https://android.googlesource.com/platform/system/vold into HEAD  [mukesh22584]
+
+====================
+     2019-09-10    
+====================
+
+ * frameworks/base
+de17b0d  SystemUI: Cleanup keyguard_status_view layout  [Harsh Shandilya]
+11cd60e  KeyguardStatusView: Cleanup pointless duplication  [Harsh Shandilya]
+
+ * packages/apps/Bluetooth
+98057ee  Fix NPE on isMandatoryCodec  [Henrique Silva]
+
+ * packages/apps/Dialer
+0b4f591  Add missing permissions to Dialer  [beanstown106]
+e442e7d  Allow using private framework API.  [Danny Baumann]
+18895d1  Add back in-call vibration features  [Danny Baumann]
+51a4392  Add toggle for post call snackbar  [DennySPB]
+
+====================
+     2019-09-09    
+====================
+
+====================
+     2019-09-08    
+====================
+
+ * frameworks/base
+1a0b562  Fix dash charge not showing battery level  [SuperDroidBond]
+d2ff1ee  Utils: Add method for CustomDoze  [mukesh22584]
+9ea75cc  Ambient brightness values: use a custom system setting [1/2]  [Ezio Lacandia Bijelkic]
+c023cbe  SystemUI: Expose ambient music ticker bottom margin  [Anushek Prasal]
+d511f35  Fix Layout.primaryIsTrailingPreviousAllLineOffsets  [Mihai Popa]
+f8b8a79  HidProfile: sync isPreferred() with HidHostService  [Chienyuan]
+1e4c0cd  Correct argument order in permission check  [Bryan Ferris]
+bb7ca1e  Allow override of DUN settings  [Dave Daynard]
+91d3c7b  Fix NPE in SyncRtSurfaceTransactionApplier#scheduleApply  [Tracy Zhou]
+5856303  SystemUI: Whitelist our recorder on CastController  [jhenrique09]
+e2f4e00  VolumeDialogControllerImpl: Check for internal audio recording support  [jhenrique09]
+5701a9b  fwb: media_seekbar: make it sexy  [vladrevers]
+9859e9e  base: core: audio: unregister policy mixers already in place  [Derek Chen]
+f6d4ca1  fw/b: Use common network restrict apps method  [Sam Mortimer]
+c5ecbb0  Override the method onMenuPressed() in CarStatusBar to do the action "dismiss keyguard"  [Dheeraj Kumar Chaudhary]
+764b130  SystemUI: disable wallpaper-based tint for scrim  [Joey]
+
+ * packages/apps/CustomDoze
+d220e5f  Enable seekbar edit box for Ambient custom brightness  [Ezio Lacandia Bijelkic]
+089a73f  CustomSeekBar: allow longpress on left value to set it manually  [ezio84]
+7cb94d5  Custom seekbar pref: allow to refresh values  [ezio84]
+90c8bac  use inbuilt Seekbar Preference  [SuperDroidBond]
+1627caf  CustomSeekBar: Fix NPE 08-23 20:07:44.650 31111 31111 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.TextView.setText(java.lang.CharSequence)' on a null object reference 08-23 20:07:44.650 31111 31111 E AndroidRuntime: 	at com.nitrogen.settings.preferences.CustomSeekBarPreference.setDefaultValue(CustomSeekBarPreference.java:240)  [xyyx]
+3ec4169  Add alert_dialog_padding_material  [xyyx]
+a90384e  CustomSeekBar: Fix disabling when create before: https://imgur.com/a/jtNip after: https://imgur.com/a/Q1rJH  [xyyx]
+e439ab4  New CustomSeekBar: allow to translate "Default" value string  [ezio84]
+3b3c3a7  New custom seekbar: more improvements fix value txt being cutted when too long  [ezio84]
+5ae300c  New fresh look for CustomSeekbar  [ezio84]
+5257fee  CustomSeekBar: fix progressbar glitch with custom min-max values  [ezio84]
+cbc4369  Fix seekbar attribute grabbing *also remove from attrs as we have always used android: for max  [dwitherell]
+2f799f4  Add CustomSeekBarPreference  [d34d]
+1938e48  Add back a helper pref that holds a system setting.  [Danny Baumann]
+4dd050b  Ambient display music ticker [2/2]  [ezio84]
+2467c23  CustomDoze: Add option to show AOD on charge only [2/2]  [Marko Man]
+5efa15e  Use some Pixel strings  [timocapa]
+2514016  Make tilt and proximity sensor options optional  [Alex]
+88f55aa  Ensure Tilt sensor preference is off when Always On is enabled  [Alex]
+a7c42a0  TiltSensor:  I have been Triggered  [William Bellavnce]
+cfdb897  Ambient brightness values: use a custom system setting [2/2]  [ezio84]
+38bc678  Welcome Custom Doze  [Alex]
+79f4863  Allow to change default Ambient brightness values  [ezio84]
+9335a23  Add AoD option to CustomDoze  [ezio84]
+cf41b32  Performances: move settings check into the ExecutorService and reduce settings provider calls  [ezio84]
+beaa157  CustomDoze: fix custom gestures not working if default pulsing is disabled [2/2]  [ezio84]
+27e53b0  Ensure Doze respects RTL  [Alex]
+181eb68  Custom doze: use ExecutorService to handle sensor listener  [Ezio Lacandia Bijelkic]
+dfde374  Fix custom doze receiver protected broadcast logspam  [Ezio Lacandia Bijelkic]
+b7c1bb6  Custom doze service improvements  [ezio84]
+f3b7244  Allow to enable doze proximity actions without the notifications one  [Ezio Lacandia Bijelkic]
+
+ * packages/apps/Settings
+d3a29ae  Refine Ambient Display & Prepare for Alt Ambient  [mukesh22584]
 
  * packages/apps/Xtensions
-dc75e9d  Fix typo  [governmentissuejoe]
+7fb27b6  Lets Move ambient to Xtensions  [mukesh22584]
+0984001  Remove Ambient display music ticker from Xtensions  [SuperDroidBond]
 
 ====================
-     2019-08-15    
+     2019-09-07    
 ====================
 
- * frameworks/opt/net/wifi
-5a3140e  Prevent scan searching overhead  [Sticky Chen]
-55dfa4b  WiFi: Ignore connectivity scans during WFD session  [Arif Hussain]
-3a3327d  wifi: Not reset country code for Dual SIM if any slot is active  [Hu Wang]
-a28b8d0  wifi: don't check if WIFI_DRIVER_STATE_CTRL_PARAM is readable  [codeworkx]
-8dbe2ad  wifi: Check whether dev node is accessible or not before opening  [Yuanyuan Liu]
-c4c8ec3  libwifi-hal: add flag to wait for kernel driver to get ready  [codeworkx]
+ * external/exfat
+5b7ad71  exfat: Rename utf conversion symbols  [Tom Marshall]
+a37a9f2  exfat: Add static libs for recovery  [Tom Marshall]
+d58d44b  Android: remove "tags" from Android.bp.  [LongPing.WEI]
+
+ * frameworks/base
+64a55f2  base: SystemUI: Fix qs-alpha conditions  [Kshitij Gupta]
+79d547b  base: Set QS BG alpha even with set qs from resources [1/2]  [HrX03]
+c1597f1  base: QS: Allow coloring bg with accent [1/2]  [Kshitij Gupta]
+6fca456  base: QS themes [1/2]  [Kshitij Gupta]
+
+ * manifest
+afca85b  Track our external exfat  [Mukesh Singh]
+
+ * packages/apps/Xtensions
+64f514c  Xtensions: Set QS BG alpha even with set qs from resources [2/2]  [Kshitij Gupta]
+b3c3073  QS: Allow coloring bg with accent [2/2]  [Kshitij Gupta]
+bbf8e25  Xtensions: QS themes [2/2]  [Kshitij Gupta]
+
+====================
+     2019-09-06    
+====================
