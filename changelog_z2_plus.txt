@@ -1,0 +1,111 @@
+Highlights & Device Specific Changes
+Build type : Monthly
+Device : Lenovo Zuk Z2 Plus (z2_plus)
+Device maintainer : Pranav Temkar (@PptOo7)
+
+======== 28 June 2023 ========
+
+Xtended-XT-v7.6
+
+ - No device side changes
+
+==============================
+
+======== 22 June 2023 ========
+
+Xtended-XT-v7.5
+
+ - Minor improvements & optimizations
+
+==============================
+
+======== 20 May 2023 =========
+
+Xtended-XT-v7
+
+ - Enable Window Level Blur
+
+==============================
+
+======= 22 April 2023 ========
+
+Xtended-XT-v6
+
+ - Switch to Qcrild
+ - Patch qcril to support only RadioConfig::1.0 interface
+ - Disable Bluetooth APCF Extended features
+ - Remove aptX(HD) encoder shared libs
+ - Apply aggressive write caching
+
+==============================
+
+====== 22 February 2023 ======
+
+Xtended-XT-v5
+
+ - Compiled using TheRagingBeast TRB clang 17
+
+==============================
+
+====== 04 February 2023 ======
+
+Xtended-XT-v4
+
+ - Remove libhidl
+ - Remove Hotword blobs
+ - Remove usage of ro.data.large_tcp_window_size
+ - Clean up useless log spams 
+ - Disable Skia tracing by default
+ - Disable Async MTE on System Server 
+ - Kernel upstreamed to 4.9.335
+
+==============================
+
+====== 27 December 2022 ======
+
+Xtended-XT-v3.5
+
+ - Initial enforcing build
+ - Downgrade time blobs to daisy-QKQ1.191002.002V11.0.2.0.QDLMIXM
+ - Switch Bt Audio to AIDL
+ - Kernel upstreamed to 4.9.333
+
+==============================
+
+====== 16 November 2022 ======
+
+Xtended-XT-v3
+
+ - Switched back from qcrild to rild
+ - Silenced ims & ril log spams
+
+==============================
+
+====== 13 October 2022 ======
+
+Xtended-XT-v2
+
+ - Fixed fingerprint sensor page agree button was not clickable
+ - Kernel upstreamed to 4.9.330
+ - Silenced many Kernel log spams
+ - Update gps blobs from LA.UM.9.6.2.r1-04100-89xx.0
+ - Fixed bluetooth audio playback
+
+==============================
+
+===== 20 September 2022 =====
+
+XT-v1-FirstBlood
+
+ - Initial build
+ - Kernel 4.9.312 - Alchemy
+ - All credits to @shutter-cat for trees
+ - Thanks to Romm46, rrin99, Axwell84 (Telegram id) for testing
+
+==============================
+
+Bugs :
+
+ - Random reboots on airplane mode
+
+==============================

@@ -1,56 +1,76 @@
 Highlights & Device Specific Changes:
 Build type: Monthly
-Device: Redmi Note 8/8T (ginkgo)
-Device maintainer: Simone Esposito (DarkJoker360)
+Device: Redmi Note 8 (ginkgo)
+Device maintainer: RahulPalXDA (github.com/RahulPalXDA) (t.me/WeeboDemon)
 
-===== 29 June, 2023 =====
-* Synced with latest crDroidAndroid 13.0 v9.x source code
-* Merged June 2023 security patches
-* Implemented lineage charge control feature
-* Improved ui/ux smoothnes
+===== XT-v7.6 29 June 2023 =====
+* Switched to USER build.
+* Some underthehood changes.
 
-===== 08 May, 2023 =====
-* Synced with latest crDroidAndroid 13.0 v9.x source code
-* Merged May 2023 security patches
+===== XT-v7.5 18 June 2023 =====
+* Fully rebased device tree.
+* Dropped Miui Camera support (it's worthless over Gcams).
+* Dropped Willow Varrient Support (Due to long broken NFC).
+* Enabled Gboard side padding.
+* Some Improvements underthehood.
 
-===== 20 April, 2023 =====
-* Synced with latest crDroidAndroid 13.0 v9.x source code
+===== XT-v7.0 16 May 2023 =====
+* Fixed fingerprint lock missing for some users
+* Added KernelSU support
+* Upstreamed Kernel to v4.14.314
+* Fixed blank space on qs when not expanded
+* Reduce schedutil rate limits
+* Fixed issues with Android Auto
+* Nuked smart charging (as was not working)
+
+===== XT-v6.0 20 February 2023 =====
+* Synced with latest Project-Xtended 13 source code
 * Merged April 2023 security patches
+* Shipped with CharsiKerneL-v1 (4.14.312)
+* Disabled combined qs on status bar (Fixes QS Pull Down Or Scroll Lags Due Android QPR2)
+* Reverted Waipio Drivers Back To Stock Adreno Stack
+* Improved left right status bar paddings
 
-===== 04 April, 2023 =====
-* Synced with latest crDroidAndroid 13.0 v9.x source code
-* Merged March 2023 security patches
-* Reverted WAIPIO-1600 adreno stack changes
+===== XT-v5.0 20 February 2023 =====
+* Added smart Charging
+* Fixed all dialer related issues (call ui was not shown sometimes or hard visiblity of accept reject buttons)
+* Minor reflections and misc. upstreams 
 
-===== 14 February, 2023 =====
-* Synced with latest crDroidAndroid 13.0 v9.x source code
-* Merged February 2023 security patches
-* Updated blobs from LA.QSSI.13.0.r1-06400-qssi.0
-* Updated adreno stack from WAIPIO-1600
-* Merged LA.UM.9.1.r1-13000-SMxxx0.QSSI13.0 tag in kernel
-* Moved XiaomiParts to system settings
-* Fixed charging issues
-* Tweaked statusbar padding
+===== XT-v4.0 30 January 2023 =====
+* Update adreno stack to WAIPIO 16000
+* Update from LA.QSSI.13.0.r1-06400-qssi.0
+* Tune perf xml based on measured fps
+* Finetune statusbar padding 
+* Enable Forced USB Fastcharge
+* Merge XiaomiDoze into XiaomiParts
 
-===== 13 January, 2023 =====
-* Synced with latest crDroidAndroid 13.0 v9.x source code
-* Merged January 2023 security patches
-* Added additional camera video fps settings
-* Fixed fast charge for chinese variants
+===== XT-v3.5 (Hotfix)- 29 December 2022 =====
+- Hotfix Build
+- Fixed dt2w for everyone
+- Fixed fingerprint missing for some users
+- Addd Back MiCam with portrait and 48mp fixed
+- Fixed Fast Charging On China Variant
+- Fixed lags after boot on launcher app drawer
+- Fixed aggressive animations
+- Improved battery backup and touch sensitivity a lot
+- Dropped More useless gapps
+- Improve build smoothness and misc. changes
 
-===== 18 December, 2022 =====
-* Synced with latest crDroidAndroid 13.0 v9.0 source code
-* Merged December 2022 security patches
-* Increased in-call earpiece volume
-* Fixed low microphone in some apps
+===== XT-v3.5- 21 December 2022 =====
+- November security patch
+- Nuked MiCam
+- Fixed NFC For Willow Completely
+- Used pie chromatix libs for better camera quality
+- Increase In-call earpiece volume
+- Fix low mic volume on voip
 
-===== 11 November, 2022 =====
-* Synced with latest crDroidAndroid 13.0 v9.0 source code
-* Merged November 2022 security patches
-* Added FaceUnlock
-* Implemented aux lenses support in stock camera
-* Fixed statusbar height configuration
+===== XT-v2- 09 October 2022 =====
+- October security patch
+- Added back Xiaomi Parts
+- Added back MiCamera
+- Fixed portrait mode in MiCamera
+- Switched to AOSP NFC implementation (not tested)
 
-===== 29 October, 2022 =====
-* Initial official build
-* Fixed gcam hdr postprocessing
+===== XT-First-Blood- 18 September 2022 =====
+
+- Initial A13 build

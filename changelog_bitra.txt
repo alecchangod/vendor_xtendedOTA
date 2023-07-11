@@ -1,0 +1,74 @@
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Realme GT Neo 2 (bitra)
+Device maintainer: Andrea Canale (andreock)
+
+===== XT-v7 - 21 May 2023 =====
+- Update blobs to F.04
+- Optimize Launcher3, SystemUI and Settings for speed
+- Tweaks autobrightness
+- Update audio configs(Fix whatsapp audio issues)
+- Improve powerhint
+- Add LiveDisplay 2.1
+===== XT-v6 - April 2023 =====
+
+- Update blobs to F.03
+- Update WCNSS path to make ROM compatible to Dragon 6 / Bigshot T source
+- Tweaks schedtune for better battery saving
+- Remove RenderScript(deprecated)
+- Update init scripts from latest CLO tag(LA.UM.9.12.1.r1-05500-SMxx50.QSSI12.0)
+- Remove Livedisplay 2.1
+- Fix FP registration
+
+===== XT-v5 - 19 Febbrary 2023 =====
+
+- Fix DT2W
+- Match WifiResTarget with RMX3370_11.F.01
+- Improve auto brighness
+- Fix brighness scaling
+- Add Livedisplay 2.1
+
+===== XT-v4 - 9 January 2023 =====
+
+- Update Audio configs to F.02
+- Update configs to F.02
+- Update blobs to F.02
+- Improve camera
+- Introduce fixed Oplus vibration(thanks https://github.com/Blackmanx)
+- Improve haptics 
+- Improve Fingerprint
+- Improve GNSS
+- Update codecs
+- Introduce Realme Audio Effects
+
+===== XT-v3.5- 12 December 2022 =====
+
+- Update adreno driver to v667 and spoof card as Adreno v730
+- Add APN configs
+- add msm_irqbalance(thanks https://github.com/Blackmanx)
+- Vibratation improved(thanks https://github.com/Blackmanx)
+- Tweak autobrightness(thanks https://github.com/Blackmanx)
+
+===== XT-v3- 14 November 2022 =====
+
+- November security patch
+- Add superdart charging label
+- Fix screen off FOD
+- Update driver to Adreno v655
+
+===== XT-v2- 09 October 2022 =====
+
+- October security patch
+- Adjust brightness slider to match stock
+- Reserve some space to vendor and system to install Gapps or mods
+- Device trees updated
+- Fix UDFPS icon extras
+- Use Dragon 3 by default kernel
+
+===== XT-First-Blood- 1 October 2022 =====
+
+- Initial A13 build
+- Gpu driver updated to sm8xxx_v@615.37_v@614v2_SQE
+- Add initial release of RealmeParts
+- Add oplus gesture settings
+- Add Oplus photo gallery

@@ -1,0 +1,137 @@
+====================================
+Highlights & Device Specific Changes
+====================================
+
+Build type: Monthly
+Device: Realme 5 Pro (RMX1971)
+Device maintainer: KSSRAO (@kssrao13882)
+
+==== XT-V7.6 - 29 June 2023 ====
+* Synced with latest source
+
+==== XT-V7.5 - 15 June 2023 ==== 
+* Tuned Dolby values from Oneplus 9R for Improved sound quality 
+* Disabled volume leveler by default in Dolby (Fixes volume Automatically goes up and down) 
+* Enabled post process for voice call 
+* Set combined qs header in status bar to false (Reduces qs pulldown lags) 
+* Enabled Surface Flinger Cache by default (fixes flickering issues ) 
+* Disabled Nearby Messaging & Discovery services
+* Updated Dolby Blobs
+* Silenced dmesg spam from kernel side
+
+==== XT-V7.0 - 16 May 2023 =====
+* Switched to new Moto Dolby Implementation (Nuked OP Dolby)
+* Restored pre a13 battery warning threshold (changed from 20% to 15%)
+* Update System blobs from LA.QSSI.13.0.r1-09700-qssi.0
+* Updated Carrier blobs from LA.QSSI.13.0.r1-09700-qssi.0
+* Imported more surface flinger flags (Improvement in smoothness)
+* Removed useless esepmdaemon, qseeproxydaemon, ssgqmigd, ptt_socket_app, sensingdaemon from rootdir
+* Imported Google photos properties from pixelify
+* Forced device to treat 170M as sRGB in SF
+* Configured correct wifi overlay configuration
+
+===== XT-V6.0 - 17 April 2023 =====
+* Based on April Security Patch
+* Ships with Dolby Atmos Sound from Oneplus 9R 
+* Nuked Kharame Dirac 
+* Updated DPM, IMS, RIL System blobs to LA.QSSI.13.0.r1-05500-qssi.0
+* Updated system blobs to latest LA.QSSI.13.0.r1-09000-qssi.0
+* Updated Carrier Configs to LA.QSSI.13.0.r1-05500-qssi.0
+* Added the missing vendor.qti.imsrtpservice@3.1 to fix native video calling after blobs update 
+* Disabled SF composition prediction model
+* Enabled suspend to RAM (Idle drain reduction) 
+* Improved Doze state transitions
+* Enabled vendor perf gesture fling boost
+* Adjusted lmkd kill timeout to avoid long waiting on dying process 
+* Switched lmkd to use minfree levels for kill decisions
+* Improvements to RAM Management
+* Added flag to store Task Snapshot in 16 bit pixel format to save memory 
+* Added RIL props for battery improvements
+* Created PERFD deamon related dirs
+* Enabled Config for vibrate on Icon Animation
+* Made qs pull down smoother
+* Removed deprecated aptX(HD) encoder shared libs
+* Redefined bluetooth a2dp offload capabilities
+
+===== XT-V5.0 - 19 February 2023 =====
+* Based on February Security Patch
+* Enabled smart pixels feature
+* Enabled display protected contents in SF (required for PIP in Netflix and other widevine apps) 
+* Disabled Async MTE on System Server
+* Offloaded WM shell to another thread (improves performance)
+* Miscellaneous other changes to make rom smoother and better
+
+===== XT-V4.0 - 29 January 2023 =====
+* Based on January Security Patch
+* Fixed video playback tinting, stuck issues in apps like Instagram
+* Fixed tinting issues when switching between portrait and landscape modes during video playback in apps like YouTube
+* Fixed boot animation lags/freezes
+* Fixed triple frame buffer regression
+* Upstreamed Kharame Kernel to latest 4.9.337
+* Miscellaneous other changes to make rom smoother and better
+
+===== XT-V3.5 - 11 December 2022 =====
+* Added feature to include sliders for vibration instead of just on/off toggle
+* Nuked the following Google apps: Calendar, Drive, Gmail and Photos
+* Enabled world phone bool
+* Dropped deprecated audio flags
+* Dropped deprecated flags from BoardConfig
+* Removed resource cache on early boot to avoid derps on dirty flash
+* Enabled overlay for haptic feedback on text selection/insertion
+* Reduced RAM usage by Speed profile services and wifi-service
+* Set block binder thread on incoming calls
+* Set LatchUnsignaledConfig to Auto Single Layer (reduces app jank)
+* Killed IMS logspam
+* Disabled Skia tracing by default (performance/power improvements and reduced janks)
+* kernel: Fix slow charging when screen is ON
+* Upstreamed Kharame kernel to latest 4.9.335
+* Dropped the  config set Color Transform Accelerated as it is enabled by default
+* Disabled advanced network scan
+* Enabled Zygote Critical window (Efficient and faster app launch) 
+* Added cpu set for audio app (optimized audio scheduling)
+* Compacted cached app heaps in the background (helps fit more cached apps in memory) 
+* Miscellaneous other changes to make rom smoother and better
+
+===== XT-v3 - 12 November 2022 =====
+⚠️Clean flash is Highly Recommended⚠️
+* Fixed issue with in-call volume not changing
+* Fixed issue with Google Photos Unlimited storage
+* Fixed issue with notification icons not showing (only dot was showing up in status bar instead of icons)
+* Replaced Google Dialer, Messages and contacts apps with AOSP Dialer, Messages and contacts apps
+* Added feature to hide system apps in app lock
+* Added feature to show app Memory usage detail in app info 
+* Nuked deprecated legacy ril codes
+* Optimized for kryo385
+* Tuned bmps listening interval to achieve power savings during wifi idle
+* Extended buffer size for offload playback to reduce cpu wake up
+* Used QCOM implementation for audio effects
+* Optimized the shutdown time 
+* Dropped deprecated vp8-vp9 media codecs
+* Reduced number of CPUs for system-background apps to reduce cpu workload 
+* Enabled UXE for performance improvement 
+* Disabled TDLS offchannel in wifi
+* Nuked test apps installation 
+* Switched to AVC 3.1 for screen recording
+* Upstreamed Kharame kernel to latest 4.9.333
+* Switched to Proton clang from aosp clang
+* Miscellaneous other changes to make rom smoother and better
+
+===== XT-v2- 09 October 2022 =====
+* Official release
+* Switched to User Build from User Debug
+* Bumped to Raven October FP 
+* Fixed BT media Playback issue 
+* Fixed low volume issue at Receiver's end during call
+* Fixed low mic input on Telegram and whatsapp calls on speaker
+* Fixed search bar not showing in settings for gapps build
+* Ships with GrapheneOS Camera
+* Added props to improve Battery Backup 
+* Cleared settings cache after dirty flash (avoids broken strings on settings app) 
+* Hide magisk better (banking apps should work even better now) 
+* Added missing entry for com.dsi.ant (Needed by Fitness trackers) 
+* Disabled BT and touch sounds by default 
+* Improve RAM by not pinning camera app in memory
+* Nuked the flag of BT clean-on as it's not needed anymore 
+* Upstreamed Kharame kernel to latest 4.9.330
+* Safetynet passes by default 
+* Miscellaneous other changes to make rom smoother and better
