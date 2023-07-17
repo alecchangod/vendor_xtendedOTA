@@ -1,28 +1,28 @@
 {
-	"response": [
-		{
-			"maintainer": "Alec Chan (alecchangod)",
-			"oem": "Xiaomi",
-			"device": "Mi 10 Lite 5G",
-			"filename": "Xtended-XT-v7.6-VANILLA-monet-OFFICIAL-20230702-0353.zip",
-			"download": "https://sourceforge.net/projects/rom-builders/files/monet/Xtended-XT-v7.6-VANILLA-monet-OFFICIAL-20230702-0353.zip/download",
-			"timestamp": 1683601214,
-			"md5": "2575b1d8ec9dbc2667dd36e204dfbc1a",
-			"sha256": "8919855770e485d2236dc0247a837f9d62ebb0201ed7549022b07d5138fb4864",
-			"size": 1137529953,
-			"version": "7.6",
-			"buildtype": "Monthly",
-			"forum": "https://forum.xda-developers.com/t/rom-official-monet-project-xtended-xt-android-13.4526131/",
-			"gapps": "https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-T/",
-			"firmware": "",
-			"modem": "",
-			"bootloader": "",
-			"recovery": "https://drive.google.com/file/d/1TicrtTwWcBxZGT458irlsQSeIV3oQJFy/view?usp=drive_link",
-			"paypal": "https://www.paypal.com/paypalme/Alec174",
-			"telegram": "https://t.me/alec_rom_support",
-			"dt": "https://github.com/alecchangod/android_device_xiaomi_monet",
-			"common-dt": "https://github.com/alecchangod/android_device_xiaomi_sm7250-common",
-			"kernel": "https://github.com/alecchangod/kernel_xiaomi_sm7250"
-		}
-	]
+        "response": [
+                {
+                        "maintainer": "Alec Chan (alecchangod)",
+                        "oem": "Xiaomi",
+                        "device": "Mi 10 Lite 5G",
+                        "filename": "Xtended-XT-v7.6-VANILLA-monet-OFFICIAL-20230717-1310.zip",
+                        "download": "https://sourceforge.net/projects/rom-builders/files/monet/Xtended-XT-v7.6-VANILLA-monet-OFFICIAL-20230717-1310.zip/download",
+                        "timestamp": 1689599212,
+                        "md5": "5deb2ac1d6635349e82bc51d1fe619e8",
+                        "sha256": "77bce6c8be7ba1d365c16a85d7e83952e8d0f5e5282bc14eecb8257bc708a26e",
+                        "size": 2044810154,
+                        "version": "XT-v7.6",
+                        "buildtype": "Official",
+                        "forum": "https://forum.xda-developers.com/t/rom-official-monet-project-xtended-xt-android-13.4526131/",
+                        "gapps": "https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-T/",
+                        "firmware": "",
+                        "modem": "",
+                        "bootloader": "",
+                        "recovery": "https://drive.google.com/file/d/1TicrtTwWcBxZGT458irlsQSeIV3oQJFy/view?usp=drive_link",
+                        "paypal": "https://www.paypal.com/paypalme/Alec174",
+                        "telegram": "https://t.me/alec_rom_support",
+                        "dt": "https://github.com/alecchangod/android_device_xiaomi_monet",
+                        "common-dt": "https://github.com/alecchangod/android_device_xiaomi_sm7250-common",
+                        "kernel": "https://github.com/alecchangod/kernel_xiaomi_sm7250"
+                }
+        ]
 }
